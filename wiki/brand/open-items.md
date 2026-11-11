@@ -18,7 +18,27 @@ What still needs work in the brand section. Add an item whenever a gap or an unr
 
 | # | Item | Where it shows up | Needs |
 |---|---|---|---|
-| 1 | **Proof Library is not built yet.** No named deployments with clearance status, no external research entries | Messaging: proof library, message box, narratives | A separate working session: list every deployment, its stage, clearance and agreed wording |
+| 1 | **Proof Library backlog.** Deployments and proof artifacts are missing | Message Box, objections, Narrative 05 | See [Proof Library backlog](#proof-library-backlog) below |
+
+## Proof Library backlog
+
+Work through in a separate session. Each item becomes a [Proof Library](messaging/proof-library.md) entry or is marked as not publishable.
+
+**Deployments** (from the [pipeline](../partners/pipeline.md))
+- [ ] Würth (pilot): written clearance status and agreed wording
+- [ ] Fireblocks (integration): written clearance status and agreed wording
+- [ ] Other partners: only when they reach pilot stage and give clearance
+
+**Structural facts**
+- [ ] Funding: what "national innovation funding" in Pillar 04 means. Who, when, can it be named
+
+**Proof artifacts** (what we link to: "if there is nothing to link to, there is nothing to publish")
+- [ ] Patents: register or list of jurisdictions behind "granted patents in 15+ jurisdictions"
+- [ ] Security audits: which components, auditor, published report or not
+- [ ] On-chain economics: where "published openly" points
+- [ ] Governance decisions: where they are on record
+- [ ] Architecture documentation: what we link to when asked "why a blockchain"
+- [ ] Audited access records: what exists and what can be shown
 
 ## Done
 
