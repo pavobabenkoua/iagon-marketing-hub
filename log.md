@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: decision: brand story lengths
+- No separate long version. Core is the source of truth, longer formats are written from it per task. Open item 6 closed.
+
 ## 2026-11-12: update: Idle capacity proof
 - Proof Library: "Idle capacity" entry (NRDC 2014; Koomey and Taylor 2015, 2017). Narrative 03 now points to it. Open item 2 closed.
 
