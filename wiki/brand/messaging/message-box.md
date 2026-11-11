@@ -37,7 +37,7 @@ Proof here is described by type, not by name. Named deployments, figures, and da
 
 | | |
 |---|---|
-| **Proof** | Encryption keys held by the customer. Permissions granular and revocable. Consent-based access in regulated deployments. User-owned data vaults built on our architecture. Industrial IP held and distributed under the owner's rules. |
+| **Proof** | Encryption keys held by the customer. Permissions granular and revocable. Consent-based access in regulated deployments. Industrial IP held and distributed under the owner's rules. |
 | **Lead with it** | Community. Press. Retail users. Keynotes. Hiring. |
 | **Never say** | Nobody can ever see your data. Total privacy. Your data can never be lost. |
 

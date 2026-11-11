@@ -55,7 +55,7 @@ This is not the same as saying "we only sell to one type of customer." Iagon's p
 
 Iagon's product serves anyone with data worth protecting. But our positioning concentrates communication on regulated industries for three reasons.
 
-1. **Proof.** Our existing pilots (Volksbank, Würth, Cloud Court, Fortune 500, healthcare, Fireblocks) are concentrated there. Positioning has to reflect reality, not ambition.
+1. **Proof.** Our existing pilots (Würth, Cloud Court, Fortune 500, healthcare, Fireblocks) are concentrated there. Positioning has to reflect reality, not ambition.
 2. **Category ownership.** "Compliance-first decentralized infrastructure" is an empty position in the market. AWS owns "enterprise cloud." Filecoin owns "decentralized storage." Nobody owns the intersection, and Iagon has every asset needed to claim it.
 3. **Natural expansion.** Win the hardest customers (banks, healthcare, legal) and every other audience downstream (Web2 enterprises, individual users, Web3 builders) receives a stronger trust signal than any "for everyone" positioning could ever generate.
 

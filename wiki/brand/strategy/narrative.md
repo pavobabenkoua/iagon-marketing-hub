@@ -25,7 +25,7 @@ So they began building the infrastructure that could fix it.
 
 Since then, Iagon has become the patented architecture behind the Shared Storage and Compute Economy: a global, decentralized network where data ownership, compliance, and control belong to the people who create the data, not the platforms that store it. Our technology is protected in 15+ jurisdictions, security-reviewed and audited across key components, and lives on Cardano, a blockchain built for systems that must operate for decades.
 
-Today, our focus is enterprise: the organizations with the strictest requirements for their data. Fireblocks, which serves 2400+ institutions, connects its clients to Cardano staking and governance through the Iagon Insight API. Würth validates 3D printing IP licensing on our network. Volksbank builds user-owned data vaults on our architecture.
+Today, our focus is enterprise: the organizations with the strictest requirements for their data. Fireblocks, which serves 2400+ institutions, connects its clients to Cardano staking and governance through the Iagon Insight API. Würth validates 3D printing IP licensing on our network.
 
 Designed for Enterprise. Built for Everyone. Because the right to own your data doesn't belong to the few. It belongs to anyone who has data worth protecting.
 
