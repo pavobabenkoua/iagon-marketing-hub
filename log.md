@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: ingest: Brandbook Package, part 3 (Tone of Voice)
+- 7 approved pages in `wiki/brand/voice/`. The Brandbook Package is fully in the hub.
+- Edits: enterprise focus in the Composed and Rule 05 examples, "Figures as of [Day Month Year]" in the documentary example, numbers and dates on graphics defer to format pages, "The writer" label restored.
+- `AGENTS.md`: Create now names the brand pages to follow.
+
 ## 2026-11-12: ingest: Brandbook Package, part 2 (Messaging System)
 - 7 approved pages in `wiki/brand/messaging/`.
 - Edits: pillar 01 and 04 proof, pillar 02 data vaults (no production claim), Fortune 500 must-hear and objection evidence aligned with the enterprise focus; primary audience register fixed; Proof Library carries placeholders for deployments and research (open item 1).

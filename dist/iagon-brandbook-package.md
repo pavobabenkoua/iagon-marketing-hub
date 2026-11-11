@@ -28,6 +28,15 @@ Built from the Iagon Marketing Hub. Edit the parts in `wiki/brand/`, not this fi
   - Deployments
   - External research
   - Objection Handling
+- [Tone of Voice · Who is speaking](#tone-of-voice-who-is-speaking)
+  - Brand Personality
+  - We are, we are not
+  - Tone Spectrum
+- [Tone of Voice · How we write](#tone-of-voice-how-we-write)
+  - Writing Principles
+  - Vocabulary
+  - Mechanics
+  - The voice test
 - [Art direction](#art-direction)
   - Lead with
   - Avoid
@@ -872,6 +881,305 @@ Answers get shorter as they get better. If an answer needs three paragraphs, the
 - Don't win the argument. The goal is an accurate picture, not a defeated sceptic.
 - Don't reach past the Never say limits under pressure. Objections are exactly where those limits get broken.
 - Don't treat these as scripts. They are positions. The words are yours.
+
+# Tone of Voice · Who is speaking
+
+## Brand Personality · The character behind every sentence Iagon writes
+
+If Iagon were a person in the room, this is who they would be. Writers do not write from an archetype. They write from a sense of who is talking.
+
+Brand Strategy decided that Iagon speaks like a Sage and acts like a Caregiver. That is a strategic choice. This block turns it into five traits, and every trait has to be visible in a single sentence. A trait you cannot see in a sentence is not a trait, it is a wish.
+
+Five is the working number. A personality list nobody can hold while drafting does not shape any writing. If a sixth trait seems necessary, it usually belongs inside one of these.
+
+### Precise
+*Sage*
+
+We say specific things. A number instead of an adjective, a named jurisdiction instead of "global", a named requirement instead of "compliance needs". Precision is not decoration. It is how a Sage earns the right to be believed.
+
+- **Sounds like:** Granted patents in 15+ jurisdictions.
+- **Not like:** Industry-leading patent protection.
+
+### Composed
+*Sage*
+
+We do not raise our voice. No urgency, no exclamation, no superlatives, no fear. The reader should feel that we would say the same thing tomorrow, in the same tone, whether or not they buy.
+
+- **Sounds like:** This already runs in enterprise environments with the strictest requirements.
+- **Not like:** Don't get left behind. The cloud is broken. Act now.
+
+### Protective
+*Caregiver*
+
+We write from the side of the person whose data it is. Every explanation answers an unspoken question: what happens to what is mine. This is the trait most often lost when a text gets technical.
+
+- **Sounds like:** Your keys stay with you. Access ends when you end it.
+- **Not like:** Key management is handled client-side.
+
+### Respectful
+*Caregiver*
+
+We assume the reader is competent. We explain without condescending, and we never imply that their current setup was a mistake. The compliance officer reading us built the process we are describing.
+
+- **Sounds like:** You have compliance handled, and it costs you every year.
+- **Not like:** Most companies still rely on outdated manual processes.
+
+### Accountable
+*Core value*
+
+We say what we can prove and name what we cannot. When we do not know, we say so. When something is a pilot, we call it a pilot. This trait is what makes the other four believable.
+
+- **Sounds like:** Independent security reviews of key components.
+- **Not like:** Fully audited and completely secure.
+
+> **The trait we lose first**
+>
+> Under deadline, Precise and Composed survive. Protective is the one that quietly disappears, because it costs an extra sentence and does not feel load-bearing. A text with the first two and without the third is exactly the pure Sage example in Brand Strategy: accurate, calm, and cold. Check for the third trait last, when the draft already reads well. That is when it is missing.
+
+## We are, we are not · Five borders, each one a step away from a voice we could easily become
+
+Every trait has a neighbour it turns into when pushed too far. The neighbour is never the opposite. It is the same trait with the brake released.
+
+Brands rarely fail by becoming their opposite. They fail by overdoing what they are good at. Precision becomes jargon. Composure becomes coldness. Protection becomes pity. Each pair below marks the point where a strength stops working.
+
+Read the right column as a warning, not as a description of someone else. Every one of these has appeared in our own drafts.
+
+| We are | We are not | The slip | The test |
+|---|---|---|---|
+| **Precise** | Technical for its own sake | Detail added to sound credible rather than to be understood. The reader stops following and starts trusting on faith, which is the opposite of what precision is for. | Would a competent reader outside our field follow this sentence? If not, the detail is decoration. |
+| **Composed** | Distant | Calm turns into indifference. The text stops sounding like someone who cares how this ends for the reader. This is the Oracle voice we named in Brand Strategy as one to diverge from. | Is there a single sentence here written from the reader's side? If not, composure has become distant. |
+| **Protective** | Alarming | Protection is easiest to sell through fear, and fear is the fastest way to lose a Caregiver voice. A Caregiver never manipulates the people it protects. | Does the text work if the reader is not worried? If it only works on a frightened reader, it is a fear play. |
+| **Respectful** | Deferential | Respect turns into hedging. Every claim gets softened until nothing is actually claimed. A Sage concedes what is true and then says the difficult thing plainly. | Remove every qualifier. If nothing is left standing, there was no claim to begin with. |
+| **Accountable** | Apologetic | Naming a limit is not the same as apologising for it. A pilot called a pilot is a fact stated plainly, not a shortfall confessed. | State the limit in one sentence and stop. If the next sentence explains why it is not so bad, that is an apology. |
+
+> **Two borders that matter more than the rest**
+>
+> Composed becoming distant is the failure of an enterprise brand that gets serious about enterprise. It arrives slowly, one careful revision at a time, and nobody notices until the whole site reads like documentation for a machine.
+>
+> Protective becoming alarming is the failure of a security brand under pressure to convert. It arrives fast, usually in a single campaign, and it is the harder one to undo.
+
+## Tone Spectrum · One voice, four settings, nothing switched off
+
+Voice is who we are. Tone is how loudly each part of that shows in a given room. The character does not change between a regulatory filing and a community post. The proportions do.
+
+A brand with one fixed tone is not disciplined, it is deaf. A regulator and a first-time user need different amounts of the same five traits. What would break the brand is not adjusting, it is adjusting past the borders in We are, we are not.
+
+Four settings cover every surface we write for. Each one names what rises, what stays quiet, and what never moves.
+
+### Documentary
+*Coolest setting*
+
+Regulatory submissions. Audit summaries. RFP appendices. Technical documentation. The reader is assessing, not deciding, and any marketing register reads as a reason to distrust the document.
+
+- **Rises:** Precise. Accountable.
+- **Quiet:** Protective. It is present in what we chose to build, not in how we describe it.
+- **Sounds like:** Compliance conditions are set per deployment and enforced before data is placed. Access records are auditable. Figures as of [Day Month Year].
+
+### Professional
+*Default setting*
+
+Website. Sales decks. Partner briefs. Investor materials. Most of what we publish lives here. The reader is deciding whether to spend time on us, and both rigor and warmth have to be visible in the same paragraph.
+
+- **Rises:** Precise. Respectful.
+- **Quiet:** Nothing. This is the balanced setting, and it is the hardest one to write.
+- **Sounds like:** You have compliance handled, and it costs you every year. The question is how much of it your infrastructure enforces and how much your people carry.
+
+### Personal
+*Warmest setting*
+
+Community channels. Keynote openings. Recruitment. Retail-facing pages. Press interviews about why we exist. Second person is allowed here and nowhere else.
+
+- **Rises:** Protective. Respectful.
+- **Quiet:** Precise stays, but in plain words. Jurisdiction counts and patent details come out.
+- **Sounds like:** Your data lives where you decide. It reaches only who you allow. Every access is recorded.
+
+### Under pressure
+*Hardest setting*
+
+Incidents. Delays. Hostile questions. Corrections. A public complaint. Nobody plans for this setting, which is why it has to be written down before it is needed.
+
+- **Rises:** Accountable. Composed.
+- **Quiet:** Everything persuasive. This is not the moment to explain why we are good.
+- **Sounds like:** Here is what happened, here is what we know so far, here is what we are doing, here is when we will update you next.
+
+### What never moves
+
+| | |
+|---|---|
+| **The claims** | A pillar says the same thing in every setting. Register changes, promise does not. |
+| **The limits** | Never say holds in the warmest setting exactly as it holds in a filing. Warmth is not a licence to overstate. |
+| **Composure** | No setting raises its voice. Personal is warm, not loud. Under pressure is calm, not defensive. |
+| **Dated figures** | Every number carries its date, including in a social post and including out loud. |
+
+# Tone of Voice · How we write
+
+## Writing Principles · Seven rules that operate at the level of the sentence
+
+Personality decides who is speaking. These rules decide what the sentence looks like. Each one is checkable in seconds, which is the only kind of rule that survives a deadline.
+
+| # | Rule | ❌ | ✅ |
+|---|---|---|---|
+| 01 | **One idea per sentence.** Split at the first "and" that joins two thoughts. Short sentences are not simpler, they are harder to hide behind. | Iagon provides decentralized infrastructure that enables compliance while ensuring data sovereignty and delivering enterprise-grade security across jurisdictions. | You set the compliance conditions. The network enforces them before data is placed. |
+| 02 | **The specific beats the impressive.** A number, a named sector, a named jurisdiction. Adjectives make a claim bigger and weaker at the same time. | A vast global network with world-class security. | Network distributed across 50+ countries. Independent audits of key components. |
+| 03 | **Something does something.** Name the actor and give them a verb. Passive voice and noun stacks hide who is responsible, which is the opposite of accountable. | Rule enforcement capability is provided at the protocol layer. | The network enforces the rules. You hold the keys. |
+| 04 | **The verb matches the evidence.** Enforces, reduces, removes, designed to. Never eliminates, guarantees, ensures. The verb is where a defensible claim becomes an indefensible one. | Eliminating the possibility of data leaks. | Designed so that no single point holds usable data. |
+| 05 | **The claim carries its proof.** Evidence sits in the same paragraph as the claim, not in a later section. A claim left alone is an assertion, and assertions are what our competitors make. | Iagon is built for regulated environments. | Iagon is built for regulated environments. Enterprise pilots and deployments in regulated sectors run on it today. |
+| 06 | **Someone is on the other side.** At least once in every piece, name the person the work protects. A patient, an engineer, a compliance officer. Without this the text is accurate and cold. | Consent-based access control is available for healthcare deployments. | The patient decides who opens the file, and every time it opens is recorded. |
+| 07 | **Cut the throat-clearing.** Delete the first sentence and check whether anything was lost. Openings that announce the topic instead of starting it are the most common waste in our drafts. | In today's rapidly evolving digital landscape, data has become more important than ever. | Regulation asks for three things. Rented infrastructure can enforce none of them. |
+
+> **The order matters when they conflict**
+>
+> Rule 04 outranks everything. A shorter, warmer, more specific sentence that overstates is worse than a clumsy one that holds. When precision and warmth pull against each other, keep both and use two sentences.
+
+## Vocabulary · The words we own, the words we avoid, and the arguments we never open with
+
+A category is won by whoever the market can quote. Describing a concept without naming it teaches the market someone else's vocabulary.
+
+### Words we own: name them, do not paraphrase them
+
+| Word | Meaning |
+|---|---|
+| **data sovereignty** | Who the data belongs to, and who decides where it lives and who reaches it. *Self-sovereign data describes the world we are building toward. Data sovereignty describes what our architecture delivers. They are not interchangeable.* |
+| **compliance** | The conditions the customer sets and the network enforces. Always ours to define, never a synonym for certification. |
+| **architecture** | Where the difference lives. The word that separates us from process and paperwork. |
+
+**The rule.** In any text that explains what Iagon is, all three appear. In short forms, at least one. A headline, a caption, or a bio carries whichever one the piece is about.
+
+### Words that carry the argument: use where relevant
+
+control · jurisdiction · auditable · verifiable · evidence · enterprise-grade · enforced · before · granted · independent
+
+Two of these do more work than the rest. **Before** is the difference between compliance by design and compliance by process. **Granted** is the difference between a patent we hold and a patent we applied for. Neither ever gets cut for length.
+
+### Words we avoid
+
+| Words | Why |
+|---|---|
+| revolutionize · disrupt · pioneer | Outlaw and Ruler language. Sages explain, Caregivers protect. Neither disrupts anything. |
+| game-changing · next-generation · cutting-edge | Adjectives that replace evidence. Every one of them is a claim with nothing behind it. |
+| eliminates · guarantees · ensures · unhackable · 100% secure | Absolute promises. These are Never say lines in the Message Box, and they are the ones that cost us most if repeated. |
+| seamless · effortless · at the click of a button | Consumer-ease language. It tells a regulated buyer we have not understood their problem. |
+| leading · best-in-class · trusted by | Authority asserted rather than shown. Replace with the fact that would have earned the adjective. |
+
+### Arguments we do not open with
+
+| Argument | Why |
+|---|---|
+| **Price** | Cheaper is a reason to switch, never a reason to trust. It arrives after the compliance argument or not at all. |
+| **The token** | Answered plainly when asked. Never in the first line of enterprise, regulatory, or investor material. |
+| **Decentralization** | How the promise is kept, not why anyone buys. An architectural fact inside the security pillar. |
+| **AI** | Not a headline. Where it is part of the product, it is described by what it does. |
+| **The category name** | Second, after the gap. A definition before a problem is something to evaluate, not something to care about. |
+
+> **Translate, do not replace**
+>
+> "You keep control" is a translation of data sovereignty for a lay reader. It is not a substitute for the term. Dropping the term to sound accessible means the reader learns the idea without learning the word, and the word is what they will search for later. Data sovereignty means you decide where your data lives and who reaches it.
+
+## Mechanics · The small decisions that make separate documents look like one company
+
+Nobody notices consistency. Everybody notices its absence, and reads it as carelessness. For a brand whose position rests on precision, that reading is expensive.
+
+### Names
+
+| | |
+|---|---|
+| **The company** | Iagon. Capital I, lowercase rest, in every context including headlines and all-caps layouts. Never IAGON. |
+| **The category** | The Shared Storage and Compute Economy. Capitalised as a proper name, lowercase article. We are naming a category we intend to own, and a lowercase category belongs to everyone. |
+| **Products** | Iagon Storage. Iagon Compute. Iagon Insight. The company name carries, the function follows. Individual products may take their own names later; until then this pattern holds. |
+| **The token** | IAG. No dollar sign in enterprise, regulatory, investor, or partner material. $IAG is permitted only in community and Cardano-native channels, where it is the local convention. |
+| **The chain** | Cardano. Named as an architectural fact, never as an opening line in enterprise material. |
+| **Trademark** | Iagon® on first mention in contracts, regulatory filings, press releases, and legal notices. Not in body copy, headlines, social posts, or presentations. The mark protects the name; repeating it in ordinary writing looks defensive. |
+
+### Numbers
+
+| | |
+|---|---|
+| **Thousands** | No separator in text. 2400 institutions. 15000 nodes. Display numbers on graphics follow their format page. |
+| **Decimals** | 26.65 PB. 98.2M IAG. |
+| **Approximation** | The plus sign carries it. 15+ jurisdictions, 50+ countries. Never "more than 15+". |
+| **Dates on figures** | Every network figure carries "figures as of 12 August 2026". Day, month written out, year. On graphics the exact wording is set by the format page. |
+| **Source** | Iagon Ecosystem Stats App. The only name for it across the whole package. |
+| **Out loud** | Spoken figures carry their date too. Numbers said on a panel get repeated by other people. |
+
+### Punctuation
+
+| | |
+|---|---|
+| **Long dash** | Not used in English external copy. Full stops, commas, colons. |
+| **Oxford comma** | Used. It removes ambiguity in lists of sectors and jurisdictions. |
+| **Colons** | Introduce a list or a definition. One per paragraph at most. |
+| **Exclamation marks** | Not used. Composure is a brand trait, and an exclamation mark contradicts it. |
+| **Quotation marks** | Double quotes for quoted speech. Terms we own are named plainly, without quotes. |
+
+### Spelling
+
+| | |
+|---|---|
+| **The package** | Current usage stands. New text follows the pattern already dominant in the surrounding document rather than switching mid-package. |
+| **Within a document** | One spelling of a word. A page that says organisation in one paragraph and organization in the next reads as assembled by two people who did not talk. |
+
+### Structure
+
+| | |
+|---|---|
+| **Paragraphs** | Three to five sentences. A paragraph that runs longer is usually two paragraphs. |
+| **Headings** | Sentence case. They describe what follows, not what it is about. |
+| **Lists** | Used when items are genuinely parallel. Prose when they are not. A list of four unrelated things is a hidden paragraph. |
+| **Figures and diagrams** | Every one carries a caption stating what it shows. A chart without a caption is decoration. |
+
+### Terms and abbreviations
+
+| | |
+|---|---|
+| **Not expanded** | GDPR, HIPAA, API, CTO, RFP. The reader knows these. |
+| **Expanded on first use** | PB (petabytes) in material for a non-technical reader. Any protocol term specific to us. |
+| **Never invented** | We do not create acronyms for our own concepts. The Compliance Gap does not become TCG. |
+
+> **Two rules that look small and are not**
+>
+> The dollar sign on the token is a signal, and it signals the wrong room. This mirrors the mascot rule in Art direction: the same asset is right in one channel and wrong in another, along the same boundary.
+>
+> The trademark symbol works the other way. It belongs where a legal reader expects it and nowhere else. A brand that marks its own name in a blog post is telling the reader it feels vulnerable.
+
+## The voice test · One question, three checks, and what to do when a draft does not pass
+
+This block adds no rules. It is how the rules above get used on a Tuesday afternoon, on a draft that is due.
+
+> **The question**
+>
+> Does this sound like a trusted expert who cares about the people on the other side?
+
+### When the answer is "almost"
+
+Most drafts are not wrong. They are slightly off, and the writer cannot say why. Three checks, ten seconds each.
+
+| Check | If not |
+|---|---|
+| Can you name the pillar this serves? | The problem is the message, not the voice. Go back to the Message Box. |
+| Is one sentence written from the reader's side? | We have slipped into pure Sage. Accurate, calm, and cold. |
+| Does every verb survive its evidence? | Fix this first. It is the only failure here that cannot be undone later. |
+
+### When it does not pass
+
+| Sounds like | Do |
+|---|---|
+| A salesperson | Cut the adjectives. Replace each one with the fact that would have earned it. |
+| An academic | Name the person on the other side. A patient, an engineer, a compliance officer. |
+| A cheerleader | Add the evidence, and delete the sentence that was standing in for it. |
+| A warning | Check whether it still works on a reader who is not worried. If not, rewrite from what we build, not from what could go wrong. |
+| Nothing at all | Remove every qualifier and see what is left standing. If nothing is, there was no claim to begin with. |
+
+### Who checks, and when
+
+| Who | When |
+|---|---|
+| The writer | Before showing the draft to anyone. Read it aloud once. Most failures are audible before they are visible. |
+| The reviewer | Before publication. Name the pillar and the tone setting in the review, not just the corrections. |
+| Under pressure | Always a second person, never the author alone. Under pressure the writer is the one who cannot hear their own tone. |
+
+> **One rule about the test itself**
+>
+> A draft that passes the voice test and overstates a claim has not passed. Tone is the last check, never the deciding one. Nothing here overrides a Never say line.
 
 # Art direction
 

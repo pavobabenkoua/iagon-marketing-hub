@@ -61,7 +61,7 @@ Record the lint in `log.md` with the type `lint`, then propose fixes as a normal
 ### Create: write content for Iagon
 When writing posts, threads, articles, deck copy, ads or any other content:
 - Run the relevance check on the request first. If the brief is off-brand, off-series or weaker than it could be, say so and propose the change before writing.
-- Follow `wiki/brand/`: positioning, messaging pillars, tone of voice, glossary. Brand rules are not optional.
+- Follow `wiki/brand/`. Brand rules are not optional. Before writing: name the pillar (`messaging/message-box.md`) and the audience (`messaging/audience-variants.md`), pick the tone setting (`voice/tone-spectrum.md`). While writing: `voice/writing-principles.md`, `voice/vocabulary.md`, `voice/mechanics.md`. Named proof only from `messaging/proof-library.md`. Before handing over: run `voice/voice-test.md`.
 - Use only numbers from `wiki/data/`. If a needed number isn't there, leave a visible placeholder (`[NUMBER: what is needed]`) instead of inventing one.
 - If the content belongs to a series, read `series.md` and the previous posts first. Respect the series arc and rules.
 - Follow the rules of the target channel in `wiki/channels/`.
