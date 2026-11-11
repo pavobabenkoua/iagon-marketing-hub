@@ -8,6 +8,7 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ## 2026-11-12: update: Iagon Ecosystem Stats App frequency
 - Confirmed: updates automatically every Cardano epoch (5 days). Positioning and proof library aligned, open item 7 closed.
+- Positioning statement: "the only architecture" → "an architecture". Open item 8 closed.
 
 ## 2026-11-12: ingest: Brandbook Package, part 3 (Tone of Voice)
 - 7 approved pages in `wiki/brand/voice/`. The Brandbook Package is fully in the hub.

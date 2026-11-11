@@ -45,11 +45,11 @@ This is not the same as saying "we only sell to one type of customer." Iagon's p
 | **Iagon** | is the compliance-first cloud infrastructure of the Shared Storage and Compute Economy |
 | **That** | turns regulatory requirements into structural properties of the system, closing the gap between what regulation demands and what infrastructure delivers |
 | **Unlike** | traditional cloud providers that retrofit compliance through processes and certifications |
-| **Iagon** | is the only architecture with granted patents in 15+ jurisdictions built specifically for regulated environments, validated in the enterprise environments with the strictest requirements, running on a distributed network that spans 50+ countries |
+| **Iagon** | is an architecture with granted patents in 15+ jurisdictions, built specifically for regulated environments, validated in the enterprise environments with the strictest requirements, running on a distributed network that spans 50+ countries |
 
 > **Read as a single sentence**
 >
-> For regulated industries where data sovereignty and compliance are mission-critical, who need to store and process sensitive data without sacrificing privacy, control, or auditability, Iagon is the compliance-first cloud infrastructure of the Shared Storage and Compute Economy that turns regulatory requirements into structural properties of the system, closing the gap between what regulation demands and what infrastructure delivers. Unlike traditional cloud providers that retrofit compliance through processes and certifications, Iagon is the only architecture with granted patents in 15+ jurisdictions built specifically for regulated environments, validated in the enterprise environments with the strictest requirements, running on a distributed network that spans 50+ countries.
+> For regulated industries where data sovereignty and compliance are mission-critical, who need to store and process sensitive data without sacrificing privacy, control, or auditability, Iagon is the compliance-first cloud infrastructure of the Shared Storage and Compute Economy that turns regulatory requirements into structural properties of the system, closing the gap between what regulation demands and what infrastructure delivers. Unlike traditional cloud providers that retrofit compliance through processes and certifications, Iagon is an architecture with granted patents in 15+ jurisdictions, built specifically for regulated environments, validated in the enterprise environments with the strictest requirements, running on a distributed network that spans 50+ countries.
 
 ### Why "regulated industries", not "everyone"
 
