@@ -1,6 +1,7 @@
 ---
 id: decision-0003
 title: Metadata and naming standard
+type: decision
 status: approved
 owner: Pavlo Babenko (Marketing Director)
 decided: 2026-11-11

@@ -1,0 +1,92 @@
+# Approved facts and numbers. See templates/fact.yaml for the format.
+# Every entry migrated in Phase 2 is a draft until the director approves it in block 3.5.
+
+- id: fact-catalyst-wurth-budget
+  value: 1560000
+  unit: ADA
+  description: Catalyst Fund13 budget of the Iagon & Würth project (#1300111)
+  source: Claude Project doc claude/wurth-series-context.md
+  as_of: 2026-10-22
+  visibility: team
+  status: draft
+
+- id: fact-insight-beta-round-winners
+  value: 50
+  unit: winners per round
+  description: Iagon Insight Beta raffle, winners per round, each gets 3M credits for 30 days
+  source: https://insight.iagon.com/promotions
+  as_of: 2026-10-14
+  visibility: public
+  status: draft
+
+- id: fact-insight-beta-credits-per-winner
+  value: 3000000
+  unit: credits
+  description: Iagon Insight Beta raffle, credits per winner, valid 30 days
+  source: https://insight.iagon.com/promotions
+  as_of: 2026-10-14
+  visibility: public
+  status: draft
+
+- id: fact-insight-keys-per-account
+  value: 25
+  unit: API keys
+  description: Maximum API keys per Iagon Insight account, each with its own limit and IP allowlist
+  source: https://insight.iagon.com/docs/api
+  as_of: 2026-10-14
+  visibility: public
+  status: draft
+
+- id: fact-nodes-total-earned
+  value: 2388599
+  unit: "USD (to confirm: the post shows a $ coin)"
+  description: Total earned by Iagon storage nodes, last epoch end time snapshot
+  source: Iagon Ecosystem Stats, via Claude Project doc claude/iagon-ecosystem-stats-earned.html
+  as_of: 2026-10-16
+  visibility: public
+  status: draft
+
+- id: fact-wurth-m4-testers
+  value: 25
+  unit: testers
+  description: Unique testers in the M4 tester round (13 Würth Canada, 2 Würth IT India, 10 Iagon)
+  source: https://github.com/IagonAS/iagon-wurth-catalyst-public/tree/main/docs/milestone-4
+  as_of: 2026-11-05
+  visibility: public
+  status: draft
+
+- id: fact-wurth-m4-tests-passed
+  value: 101
+  unit: tests
+  description: Tests run across 8 scenarios in the M4 tester round, all passed
+  source: https://github.com/IagonAS/iagon-wurth-catalyst-public/tree/main/docs/milestone-4
+  as_of: 2026-11-05
+  visibility: public
+  status: draft
+
+- id: fact-wurth-m4-orders-settled
+  value: 31
+  unit: orders
+  description: Non-cancelled M4 test orders settled on chain (preprod), in 26 settlement transactions
+  source: https://github.com/IagonAS/iagon-wurth-catalyst-public/tree/main/docs/milestone-4
+  as_of: 2026-11-05
+  visibility: public
+  status: draft
+
+- id: fact-x-ads-r1-spend
+  value: 504.06
+  unit: USD
+  description: Spend of the Insight X Ads test round 1 (26.10–01.11.2026)
+  source: X Ads export, via Claude Project doc claude/insight-x-ads-setup-r1.md
+  as_of: 2026-11-03
+  visibility: private
+  status: draft
+
+- id: fact-x-ads-r1-signups
+  value: 1
+  unit: sign-ups
+  description: Sign-ups attributed to the Insight X Ads test round 1, and possibly not from the campaign
+  source: Claude Project doc claude/insight-x-ads-setup-r1.md
+  as_of: 2026-11-03
+  visibility: private
+  status: draft

@@ -6,6 +6,14 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-11: ingest: first migration from the Claude Project "Iagon" (Phase 2)
+- Sources: 11 project docs + 2 PDFs. See the [manifest](raw/archive/2026-11-11-claude-project-iagon-sources.md).
+- Brandbook PDFs stored in `raw/archive/` with text extracts.
+- New draft pages: brand/visual (colors-typography, logo), products/insight, campaigns/2026-insight-x-ads, series/wurth, partners/catalyst/iagon-wurth-project.
+- New `wiki/data/facts.yaml` with 10 draft facts.
+- `wiki/resources.md`: 13 resources added.
+- Ukrainian originals translated into English.
+
 ## 2026-11-11: structure: README and relevance check
 - Full `README.md` with onboarding (block 1.5).
 - New rule in `AGENTS.md`: a relevance check before every ingest and create. The agent reports relevance, fit, overlap, placement and proposed changes, then waits for agreement.
