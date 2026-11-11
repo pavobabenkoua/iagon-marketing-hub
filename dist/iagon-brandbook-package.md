@@ -646,7 +646,7 @@ Every narrative below carries one pillar or one frame, serves a defined audience
 | **Opens with** | Capacity is bought for peak demand and paid for at all times. The sourced figure comes from the Proof Library, together with how to cite it. |
 | **Never becomes** | A yield story or a token story. The subject is capacity, not return. |
 
-> ⚠️ The sourced figure for this narrative is not in the Proof Library yet (open item 2). Until it is, the narrative runs without a number.
+> The sourced figures for this narrative: Idle capacity in the Proof Library. They sit inside the argument, never in the opening line.
 
 ### Narrative 04 · The Hardest Customer
 *Caregiver*
@@ -774,6 +774,16 @@ _To be built (open item 1)._ Each entry: name, stage (pilot, integration, produc
 ## External research
 
 _To be completed (open item 1)._ Each entry: finding, author, year, scope, link.
+
+### Idle capacity
+*Cleared*
+
+| | |
+|---|---|
+| **Say** | A 2014 NRDC study found that US data centre servers typically ran at 12 to 18% of capacity. Research by Koomey and Taylor (Stanford and Anthesis, 2015, updated 2017) found that around 30% of enterprise servers had done no useful computing for six months or more, and estimated about 10 million such servers worldwide. |
+| **Source** | NRDC and Anthesis, *Scaling Up Energy Efficiency Across the Data Center Industry* ([NRDC, 26 August 2014](https://www.nrdc.org/media/2014/140826)). Koomey and Taylor, *30% of Servers are Sitting "Comatose"* ([Anthesis, 3 June 2015](https://info.anthesisgroup.com/30-of-servers-are-sitting-comatose)) and *Zombie/Comatose Servers Redux* ([Anthesis, 3 April 2017](https://www.anthesisgroup.com/report-finds-that-thirty-per-cent-of-servers-are-comatose/)). |
+| **Limit** | Author and year every time, past tense, disclose the age: both studies are 2014–2017, and LBNL (2024) noted that recent primary utilization data is lacking. NRDC covers the US only; Koomey and Taylor is a sample of enterprise data centres, and the 10 million is the authors' extrapolation. Never "30% of the world's capacity is idle today". Vendor figures on "stranded capacity" are not used. Supporting only, never in a headline. |
+| **Serves** | Narrative 03 · The Idle World · Mission |
 
 ### Fireblocks reach
 *Cleared*
