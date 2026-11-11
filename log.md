@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-11: structure: rules for AI agents
+- Full `AGENTS.md` (block 1.3): reading order, ingest / query / lint / create, approval, prohibitions, writing rules.
+- No automatic staleness thresholds: the brand is stable.
+- Added `CLAUDE.md` pointing to `AGENTS.md`.
+
 ## 2026-11-11: decision: metadata standard
 - [0003](decisions/0003-metadata-standard.md): frontmatter fields, statuses, visibility, ID format, file naming (block 1.2).
 - Added frontmatter to `wiki/resources.md`.

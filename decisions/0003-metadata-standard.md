@@ -47,7 +47,7 @@ tags: [analytics, launch]
 | `status` | yes | `draft`: work in progress. `approved`: approved by the director. `deprecated`: outdated, kept so links still work |
 | `owner` | yes | Person responsible for the page |
 | `updated` | yes | Date of the last content change, `YYYY-MM-DD` |
-| `reviewed` | no | Date the facts were last checked. Used to flag stale pages |
+| `reviewed` | no | Date the facts were last checked. Informational: there are no automatic staleness thresholds |
 | `visibility` | no | `public`: may be shared outside. `team`: internal (**default**). `private`: never exposed through the API |
 | `sources` | no | Where the information comes from: paths in `raw/` or resource IDs (`res-brandbook`) |
 | `related` | no | IDs of connected pages. These links form the graph of the hub |
