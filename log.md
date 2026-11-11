@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: gaps to world standard
+- Brand system review: 10 gaps added to `wiki/brand/open-items.md` (design D1–D6, brand B1–B4) with priorities.
+
 ## 2026-11-12: update: Proof Library backlog
 - Open item 1 turned into a checklist: deployments (Würth, Fireblocks), funding, proof artifacts (patents, audits, on-chain economics, governance, architecture docs, access records).
 
