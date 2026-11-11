@@ -10,6 +10,18 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 
 ## Wiki
 - [Brand](wiki/brand/README.md): positioning, messaging, tone of voice, glossary, visual identity
+  - [Open items](wiki/brand/open-items.md): what still needs work in the brand section
+  - **Strategy**
+    - [Vision and mission](wiki/brand/strategy/vision-mission.md): the world we build toward, the Shared Storage and Compute Economy
+    - [The Compliance Gap](wiki/brand/strategy/compliance-gap.md): the problem we exist to close
+    - [DNA Anchors](wiki/brand/strategy/dna-anchors.md): the three lines everything ladders up to
+    - [Core Values](wiki/brand/strategy/core-values.md): five principles, how to use them
+    - [Purpose and Promise](wiki/brand/strategy/purpose-promise.md): why we exist, what we deliver
+    - [Brand Narrative](wiki/brand/strategy/narrative.md): the story in 300 and 60 words
+    - [Brand Archetype](wiki/brand/strategy/archetype.md): Sage with the soul of the Caregiver, content and storytelling implications
+    - [Strategic Positioning](wiki/brand/strategy/positioning.md): internal statement, lighthouse principle, note on figures
+  - **Visual (design system)**
+  - [Art direction](wiki/brand/visual/art-direction.md): what visuals lead with and avoid, mascot rules
   - [Colors and typography](wiki/brand/visual/colors-typography.md): palettes, contrast tables, gradients, Figtree weights, brandbook errata
   - [Logo](wiki/brand/visual/logo.md): files, composition, clear space, Insight exception, minimum sizes, don'ts
   - [Logo files](wiki/brand/visual/logos/): 8 SVG files, on dark and on light
@@ -25,6 +37,9 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 - [Campaigns](wiki/campaigns/README.md): campaign briefs, tests, results, learnings
 - [Partners](wiki/partners/README.md): Catalyst, grants, partnerships
 - [Playbooks](wiki/playbooks/README.md): how we do things
+
+## Built documents
+- [Iagon Brandbook Package](dist/iagon-brandbook-package.md): all brand parts in one file, built by `scripts/build-brandbook.py`
 
 ## Governance
 - [Decisions](decisions/): decision records
