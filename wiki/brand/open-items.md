@@ -37,4 +37,6 @@ What still needs work in the brand section. Add an item whenever a gap or an unr
 | 2026-11-12 | Sector-by-sector deployment claims | Generalized to the enterprise focus |
 | 2026-11-12 | Primary audience register (copy error in the original) | Written as "Documentary and professional. Evidence before argument, no marketing register." |
 | 2026-11-12 | Live deployments by sector in pillars and objections | "Enterprise pilots and deployments in regulated environments"; Fortune 500 must-hear: "built to the bar set by banking and healthcare review" |
+| 2026-11-12 | Thousands separator and "figures as of" wording on graphics | Text: no separator. Graphics: the format page decides (mechanics links to formats) |
+| 2026-11-12 | Undated figure "March 2026", missing "The writer" label, long dashes | Fixed in voice pages |
 | 2026-11-12 | Serif + sans typography, "warm neutrals" palette | Aligned with the design system in [Art direction](visual/art-direction.md) |

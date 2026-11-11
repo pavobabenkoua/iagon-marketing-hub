@@ -7,7 +7,7 @@ owner: Pavlo Babenko
 updated: 2026-11-12
 visibility: team
 sources: [raw/archive/2026-11-12-iagon-brandbook-package.md]
-related: [brand-art-direction]
+related: [brand-art-direction, brand-personality, brand-voice-test]
 tags: [strategy, archetype]
 ---
 

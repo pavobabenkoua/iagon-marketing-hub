@@ -28,6 +28,14 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
     - [Five Narratives](wiki/brand/messaging/five-narratives.md): the stories we tell for years
     - [Proof Library](wiki/brand/messaging/proof-library.md): canonical facts, clearance rules (deployments and research to be built)
     - [Objection Handling](wiki/brand/messaging/objections.md): seven objections, concede then answer
+  - **Voice**
+    - [Brand Personality](wiki/brand/voice/personality.md): five traits, each visible in one sentence
+    - [We are, we are not](wiki/brand/voice/we-are-we-are-not.md): where each trait turns into a slip
+    - [Tone Spectrum](wiki/brand/voice/tone-spectrum.md): documentary, professional, personal, under pressure
+    - [Writing Principles](wiki/brand/voice/writing-principles.md): seven sentence-level rules
+    - [Vocabulary](wiki/brand/voice/vocabulary.md): words we own, words we avoid, arguments we don't open with
+    - [Mechanics](wiki/brand/voice/mechanics.md): names, numbers, punctuation, spelling, structure
+    - [The voice test](wiki/brand/voice/voice-test.md): one question, three checks
   - **Visual (design system)**
   - [Art direction](wiki/brand/visual/art-direction.md): what visuals lead with and avoid, mascot rules
   - [Colors and typography](wiki/brand/visual/colors-typography.md): palettes, contrast tables, gradients, Figtree weights, brandbook errata

@@ -31,9 +31,18 @@ parts:
       - messaging/proof-library.md
       - messaging/objections.md
 
-  # Added in the next block:
-  # - title: Tone of Voice · Who is speaking   (voice/)
-  # - title: Tone of Voice · How we write   (voice/)
+  - title: Tone of Voice · Who is speaking
+    files:
+      - voice/personality.md
+      - voice/we-are-we-are-not.md
+      - voice/tone-spectrum.md
+
+  - title: Tone of Voice · How we write
+    files:
+      - voice/writing-principles.md
+      - voice/vocabulary.md
+      - voice/mechanics.md
+      - voice/voice-test.md
 
 appendix:
   - title: Art direction
@@ -48,6 +57,7 @@ changelog:
       - Würth, Fireblocks, enterprise focus and dates aligned with the hub (see open-items.md, Done).
       - Visual Implications moved to the design system as Art direction.
       - Messaging System added. Pillar proof, Fortune 500 must-hear and objection evidence aligned with the enterprise focus. Primary audience register fixed (copy error).
+      - Tone of Voice added. Enterprise focus in examples, dated figure placeholder, mechanics aligned with format pages for numbers on graphics.
   - version: "1.0"
     date: 2026-08-12
     changes:
