@@ -1,0 +1,775 @@
+   Brand
+   Guidelines
+
+A Complete Guide for iagon brand   Version 1.0   2026
+                   Brand guidelines    Table of content                                                                                      02
+
+
+
+
+Table of Content
+
+1 Intro                               2 Logo                   3 Colors                  4 Typography               5 Action
+
+  Brand Strategy        04             Presentation       10     Primary Colors     19     The Font            30     Branded Visuals   xx
+
+  DNA Anchors           05             Logo Colors        12     Neutral Colors     20     Styles Guidelines   31     Brand in Use      xx
+
+  Core Values           06             Logo Symbol        14     Colors Balance     21     Examples            32     Mascotte          xx
+
+  Purpose & Promise      07            Clearspaces        15     Secondary Colors   24
+
+  Tone of Voice         08             Sub Logos          17     Tertiary Colors    29
+Brand Intro.
+                    Brand intro     Brand Strategy                                                                                                    04
+
+
+
+
+Mission                                                                      Vision
+The World We're 
+                                                            How We Get There
+Building Toward
+                                                                             We're building the Shared Storage and Compute
+A world built on self-sovereign data, where every person,                    Economy, a global, decentralized infrastructure layer
+business, and institution controls what's theirs, by design.                 where data ownership, compliance, and control belong to
+                                                                             the people who create the data, not the platforms that
+                                                                             store it.
+Our Vision is not a description of our product, it's a description of the
+world our product makes possible. Data is the substrate of modern life:
+                                                                             Our mission names the category we're creating: the Shared Storage
+our health, our finances, our work, our identity, our institutions. Today,
+                                                                             and Compute Economy. It's an economy because it turns the world's
+most of that data lives on infrastructure we neither own nor govern. We
+                                                                             idle digital resources into shared infrastructure. It's decentralized
+believe that is a historical accident, not a permanent condition. Self-
+                                                                             because no single entity should control the data of billions. And it's
+sovereign data is the property a world has when its people, companies,
+                                                                             compliant by design because privacy, sovereignty, and regulation are
+and institutions can control what's theirs, not by permission, not by
+                                                                             not features we add, they're the foundation we build on.
+process, but by the architecture of the systems they rely on. That is the
+world Iagon exists to build.
+                   Brand intro    DNA Anchors                                                                                                                           05
+
+
+
+
+What We Say
+DNA Anchors
+Three phrases that carry the load of everything Iagon communicates. They earn a place in headlines, keynotes,
+pitch closings, and investor decks. Every piece of external language should ladder up to at least one of them.
+
+
+
+
+Emotional Anchor                                             Rational Anchor                                     Strategic Anchor
+
+Your Data, Your Control,                                     Compliance by Design,                               Designed for Enterprise,
+Your Future.                                                 not by Process.                                     Built for Everyone.
+The line we leave people with. Use at the end of             The line that wins enterprise trust. Use in sales   The line that names our market position. Use in
+manifestos, campaigns, keynotes.                             decks, product pages, regulatory briefs.            partnership briefs, presentations, category-defining
+                                                                                                                 moments.
+                   Brand intro    Core Values                                                                                                                                        06
+
+                                                Proves Emotional Anchor                                           Proves Rational Anchor
+
+                                                Sovereignty First                                                 Build it Right, not Fast
+                                                We default to giving users control, even when it's harder to      We'd rather ship later than ship compromised. In infrastructure,
+                                                build. Sovereignty is not a feature we add, it's the constraint   shortcuts become tomorrow's breaches. Our customers' data
+                                                we design against from day one.                                   is mission-critical, our standard must match the stakes.
+
+
+
+
+How We Work
+
+Core Values                                     Proves Strategic Anchor
+
+                                                Earn the Hard Customer
+                                                                                                                  Proves Rational Anchor
+
+                                                                                                                  Verifiable by Design
+Five principles that govern how we make         We optimize for the customer with the highest standards,          Trust in infrastructure is not claimed, it's demonstrated. We
+decisions, build products, hire, and serve      banks, healthcare, regulated enterprise. If we can serve them,    publish what proves the system works: patents, audits, on-
+customers. Every value is tied to the DNA       we can serve anyone. This is why we're Designed for               chain economics, governance, and architectural reviews.
+
+anchor it proves. If a decision doesn't honor   Enterprise, Built for Everyone.                                   What we protect, we protect openly, and explain why.
+
+these, we don't make it.
+
+
+                                                Proves Rational Anchor
+                                                                                                                      How to Use For Marketers
+                                                Own The Outcome
+                                                                                                                      Every piece of external content should visibly ladder
+                                                Every team member is accountable for what the customer                up to at least one DNA anchor. If you can't name the
+                                                experiences, not just their slice of the stack. Decentralized         anchor a headline serves, rewrite it.
+                                                architecture demands distributed ownership of results
+                   Brand intro    Purpose & Promise                                                                                                   07
+
+
+
+
+Brand Purpose                                                              Brand Promise
+Why We Exist                                                               What We Deliver, Every Time
+We exist to give people, businesses, and                                   Enterprise-grade cloud services with compliance,
+institutions the right to own what's theirs.                               sovereignty, and security built into the
+                                                                           architecture, not bolted on after.
+Data is the defining asset of modern life, it contains our health, our
+money, our identity, our work. Yet most of that data is owned by the       When a customer chooses iagon, they are not choosing a
+platforms that store it, not the people who create it. Iagon exists to     "decentralized alternative" to traditional cloud. They are choosing
+reverse that imbalance. Our purpose is not to build a cloud product, our   infrastructure where the things they used to fight for, regulatory
+purpose is to restore a right that was quietly taken. Everything we        compliance, data sovereignty, security, are structural properties of the
+make is a means to that end.                                               system itself. No retrofitting. No compliance theatre. No security-as-a-
+                                                                           service add-ons. The architecture does the work, every deployment,
+                                                                           every region, every time.
+                     Brand intro     Tone of voice                                                                                                              08
+
+
+
+                                                     01 Precise                                        02 Composed
+
+                                                     A number instead of an adjective. 
+               We never raise our voice. 
+
+
+
+                                                     A named jurisdiction instead of "global".         No urgency, no superlatives, no fear.
+Tone of Voice
+
+                                                     "Granted patents in 15+ jurisdictions."           "This runs in banking and healthcare
+
+
+
+A trusted expert                                                                                       environments today."
+
+
+
+
+who cares about
+
+the people on the                                    03 Protective                                     04 Respectful
+
+other side.                                          Every explanation answers one question: what      The reader is competent, and their current setup
+
+
+                                                     happens to what is mine.                          was not a mistake.
+
+
+
+
+                                                     "The patient decides who opens the file, and      "This runs in banking and healthcare
+
+Sage sets the register: rigor, evidence,
+                                                     every time it opens is recorded."                 environments today."
+
+
+composure. Caregiver sets the temperature:
+
+
+we write from the side of the person whose
+
+
+data it is. Five principles carry that voice into
+
+
+everything we publish.
+                                                                                                         How to Use    Example
+                                                     05 Accountable
+
+                                                     We say what we can prove, and name plainly what     “You set the compliance conditions.
+
+                                                     we cannot.                                          The network enforces them before
+
+                                                                                                         data is placed.”
+No hype. No urgency. 
+
+                                                     "Independent security reviews of key
+
+                                                                                                         The voice in one sentence. A named actor, a specific
+No promises we cannot evidence.                      components."
+
+                                                                                                         mechanism, no adjective doing the work.
+The Logo
+                      The logo       Presentation                                                                         10
+
+
+
+
+                                     Logo
+
+
+                                     Symbol                                           Wordmark
+
+
+
+
+Our Logo
+Our logo is our brand’s most important element. 
+       The wordmark must always be used together with 
+
+                                                                                                           Logo Brankit
+It is a unique and bold signifier of the iagon brand.   the symbol, as shown above
+                    The logo      Presentation                                                                                                            1
+
+
+
+
+                                                                              *2
+
+
+                                                                                                                               *1
+
+
+
+
+Logo Proportions
+The positioning and scale of each element in the logo has been meticulously        *1 the wordmark sits within the symbol inside line-cut,
+
+crafted to reach best optical balance. Never alter this proportions                *2 the space between logo and wordmark is the bowl of the letter “g”
+01   Light Mode        02   Dark Mode
+
+
+
+
+03   Accent Gradient
+                    The logo      Presentation                                                                                                          13
+
+
+
+
+                                                                                     *1
+
+
+
+
+                                                                                             *2
+
+
+
+
+Stacked Proportions
+The positioning and scale of each element in the logo has been meticulously   *1 - the wordmark sits within the symbol inside outline cut,
+
+crafted to reach best optical balance. Never alter this proportions           *2 - the space between logo and wordmark is the width of the letter “a”
+                      The logo      Presentation                        14
+
+
+
+
+Symbol
+Our Symbol can be used by itself as dApp icon, official
+brand channels pfp, merchandise, or in strict correlation
+with iagon products (like on Cyclone or other products
+we might release)
+
+
+
+Pfp/ icon Clearspace
+To ensure the right amount of breathing space around the
+symbol, you can calculate 1/4 of it’s width, or use a 6x6 grid,
+and span our symbol to a 4x2 centered grid.
+
+Tip: the same rule can be used for border radiuses
+
+
+
+
+                                                                  1/4
+                     The logo     Clearspaces                                              15
+
+
+
+
+Clearspaces
+To ensure the right amount of breathing 
+           Step 1                Step 2
+space around the iagon logo, use this easy steps:   Pick the letter “o”   Double it   x=
+                    The logo      Clearspaces                                 (( From Cardano Brand Guidelines: Always maintain a clear space around the logo equal to the width of six dots from the starburst icon. ))   16
+
+
+
+
+                                                                                           *2
+
+
+
+
+  *1
+
+
+
+
+Cobranding: A Clearspace Usage.
+Each company logo will have different clearspace guidelines.
+
+Logos should have the same real hight (*2), the same space to the separator
+(*1) all while keeping valid both clearspace minimum requirements
+                                                                                                    t
+                     The logo      Sub logos                                                                  17
+
+
+
+
+                                                                                                    g
+                              same space                same space                                  stg
+                                                                                                    insight
+                                                                                                    ns
+Sub Logos
+Most iagon applications will use this sub logo   Sub App wordmarks, are custom artworks based on
+
+                                                                                                    st
+composition to keep brand consistency            Baboo, medium weight, -1% kerning
+Brand Colors
+                      Primary Colors      Lightmode                                                                                                                19
+
+
+
+
+                                                         Purple Main               Purple Shade                  Surface 1                   Surface 2
+Primary Colors
+                                                         #6F47FF                   #7E67FF                       #F6F6FB                     #EAEBF5
+
+iagon primary palette is simple, bold, and               rgb: 253, 72, 100         rgb: 249, 60, 100             rgb: 240, 2, 98             rgb: 235, 4, 96
+                                                         cmyk: 56, 72, 0, 0        cmyk: 51, 60, 0, 0            cmyk: 2, 2, 0, 2            cmyk: 4, 4, 0, 4
+instantly recognizable. Our purple i s iagons’
+lead color, confident, trustworthy, and
+unmistakably us. 
+
+
+
+
+iagon Black and iagon White provide balance
+and contrast. They’re used most often as                                                                         Bg-2                        Bg-1
+main backgrounds to create clarity and
+legibility.
+
+
+
+                                                         Subtle Gradient Example                                 Titles                      Body
+Can be used flat, or in combination with its
+                                                                                                                 #141A21                     #62687E
+lighter versions. For depth / premium gradient
+                                                                                                                 rgb: 212, 39, 13            rgb: 227, 22, 49
+treatment                                                                                                                                    cmyk: 22, 17, 0, 51
+                                                                                                                 cmyk: 39, 21, 0, 87
+
+
+
+
+                                                      BG/FIll   Main Purple        AA - 5.2:1     Passes (4.5:1) AA contrast for all cases
+                       Primary Colors       Darkmode                                                                                                                20
+
+
+
+
+                                                          Purple Main               Purple Shade                  Surface 1                   Surface 2
+
+                                                          #6F47FF                   #7E67FF                       #13181E                     #191E25
+
+DarkMode                                                  rgb: 253, 72, 100         rgb: 249, 60, 100             rgb: 213, 37, 12            rgb: 215, 32, 15
+                                                          cmyk: 56, 72, 0, 0        cmyk: 51, 60, 0, 0            cmyk: 37, 20, 0, 88         cmyk: 32, 19, 0, 85
+
+For darkmodes or dark graphics materials, we
+will use a lighter purple as main color. This to
+ensure optimal readability and contrast on all
+surfaces
+
+
+
+                                                                                                                  Bg-2                        Bg-1
+For big titles, surfaces and graphic elements
+we can keep using the gradient also in the
+darkmodes materials.
+                                                          Subtle Gradient Example                                 Titles                      Body
+
+                                                                                                                  #F2F2FA                     #9097B0
+
+                                                                                                                  rgb: 240, 3, 98             rgb: 227, 18, 69
+
+                                                                                                                  cmyk: 3, 3, 0, 2            cmyk: 18, 14, 0, 31
+
+
+
+
+                                                       BG/FIll   Main Purple        AA - 4.9:1     Passes (4.5:1) AA contrast for all cases
+            Primary Colors      AA Contrast Lightmode                                                                                                      21
+
+
+
+
+                                                                                                                              AA 5.2:1      Button Feel
+ AA 3:3                AA 5.2:1
+
+
+                                                    3:1 AA contrast Backgrounds and big titles
+
+
+                                                                                                                           Accent
+Shade                Main
+
+#7C75FF              #6F47FF                        For backgrounds, Icons, and big titles, we can use this vibrant
+                                                    colors in any combination, as they pass the 3:1 contrast rule
+
+
+
+                                                                                                                                                  AA 4:1
+
+
+
+
+Shade                 Main                          4:5.1 AA contrast Body and text                                         AA 4.9:1     This is a link
+
+#7C75FF               #6F47FF                       For text, outline buttons, links etc... we need to use darker one on
+                                                                                                                            AA 4.9:1     Button Feel
+                                                    light mode in order to reach 4.5:1 contrast ratio
+
+                                                                                                                            AA 4.5:1     Button Feel
+
+
+
+
+ AA 3.3:1              AA 4.9:1
+            Primary Colors      AA Contrast Darkmode                                                                                                       22
+
+
+
+
+                                                                                                                              AA 3.9:1      Button Feel
+ AA 4.9:1              AA 3.4:1
+
+
+                                                   3:1 AA contrast Backgrounds and big titles
+
+
+                                                                                                                           Accent
+Main                 Shade
+
+#7C75FF              #6F47FF                       For backgrounds, Icons, and big titles, we can use this vibrant
+                                                   colors in any combination, as they pass the 3:1 contrast rule
+
+
+
+                                                                                                                                                  AA 4:1
+
+
+
+
+Main                  Shade                        4:5.1 AA contrast Body and text                                          AA 4.9:1     This is a link
+
+#7C75FF               #6F47FF                      For text, outline buttons, links etc... we need to use lighter one on
+                                                                                                                            AA 4.9:1     Button Feel
+                                                   light mode in order to reach 4.5:1 contrast ratio
+
+                                                                                                                            AA 4.9:1     Button Feel
+
+
+
+
+ AA 4.5:1             AA 3.4:1
+                       Colors       Colors Balance                   23
+
+
+                                                         3   4   5
+
+
+
+
+Colors Balance
+It’s important to maintain a balanced and harmonious
+usage of iagon brand palette. Our purple gradient, for
+example, should not be too predominant on any UI
+interface, or on any poster / online graphic. 
+
+
+
+
+Always favor light or dark backgrounds, and use our
+purples as accent colors to drive attention to the
+important bits of informations
+
+
+
+
+White Space Balance
+Keep the design breathable, with loads of white space
+to enhance readability, and direct the users focus on
+important things.
+Secondary
+Color Theme
+      Primary Colors     Lightmode                                                                                                              25
+
+
+
+
+                                                             main
+
+
+
+100
+                                                     Blu                       Violet               Surface 1             Surface 2
+
+                                                     #5786FF                   #885EFF              #F6F6FB               #EAEBF5
+200
+                                                     rgb: 223, 66, 100         rgb: 256, 63, 100    rgb: 240, 2, 98       rgb: 235, 4, 96
+                                                     cmyk: 66, 47, 0, 0        cmyk: 47, 63, 0, 0   cmyk: 2, 2, 0, 2      cmyk: 4, 4, 0, 4
+
+300   Secondary Colors
+      iagon secondary color adds a burst of
+400
+      electricity to the graphics, and can be used
+      whenever we want our design to pop out.
+
+
+500
+                                                                                                    Bg-2                  Bg-1
+
+      Packaging, secondary app themes,
+600
+      infographics and so on.
+                                                     Subtle Gradient Example                        Titles                Body
+700
+
+                                                                                                    #141A21               #62687E
+
+                                                                                                    rgb: 212, 39, 13      rgb: 227, 22, 49
+800
+                                                                                                    cmyk: 39, 21, 0, 87   cmyk: 22, 17, 0, 51
+
+
+
+900
+      Primary Colors     Dardmode                                                                                                               26
+
+
+
+
+                                                            main
+
+
+
+100
+                                                     Blu                       Violet               Surface 1             Surface 2
+
+                                                     #5786FF                   #885EFF              #13181E               #191E25
+200
+                                                     rgb: 223, 66, 100         rgb: 256, 63, 100    rgb: 213, 37, 12      rgb: 215, 32, 15
+                                                     cmyk: 66, 47, 0, 0        cmyk: 47, 63, 0, 0   cmyk: 37, 20, 0, 88   cmyk: 32, 19, 0, 85
+300
+      Secondary Colors
+400   iagon secondary color adds a burst of
+      electricity to the graphics, and can be used
+500   whenever we want our design to pop out.
+
+
+                                                                                                    Bg-2                  Bg-1
+
+
+600   Packaging, secondary app themes,
+      infographics and so on.
+                                                     Subtle Gradient Example                        Titles                Body
+700
+
+                                                                                                    #F2F2FA               #9097B0
+
+                                                                                                    rgb: 240, 3, 98       rgb: 227, 18, 69
+800
+                                                                                                    cmyk: 3, 3, 0, 2      cmyk: 18, 14, 0, 31
+
+
+900
+                      Secondary Colors    AA Contrast Lightmode                                                                                                                 27
+
+
+
+                                                                                                                                                   AA 5.2:1      Button Feel
+ AA 3.2:1                      AA 4.1:1
+
+
+
+
+                                                                                                                                  Accent
+Blu                           Violet
+                                                           3:1 AA contrast backgrounds and big titles
+#5786FF                       #885EFF                      For backgrounds, Icons, and big titles, we can use this vibrant
+                                                           colors in any combination, as they pass the 3:1 contrast rule
+
+
+                                                                                                                                                                       AA 4:1
+
+
+
+
+Blu Text                                                   4:5.1 AA contrast Body and text                                              AA                          AA 4.6:1
+#446CD2                                                    For text, outline buttons, links etc... we need to use darker colors
+                                                                                                                                  Button Feel                 Button Feel
+rgb: 263, 68, 82
+                                                           on the scale, in order to reach 4.5:1 contrast ratio
+cmyk: 68, 49, 0, 18
+
+
+
+                                                                                                                                  This is a link              This is a link
+ AA 4.6:1
+            Secondary Colors            AA Contrast Darkmode                                                                                                               28
+
+
+
+                                                                                                                                              AA 5.2:1      Button Feel
+ AA 5.4:1            AA 4.3:1
+
+
+
+
+                                                                                                                             Accent
+Blu                 Violet
+                                                        3:1 AA contrast backgrounds and big titles
+#5786FF             #885EFF                             For backgrounds, Icons, and big titles, we can use this vibrant
+                                                        colors in any combination, as they pass the 3:1 contrast rule
+
+
+                                                                                                                                                                  AA 4:1
+
+
+
+
+Blu Text            Violet Text                         4:5.1 AA contrast Body and text                                            AA                          AA 4.6:1
+#5786FF             #9E7CFE                             For text, outline buttons, links etc... the main blu works fine on
+                                                                                                                             Button Feel                 Button Feel
+                    rgb: 256, 51, 100
+                                                        darkmode, while the violet needs a lighter shade
+                    cmyk: 38, 51, 0, 0
+                                                                                                                             Button Feel                 Button Feel
+
+
+                                                                                                                             This is a link              This is a link
+AA 5.3:1             AA 4.6:1                                                                                                This is a link              This is a link
+                        Tertiary Colors       Lightmode                                                                                           29
+
+
+
+
+  Tertiary Colors                                                             Darkmode Contrast
+  For Anything like accents, system alerts,                                   All colors have their counterparts to be used
+  visuals, infographics and wherever we need                                  in dark mode for AA contrast readability
+  colors to talk about functions.
+
+
+
+
+Green BG               Yellow BG                Orange BG     Red BG     Green BG                Yellow BG               Orange BG     Red BG
+
+#22AE78                #FFA341                  #FF604F       #E3456A    #1B9E6C                 #F59F43                 #E16152       #CE4162
+
+
+
+
+Green Text             Yellow Text              Orange Text   Red Text   Green Text              Yellow Text             Orange Text   Red Text
+
+#1A8059                #975A18                  #B94E42       #D7234D    #25C286                 #FFB566                 #FF7362       #E3456A
+The Font
+                     Typography       The font                                                                                                 31
+
+
+
+
+One for All:                                                     Semibold (600) for titles
+
+
+Figtree                                                          Light years gathered
+This font works great for titles, body content, numbers,
+                                                                 by gravity a still more
+everything covered with 1 typeface. Its unique character adds
+a touch of personality and confidence, making our messaging
+                                                                 glorious dawn
+stand out while reinforcing our authority in content marketing
+
+                                                                 Regular (400) for text bodies         Bold (700) for text <strong>
+https://fonts.google.com/specimen/Figtree                        Light years gathered by gravity a still more glorious dawn awaits tesseract
+                                                                 star stuff harvesting star light the carbon in our apple pies? Corpus
+
+
+
+
+Aa Bb
+                                                                 callosum permanence of the stars corpus callosum stirred by starlight
+                                                                 network of wormholes
+
+
+
+
+                                                                    Semibold for Buttons                       SemiBold for buttons
+                      Typography         Styles Guidelines                                                                                                                    32
+
+
+
+
+Style Guidelines
+Base typography rules must be always under the radar in
+order to keep a well balanced layout composition. Things
+like content proximity, kerning, line-height adjustments can
+all be used to reach balance and clarity of composition.
+
+
+
+
+Ok    condensed line-height for titles                         Ok   slight negative kerning for titles             Ok    text bold & color highlight
+
+
+Light years gathered                                           Light years gathered                                Base typography rules must be always under the radar in
+                                                                                                                   order to keep a well balanced layout composition. Things
+by gravity at still                                            by gravity at still                                 like content proximity, kerning
+
+
+
+
+Not Ok       Overlycondensed line-height for titles            Not Ok      Excessive negative kerning for titles   Not Ok       Only bold text, no highlight
+
+
+Light years gathered                                           Light years gathered 
+                              Base typography rules must be always under the radar in
+
+by gravity at still
+                                                                                                                   order to keep a well balanced layout composition. Things
+                                                               by gravity at more                                  like content proximity, kerning
+                     Typography        Examples                                                                                                                   33
+
+
+
+
+                                                                                 Fastening the sit belts
+Fastening the sit belts
+
+
+
+Light years gathered                                                             Light years gathered
+
+by gravity a still more                                                          by gravity a still more
+
+glorious dawn                                                                    glorious dawn
+
+
+                                                                                 Light years gathered by gravity a still more glorious dawn awaits tesseract
+Light years gathered by gravity a still more glorious dawn awaits tesseract
+
+                                                                                 star stuff harvesting star light the carbon in our apple pies? Corpus callosum
+star stuff harvesting star light the carbon in our apple pies? Corpus callosum
+
+                                                                                 permanence of the stars corpus callosum stirred by starlight network of
+permanence of the stars corpus callosum stirred by starlight network of
+
+                                                                                 wormholes
+wormholes
+
+
+
+
+                                                                                    Semibold for Buttons
+   Semibold for Buttons
+
+
+
+
+Made with light neutrals                                                         Made with dark neutrals
+

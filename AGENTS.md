@@ -65,6 +65,7 @@ When writing posts, threads, articles, deck copy, ads or any other content:
 - Use only numbers from `wiki/data/`. If a needed number isn't there, leave a visible placeholder (`[NUMBER: what is needed]`) instead of inventing one.
 - If the content belongs to a series, read `series.md` and the previous posts first. Respect the series arc and rules.
 - Follow the rules of the target channel in `wiki/channels/`.
+- For any visual: follow `wiki/brand/visual/` (colors, typography, logo) and the format page in `wiki/brand/visual/formats/` if one exists. Use logo files from `wiki/brand/visual/logos/`, never redraw them.
 - Content drafts are not hub pages. Save a post to the hub only when it is published or when the director asks.
 
 ## 4. Changes and approval

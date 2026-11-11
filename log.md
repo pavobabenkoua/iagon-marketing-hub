@@ -6,6 +6,12 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: decision: design system
+- [0004](decisions/0004-design-system.md): Purple Shade `#7C75FF`, background `#F6F6FB`, Insight logo exception, minimum logo sizes, weights 400/600/700 only, format-specific bans.
+- New approved pages: `brand/visual/colors-typography.md`, `brand/visual/logo.md`, three formats in `brand/visual/formats/`.
+- 8 logo SVG files in `brand/visual/logos/`, including new light-background versions.
+- Sources: Brand Guidelines v1.0, Claude Project docs `iagon-colors-design-rules.md`, `iagon-logo-svg-source.md`, `claude/iagon-insight-logo-svg.md`, `claude/industry-insights-card-spec.md`, `claude/wurth-series-context.md`, `claude/iagon-ecosystem-stats-earned-selfcontained.html`.
+
 ## 2026-11-11: structure: README and relevance check
 - Full `README.md` with onboarding (block 1.5).
 - New rule in `AGENTS.md`: a relevance check before every ingest and create. The agent reports relevance, fit, overlap, placement and proposed changes, then waits for agreement.
