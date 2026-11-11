@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: structure: partnership pipeline
+- New private page `wiki/partners/pipeline.md`: stages concept → pilot → integration → production → closed, with external-mention rules.
+- Würth (pilot), Fireblocks (integration), Cloud Court, Fortune 500, healthcare (concepts), Volksbank (closed).
+- Positioning names only Würth and Fireblocks plus the pipeline. Open item 5 closed.
+
 ## 2026-11-12: update: Volksbank removed, Fireblocks source
 - Volksbank removed from the brand pages: the partnership did not go ahead.
 - Fireblocks 2400+ institutions sourced (fireblocks.com, 1 July 2026) and added to the Proof Library as the first external research entry. Open items 3 and 4 closed.

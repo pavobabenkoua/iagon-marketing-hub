@@ -52,6 +52,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 - [Series](wiki/series/README.md): content series, their logic and posts
 - [Campaigns](wiki/campaigns/README.md): campaign briefs, tests, results, learnings
 - [Partners](wiki/partners/README.md): Catalyst, grants, partnerships
+  - [Pipeline](wiki/partners/pipeline.md) _(private)_: every partnership and opportunity with its real stage
 - [Playbooks](wiki/playbooks/README.md): how we do things
 
 ## Built documents
