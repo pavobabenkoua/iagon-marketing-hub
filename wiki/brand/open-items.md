@@ -35,4 +35,6 @@ What still needs work in the brand section. Add an item whenever a gap or an unr
 | 2026-11-12 | Fireblocks scale | Shown as Fireblocks' own reach: "Fireblocks, which serves 2400+ institutions…" |
 | 2026-11-12 | "Seven years later" | Replaced with "Since then", so the story doesn't age |
 | 2026-11-12 | Sector-by-sector deployment claims | Generalized to the enterprise focus |
+| 2026-11-12 | Primary audience register (copy error in the original) | Written as "Documentary and professional. Evidence before argument, no marketing register." |
+| 2026-11-12 | Live deployments by sector in pillars and objections | "Enterprise pilots and deployments in regulated environments"; Fortune 500 must-hear: "built to the bar set by banking and healthcare review" |
 | 2026-11-12 | Serif + sans typography, "warm neutrals" palette | Aligned with the design system in [Art direction](visual/art-direction.md) |

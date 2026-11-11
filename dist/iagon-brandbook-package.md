@@ -17,6 +17,17 @@ Built from the Iagon Marketing Hub. Edit the parts in `wiki/brand/`, not this fi
   - Brand Narrative
   - Brand Archetype
   - Strategic Positioning
+- [Messaging System](#messaging-system)
+  - Three Frames
+  - Core Message
+  - Message Box
+  - Audience Variants
+  - Five Narratives
+  - Proof Library
+  - Structural facts
+  - Deployments
+  - External research
+  - Objection Handling
 - [Art direction](#art-direction)
   - Lead with
   - Avoid
@@ -331,7 +342,7 @@ A lighthouse points one strong beam in one direction. Ships approaching from any
 **Do**
 - Use it as the source of truth in sales playbooks, RFPs, analyst briefings, investor materials. The full statement appears in onboarding for every new commercial team member.
 - Use it as the test for new content. Before any campaign or content piece, ask: does this clearly serve a regulated-industry buyer? If yes, ship. If only adjacent, route to community and developer channels.
-- Translate it for each audience. The Message Box (`messaging/message-box.md`) derives audience-specific messaging from this statement. The statement itself stays constant; the translations vary.
+- Translate it for each audience. The Message Box derives audience-specific messaging from this statement. The statement itself stays constant; the translations vary.
 
 **Don't**
 - Don't publish this statement on the website or in marketing materials. It's an internal compass, not a public message. The public sees its translations, never the statement itself.
@@ -341,6 +352,526 @@ A lighthouse points one strong beam in one direction. Ships approaching from any
 ### A note on figures
 
 Network metrics change continuously. Node count, storage capacity, countries, cities, and staked IAG are different every epoch. They are maintained in the Iagon Ecosystem Stats App, updated quarterly, and every other document references that source instead of hard-coding numbers. Where a figure appears in a published material, it carries the line "figures as of [Day Month Year]". A number without a date is a claim we cannot stand behind, and standing behind our claims is the whole point of Verifiable by design. This rule applies to every section of this package, including Messaging, Tone of Voice, Market and Audience, and all Activation Playbooks.
+
+# Messaging System
+
+## Three Frames · How every Iagon conversation is built
+
+Every conversation about Iagon answers three questions, in this order: what is broken, what we built, and who it is for.
+
+These are not three topics to choose from. They are three steps, and the order is the point. A listener who has not seen the problem has no reason to care about the category. A listener who does not understand the category cannot place us against anything they already know. And a listener who understands both will still walk away unless someone tells them whether this is meant for them.
+
+Everything below the frames works inside this order. The frames set the sequence. The pillars carry the proof.
+
+### Frame 1 · What is broken: The Compliance Gap
+
+Regulation is clear about what it wants. Sensitive data stays under the owner's control, inside agreed jurisdictions, with every access accounted for. Rented infrastructure cannot do any of that structurally. So the gap gets filled by process, paperwork, and audits that describe what should happen rather than enforce it. The work is real, the cost is permanent, and the gap never fully closes.
+
+*Role: opens the conversation. Earns us the right to speak.*
+
+### Frame 2 · What we built: The Shared Storage and Compute Economy
+
+A marketplace for storage and compute. The buyer gets infrastructure. The owner of idle capacity earns from it. The compliance rules are enforced by the network, not by the contract on top of it.
+
+*Role: explains the model. Names the category.*
+
+### Frame 3 · Who it is for: Designed for Enterprise, Built for Everyone
+
+We build for the customer with the strictest requirements: a bank, a hospital, a law firm, a manufacturer. The bar they set stays the same for everyone else. That is why the same infrastructure serves a Fortune 50 company and a single person.
+
+*Role: removes the question "is this for me". The public form of the lighthouse principle.*
+
+### How to use the Frames
+
+**Do**
+- Open with Frame 1 in any first conversation. Naming the problem is what lets us set the terms of comparison.
+- Use Frame 2 alone when the listener already knows the problem. Customers, regulators, and analysts rarely need the gap explained twice.
+- Use Frame 3 whenever the audience is not a regulated enterprise. It tells an SMB, a developer, or a private user that they are not in the wrong room.
+
+**Don't**
+- Don't open with the category. A definition without a problem is something to evaluate, not something to care about.
+- Don't use Frame 3 as a tagline. It is a positioning line: longer, more functional, and with a different job.
+- Don't compress three frames into one sentence. If there is room for only one, use Frame 1 and stop.
+
+## Core Message · The argument every Iagon message makes in its own words
+
+This is not a tagline and not published copy. It is the reasoning underneath every pitch, page, and deck. If a message cannot be traced back to it, the message is wrong.
+
+| Sentence | What it does |
+|---|---|
+| **The infrastructure most organizations rent cannot enforce the rules they are held to.** | *Names the problem.* Structural, not anyone's fault. |
+| **So the gap is filled with process, paperwork, and certifications that describe what should happen.** | *Names the workaround.* Recognisable to anyone who has lived it. |
+| **Iagon closes the gap in the architecture. Compliance conditions are set by the customer and enforced by the network before data is placed anywhere.** | *Names the shift.* Architecture instead of paperwork. |
+
+### Why it is written this way
+
+- **It starts with the gap, not the category.** Whoever names the problem sets the terms of comparison. Open with the category and the listener decides for themselves what to compare us against, usually a storage provider. Open with the gap and the comparison happens on our ground.
+- **It is written in the third person.** The core has to be the most portable version, not the warmest one. A warm second-person form is easy to derive from an institutional one. The reverse does not work: no paragraph for an auditor can be derived from "your data, your rules".
+- **It blames the architecture, not the customer.** The compliance officer reading this built the process we are describing. The sentence has to say the workaround was necessary and expensive, not that it was a mistake. Caregiver protects, it does not accuse.
+- **The word "before" carries the claim.** Enforced before data is placed, not audited after. That single word is the difference between compliance by design and compliance by process. It never gets cut when the core is shortened.
+
+### How to use the Core Message
+
+**Do**
+- Use it as the test. Read any draft next to it and ask whether the draft makes this argument. If it makes a different one, the draft is off-system.
+- Use it in onboarding. Every commercial hire should be able to make this argument without notes in their first month.
+- Rewrite it for the surface. The argument stays fixed. The words change for a deck, a landing page, a keynote, or an answer to a journalist.
+
+**Don't**
+- Don't publish it word for word. It reads as internal reasoning because that is what it is.
+- Don't cut it to the third sentence. The solution without the gap is a product claim, and product claims invite feature comparison.
+- Don't add the token, the network size, or the blockchain here. Proof belongs to the pillars. The core is the argument alone.
+
+## Message Box · The four things Iagon can claim
+
+Four pillars. Every external piece rests on at least one of them. If the pillar cannot be named, the piece gets rewritten.
+
+A pillar is not a feature list and not a value proposition. It is a claim we are prepared to defend, paired with the kind of evidence that defends it and the line past which the claim stops being defensible.
+
+Proof here is described by type, not by name. Named deployments, figures, and dates live in the Proof Library and are quoted from there. A pillar has to hold as a framework, independent of which logo is current.
+
+### Pillar 01 · Compliance is built in
+*Rational anchor*
+
+**Regulatory requirements are enforced by the system, not documented by paperwork.**
+
+| | |
+|---|---|
+| **Proof** | Compliance conditions configured per deployment. Data residency set by the customer and enforced by the network. Every access recorded. Granted patents in 15+ jurisdictions. Enterprise deployments and pilots in regulated environments. |
+| **Lead with it** | Enterprise buyers. Regulators. Compliance officers. RFPs. Analysts. |
+| **Never say** | Fully compliant out of the box. Guarantees regulatory approval. |
+
+### Pillar 02 · Data sovereignty by default
+*Emotional anchor*
+
+**You decide where your data lives, who reaches it, and when access ends. Sovereignty is the default state, not a setting you configure.**
+
+| | |
+|---|---|
+| **Proof** | Encryption keys held by the customer. Permissions granular and revocable. Consent-based access in regulated deployments. User-owned data vaults built on our architecture. Industrial IP held and distributed under the owner's rules. |
+| **Lead with it** | Community. Press. Retail users. Keynotes. Hiring. |
+| **Never say** | Nobody can ever see your data. Total privacy. Your data can never be lost. |
+
+### Pillar 03 · Security through architecture
+*Rational anchor*
+
+**Data is encrypted, split, and distributed across the network. There is no single point of compromise by design.**
+
+| | |
+|---|---|
+| **Proof** | Sharding and encryption at the protocol level. Storage distributed across a network spanning 50+ countries. Independent security reviews and audits of key components. Settlement on a public chain built for long-lived systems. |
+| **Lead with it** | CTOs. Architects. Security teams. Technical press. |
+| **Never say** | Impossible to breach. Unhackable. 100% secure. Eliminates the possibility of data leaks. |
+
+### Pillar 04 · Proven where the bar is highest
+*Strategic anchor*
+
+**Already running in the environments with the strictest requirements.**
+
+| | |
+|---|---|
+| **Proof** | Enterprise is our focus: pilots and deployments with organizations that set the strictest requirements for their data. Institutional-scale API integrations. National innovation funding. Independent audits. Founded by four PhDs. |
+| **Lead with it** | Investors. Partners. SMBs. New markets. Any conversation short on trust. |
+| **Never say** | Trusted by banks worldwide. The industry standard. Named customers without written approval. |
+
+### How to use the Pillars
+
+**Do**
+- Name the pillar before writing. Every brief starts with the pillar the piece serves, and every review checks it.
+- Change the order for the audience. Which pillar leads is a decision. What the pillar claims is not.
+- Pull named proof from the Proof Library. The pillar tells you what kind of evidence you need. The library tells you which one is current and cleared.
+- Treat "never say" as binding. Each of those phrases is a claim we cannot defend, and several have been used about Iagon before.
+
+**Don't**
+- Don't use all four pillars in a short format. Four claims in one paragraph means none of them lands.
+- Don't add a fifth pillar for a campaign. The campaign adapts to the system, not the other way around.
+- Don't state a claim without proof nearby. A claim on its own is an assertion, and assertions are what our competitors make.
+
+## Audience Variants · The same four pillars, spoken in seven registers
+
+One audience receives the beam. Every other audience reads that beam as a signal about us. What changes is the order and the register. What never changes is the claim.
+
+This is not a list of seven equal targets. Positioning concentrates our communication on regulated industries, and the rest of the market hears that concentration as evidence of seriousness. A page written for a bank tells an SMB more than a page written for an SMB ever could.
+
+So the primary audience sets the standard. The downstream audiences are translations of it, not separate campaigns with separate promises.
+
+### Primary audience · The beam
+
+**Regulated industries.** Banking, healthcare, legal, industrial manufacturing, and digital asset infrastructure. The people who carry personal liability when data is handled wrongly.
+
+| | |
+|---|---|
+| **They are asking** | Will this survive our compliance review, and who carries the risk if it does not. |
+| **Pillar order** | 01 → 03 → 04 → 02 |
+| **Register** | Documentary and professional. Evidence before argument, no marketing register. |
+| **Must hear** | Your compliance conditions are set by you and enforced by the network before data is placed. Not described in a report afterwards. |
+| **Never** | Price as the opening argument. The token. Decentralization presented as the reason to buy. The mascot. |
+
+Decentralization is how the promise is kept, not why anyone buys. For this audience it appears as an architectural fact inside Pillar 03, never as a headline.
+
+### Downstream audiences · They read the beam
+
+#### Fortune 500 enterprise CTOs
+
+| | |
+|---|---|
+| **They are asking** | Will this clear our procurement without becoming my problem. |
+| **Pillar order** | 04 → 01 → 03 → 02 |
+| **Must hear** | The architecture your procurement will assess is built to the bar set by banking and healthcare review. |
+| **Register** | Brief and commercial. Precedent first, architecture second. |
+| **Never** | Open with the blockchain. Lead with the category name. |
+
+#### Regulators and policy bodies
+
+| | |
+|---|---|
+| **They are asking** | Does this serve what the regulation intended, or route around it. |
+| **Pillar order** | 01 → 03 → 04 |
+| **Must hear** | Conditions are enforced structurally and every access is accounted for. The evidence is published, with dates. |
+| **Register** | Neutral and documentary. No marketing register at all. |
+| **Never** | Superlatives. Any claim without a citable source. Framing regulation as an obstacle. |
+
+#### Investors and analysts
+
+| | |
+|---|---|
+| **They are asking** | Is this a defensible position in a market worth owning. |
+| **Pillar order** | 04 → 01 → 02 → 03 |
+| **Must hear** | A patented position in a category nobody owns yet, concentrated on a regulated, high-margin segment. |
+| **Register** | Category, defensibility, validation, discipline of focus. |
+| **Never** | Token price. Roadmap dates as commitments. Market size without a named source. |
+
+#### Web2 SMBs and SaaS companies
+
+| | |
+|---|---|
+| **They are asking** | Is this too heavy for a team our size. |
+| **Pillar order** | 04 → 02 → 01 |
+| **Must hear** | Built to a standard set by banks and hospitals. You get that standard without building for it. |
+| **Register** | Plain and short. The enterprise bar as reassurance, not as weight. |
+| **Never** | Price as the opening argument. Consumer ease language. Full compliance depth they did not ask for. |
+
+#### Web3 and Cardano builders
+
+| | |
+|---|---|
+| **They are asking** | Can I build on this and will it still be here in five years. |
+| **Pillar order** | 03 → 04 → 02 |
+| **Must hear** | Institutional-grade storage and compute you can build on, running at institutional scale already. |
+| **Register** | Technical and plain. Documentation tone. The mascot is allowed here. |
+| **Never** | The token in the first line. Ecosystem hype. Comparisons framed as a fight. |
+
+#### Individual and retail users
+
+| | |
+|---|---|
+| **They are asking** | Why should I care where my data sits. |
+| **Pillar order** | 02 → 04 → 03 |
+| **Must hear** | Your data lives where you decide. It reaches only who you allow. Every access is recorded. |
+| **Register** | Second person. Warm, concrete, one idea per sentence. The mascot is allowed here. |
+| **Never** | Fear framing. Absolute safety promises. Jurisdiction and patent detail. |
+
+> **A deliberate omission: the supply side**
+>
+> Every audience above is on the demand side. The providers of idle storage and compute are not listed here, and that is a decision rather than an oversight. Supply grows today through the network and the ecosystem, not through brand communication. A provider audience is added when supply becomes its own go-to-market line, with its own pillar order and its own register. Until then The Idle World narrative runs as an investor and partner story, and the word economy in our category name is carried by the model, not by a campaign.
+
+### How to use the Variants
+
+**Do**
+- Pick one audience per piece. A page that answers two of these questions answers neither.
+- Write the primary audience version first, then translate. Downstream versions are easier to derive from it than the other way around.
+- Read the "must hear" line before writing and after. It is the one sentence the piece has to leave behind.
+
+**Don't**
+- Don't soften a claim for a downstream audience. Change the register and the order. Never the promise.
+- Don't treat these seven as seven campaigns. They are translations of one position.
+- Don't add an audience because a campaign needs one. Adding an audience is a positioning decision, reviewed annually.
+
+## Five Narratives · The five stories Iagon tells for years, in every format
+
+A pillar tells you what we claim. A narrative tells you what we talk about. Without this block, every content plan starts from nothing.
+
+Brands do not tell many stories. They tell a few, repeatedly, until the market can finish the sentence. Five is the working number: enough to cover every audience, few enough that each one accumulates weight instead of resetting each quarter.
+
+Every narrative below carries one pillar or one frame, serves a defined audience, and has a line it must not cross. The line matters most. Each of these stories has a nearby version that belongs to an archetype we rejected.
+
+### Narrative 01 · The Compliance Gap
+*Sage*
+
+**Regulation asks for one thing. Rented infrastructure can do another. The distance between them is paid for in process, every year, forever.**
+
+| | |
+|---|---|
+| **Shape** | A reveal. Name the gap, show its cost, show that it is architectural and therefore closable. |
+| **Carries** | Pillar 01 · Frame 1 |
+| **For** | Regulated industries. Regulators. Analysts. |
+| **Formats** | Whitepapers. Explainers. RFP appendices. Conference talks. Opinion pieces. |
+| **Opens with** | What regulation requires, and what rented infrastructure can structurally deliver. The distance between the two is the story. |
+| **Never becomes** | An attack on cloud providers, or on regulation. Outlaw fights the system. We describe it and close the gap in it. |
+
+### Narrative 02 · The Patient's File
+*Caregiver*
+
+**The most intimate data a person generates sat on infrastructure they did not control and often could not reach. The file was about them. It was never theirs.**
+
+| | |
+|---|---|
+| **Shape** | One person, one file, a system never built for them. The origin of the question, not the origin of the company. |
+| **Carries** | Pillar 02 · Frame 1 |
+| **For** | Press. Community. Hiring. Keynotes. |
+| **Formats** | About page. Keynote openings. Recruitment content. Interviews with clinicians and compliance officers. |
+| **Opens with** | One person and one file. The data was about them and was never theirs. |
+| **Never becomes** | The story of four founders who solved it. Hero archetype. The subject is the patient, not the people who noticed. |
+
+### Narrative 03 · The Idle World
+*Sage*
+
+**Storage and compute capacity is bought for peak demand and paid for at all times. Between the peaks it sits racked, powered, and doing nothing. Iagon turns that capacity into infrastructure someone needs.**
+
+| | |
+|---|---|
+| **Shape** | Waste made visible, then put to work. An economic argument, not a moral one. |
+| **Carries** | Frame 2 · No pillar of its own. |
+| **For** | Investors. Partners. Analysts. |
+| **Formats** | Investor materials. Partnership briefs. Category explainers. Economic deep dives. |
+| **Opens with** | Capacity is bought for peak demand and paid for at all times. The sourced figure comes from the Proof Library, together with how to cite it. |
+| **Never becomes** | A yield story or a token story. The subject is capacity, not return. |
+
+> ⚠️ The sourced figure for this narrative is not in the Proof Library yet (open item 2). Until it is, the narrative runs without a number.
+
+### Narrative 04 · The Hardest Customer
+*Caregiver*
+
+**We build for the customer with the strictest requirements. Everyone else inherits that standard without asking for it.**
+
+| | |
+|---|---|
+| **Shape** | A harder path chosen on purpose, and what choosing it cost us. |
+| **Carries** | Pillar 04 · Frame 3 |
+| **For** | SMBs. Retail users. Builders. New markets. Hiring. |
+| **Formats** | Blog. Engineering decisions. Careers page. The framing around every case study. |
+| **Opens with** | A requirement we could have refused, and what building for it cost us. |
+| **Never becomes** | A boast about which institutions use us. The subject is the standard, not the logo. |
+
+### Narrative 05 · The Proof File
+*Sage*
+
+**We publish what proves the system works, with dates. We say plainly what we protect and why.**
+
+| | |
+|---|---|
+| **Shape** | Continuous. Not a campaign but a habit. Each piece is small and dated. |
+| **Carries** | Pillar 01 and Pillar 03 |
+| **For** | Every audience. The constant background. |
+| **Formats** | Audit summaries. Patent explainers. Governance notes. On-chain reports. Architecture posts. |
+| **Opens with** | The artifact itself. An audit, a patent, a governance decision, dated. |
+| **Never becomes** | A "trust us" claim with no artifact attached. If there is nothing to link to, there is nothing to publish. |
+
+## Proof Library · Every name, number, and date the brand is allowed to use
+
+One source for every claim. If a fact is not here, it does not go into external material until it is.
+
+Pillars describe the kind of evidence a claim needs. This library supplies the specific one. Each entry carries a canonical phrasing, a source, a date, and a clearance status. Copy the phrasing rather than rewriting it, because a fact rewritten four times becomes four different facts.
+
+> ⚠️ **The library is not complete.** Structural facts are in. Named deployments and external research are not built yet (open item 1). Until an entry exists here, a deployment or an external figure does not go into external material.
+
+### Kinds of evidence
+
+Evidence is not all of one kind, and the differences matter. Some facts are permanent. Some expire. Some belong to a customer rather than to us.
+
+| Kind | How it behaves |
+|---|---|
+| **Structural facts** | Founding, patents, architecture, funding. They do not expire. They need a date only when the count can change, as with patent jurisdictions. |
+| **Network metrics** | Nodes, countries, cities, capacity, staked IAG. They change every epoch. They live in the Iagon Ecosystem Stats App, are refreshed per epoch (~weekly), and always publish with "figures as of [Day Month Year]". |
+| **Deployments** | Named customers and pilots. These belong to the customer, not to us. Each one needs written clearance and an agreed description before it appears anywhere. |
+| **External research** | Findings that are not ours. Always attributed to the author with the year of publication, never restated in the present tense as a current fact. |
+
+### Clearance status
+
+| Status | Meaning |
+|---|---|
+| **Cleared** | Verified, dated, approved for any audience. Use the canonical phrasing as written. |
+| **Conditional** | Usable inside stated limits only. The limit is written into the entry. |
+| **Pending** | Not yet confirmed or not yet cleared by the customer. Does not appear in external material. |
+
+## Structural facts
+
+### Patent protection
+
+| | |
+|---|---|
+| **Say** | Granted patents in 15+ jurisdictions, covering the architecture rather than the idea. |
+| **Limit** | Say granted, not filed or pending. Do not name individual jurisdictions without checking the current register. |
+| **Serves** | Pillars 01 and 04 |
+
+### Founding
+
+| | |
+|---|---|
+| **Say** | Founded in 2017 by four PhDs. The question came from healthcare: patients did not control their own medical records. |
+| **Limit** | Founder biographies are available but stay secondary. The subject is the problem, not the people who noticed it. |
+| **Serves** | Pillar 04 · Narrative 02 |
+
+### Architecture
+
+| | |
+|---|---|
+| **Say** | Data is encrypted, sharded, and distributed. Keys stay with the customer. Compliance conditions are enforced by the network before data is placed. Built on Cardano, a public chain designed for systems that run for decades. |
+| **Limit** | Cardano is an architectural fact, not an opening line in enterprise material. No absolute security claims in any wording. |
+| **Serves** | Pillar 02 · Pillar 03 |
+
+### Security reviews and audits
+
+| | |
+|---|---|
+| **Say** | Independent security reviews and audits of key components. |
+| **Limit** | Key components, not the whole system. Never say fully audited. Name the auditor and date only where the report is published. |
+| **Serves** | Pillar 03 · Narrative 05 |
+
+### Network scale
+
+| | |
+|---|---|
+| **Say** | A distributed network spanning 50+ countries. Node count, cities, capacity, and staked IAG are quoted from the Iagon Ecosystem Stats App at the time of writing. |
+| **Limit** | Never publish a figure without "figures as of [Day Month Year]". 50+ countries is the canonical geography figure. Staked IAG does not appear in enterprise, banking, healthcare, or regulatory material. |
+| **Serves** | Pillar 03 |
+
+### Team
+*Cleared*
+
+| | |
+|---|---|
+| **Say** | A team of 30+ working globally. |
+| **Limit** | Refresh quarterly with the Iagon Ecosystem Stats App. Use in hiring and press, not as a proof point in enterprise material. |
+| **Serves** | Narrative 02 |
+
+## Deployments
+
+_To be built (open item 1)._ Each entry: name, stage (pilot, integration, production), agreed wording, clearance status, date, source.
+
+### Rule 1 · Enterprise deployments
+
+**A customer's name is theirs, not ours. We describe a deployment only in words they have agreed to, and we describe exactly what it is.**
+
+| | |
+|---|---|
+| **Written clearance** | No name appears in external material without written approval of the exact wording. Approval covers that wording, not the customer relationship in general. |
+| **Stage stays accurate** | A pilot is called a pilot. An integration is called an integration. Production is called production only when it is. |
+| **One name is one name** | A single bank never becomes "banks". A single manufacturer never becomes "industry". Plurals require plural evidence. |
+| **Their scale is theirs** | A partner's customer count describes their reach, not our adoption. Never restate it as institutions using Iagon. |
+| **Unnamed still counts** | Where a customer cannot be named, describe the category and the size precisely and leave it there. A precise unnamed customer is stronger than a vague named one. |
+| **Never** | Logo walls without context. "Trusted by" formulations. A deployment described as a certification. |
+
+## External research
+
+_To be built (open item 1)._ Each entry: finding, author, year, scope, link.
+
+### Rule 2 · Industry facts
+
+**A finding someone else produced is quoted, not adopted. It carries its author and its year every time it appears.**
+
+| | |
+|---|---|
+| **Author and year** | Named source, publication year, every time. A widely known number is still someone's research, and "the industry knows this" is not attribution. |
+| **Past tense** | A study found. Not: the world currently has. Present tense turns a dated finding into a claim we cannot stand behind. |
+| **Scope stays intact** | A sample is a sample. A region is a region. Never widen a finding to the world because the wider version reads better. |
+| **Supporting only** | External findings sit inside the argument, never in a headline and never in a short format. Our arguments have to hold without them. |
+| **Age is disclosed** | If the only available research is old, say so and use it anyway or drop it. Do not hide the year to make it sound current. |
+| **Never** | Market size figures without a named source. Statistics quoted from another company's deck. Numbers that arrive without a link. |
+
+> **Why this is a brand rule, not a legal one**
+>
+> Verifiable by design is the value these rules serve. Legal exposure is the smaller risk. The larger one is that a Sage brand which overstates once is read differently forever, and no amount of accurate material afterwards fully undoes it. Precision here is not caution. It is the product.
+
+## Objection Handling · What to say when the system is tested
+
+An objection is a question asked with the volume up. It gets an answer, not a defence. A Sage brand concedes what is true and answers what is not.
+
+Every objection below has a real premise. Pretending otherwise is what makes an answer sound rehearsed. The pattern is the same each time: agree with what is accurate, correct what is not, point at the evidence, and stop.
+
+Answers get shorter as they get better. If an answer needs three paragraphs, the objection has not been understood yet.
+
+### "Decentralized storage is not enterprise ready."
+*Enterprise · analysts*
+
+| | |
+|---|---|
+| **What is true** | Most decentralized storage was built for a different buyer, with different assumptions about compliance and support. |
+| **Answer** | Fair, and that is why we did not build a decentralized storage product. We built compliance-first infrastructure that happens to be distributed. The requirements came from banking, healthcare, and legal environments first. Decentralization is how the promise is kept, not the reason to buy. |
+| **Evidence** | Enterprise pilots and deployments in regulated environments. Patented architecture in 15+ jurisdictions. |
+| **Never** | Argue that decentralization is inherently better. That is the argument they already rejected. |
+
+### "We already have compliance handled."
+*Enterprise · compliance*
+
+| | |
+|---|---|
+| **What is true** | They do have it handled. Certifications are real, audits are real, and the work behind them is serious. |
+| **Answer** | You do, and it costs you every year. The question is not whether you are compliant. It is how much of that compliance your infrastructure enforces and how much your people carry. We move part of that load into the architecture. |
+| **Evidence** | Compliance conditions configured per deployment and enforced before data is placed. |
+| **Never** | Suggest their current setup is inadequate. The person you are talking to built it. |
+
+### "Why is there a blockchain in this at all?"
+*Enterprise · CTOs · regulators*
+
+| | |
+|---|---|
+| **What is true** | Plenty of infrastructure has used a blockchain where it added nothing. The skepticism is earned. |
+| **Answer** | It does one job: settlement and an access record nobody can quietly edit, including us. Your data is not on a chain. If that job could be done with a database we control, the record would be worth less, because you would be trusting us to keep it honest. |
+| **Evidence** | Architecture documentation. Audited access records. |
+| **Never** | Defend blockchain as a category, or avoid the word. Both read as evasion. |
+
+### "Who is accountable when something goes wrong?"
+*Enterprise · procurement*
+
+| | |
+|---|---|
+| **What is true** | Distributed systems raise a real question about where responsibility sits. It is the first thing procurement asks and the hardest to answer casually. |
+| **Answer** | You contract with us and we are accountable to you. The network is how the service is delivered, not a way to spread the liability around. Access records are auditable, so the question of what happened has an answer rather than an opinion. |
+| **Evidence** | Contract terms. Audited access records. Own the outcome as a stated company value. |
+| **Never** | Describe accountability as shared by the network. That is the answer they are afraid of. |
+
+### "You are small. Will you be here in five years?"
+*Enterprise · builders*
+
+| | |
+|---|---|
+| **What is true** | We are small next to the providers they are comparing us to. Denying it costs more than admitting it. |
+| **Answer** | We are, and it is a fair question to ask any infrastructure supplier. Three things answer it better than a promise: the architecture is patented, the network is distributed rather than dependent on our own data centres, and your keys are yours. What you build does not become unreachable if we are not the ones running it. |
+| **Evidence** | Patents in 15+ jurisdictions. Distributed network across 50+ countries. Customer-held keys. |
+| **Never** | Answer with growth projections or funding news. Neither is evidence of longevity. |
+
+### "Migrating off our current provider is not realistic."
+*Enterprise · SMB*
+
+| | |
+|---|---|
+| **What is true** | Full migration is expensive, slow, and rarely the right first move. |
+| **Answer** | Nobody starts with migration. Start with the workload where sovereignty and compliance cost you the most. That is usually one dataset, one jurisdiction, one team. If it works there, the rest is a decision you make later with evidence. |
+| **Evidence** | Existing deployments began as single-use-case pilots. |
+| **Never** | Frame it as replacing their cloud. We are not asking them to leave anything. |
+
+### "There is a token. Is this a crypto project?"
+*Enterprise · regulators · press*
+
+| | |
+|---|---|
+| **What is true** | There is a token, and the question is asked because the sector has given people reasons to ask it. |
+| **Answer** | It is how providers of capacity are paid in a network with no central operator. It is a settlement mechanism inside the system, not a product we sell you. Enterprise customers contract and pay in the ordinary way. |
+| **Evidence** | On-chain economics published openly. Governance decisions on record. |
+| **Never** | Downplay the token or change the subject. Answer plainly and move on. |
+
+### How to use this block
+
+**Do**
+- Concede first, every time. The concession is what makes the rest credible.
+- Answer once and stop. Repeating an answer in different words reads as anxiety.
+- Say when you do not know. Offer to come back with the answer, then come back with it.
+
+**Don't**
+- Don't win the argument. The goal is an accurate picture, not a defeated sceptic.
+- Don't reach past the Never say limits under pressure. Objections are exactly where those limits get broken.
+- Don't treat these as scripts. They are positions. The words are yours.
 
 # Art direction
 

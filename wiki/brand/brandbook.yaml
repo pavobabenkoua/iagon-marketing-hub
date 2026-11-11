@@ -21,8 +21,17 @@ parts:
       - strategy/archetype.md
       - strategy/positioning.md
 
-  # Added in the next blocks:
-  # - title: Messaging System   (messaging/)
+  - title: Messaging System
+    files:
+      - messaging/three-frames.md
+      - messaging/core-message.md
+      - messaging/message-box.md
+      - messaging/audience-variants.md
+      - messaging/five-narratives.md
+      - messaging/proof-library.md
+      - messaging/objections.md
+
+  # Added in the next block:
   # - title: Tone of Voice · Who is speaking   (voice/)
   # - title: Tone of Voice · How we write   (voice/)
 
@@ -38,6 +47,7 @@ changelog:
       - Split into parts in the hub.
       - Würth, Fireblocks, enterprise focus and dates aligned with the hub (see open-items.md, Done).
       - Visual Implications moved to the design system as Art direction.
+      - Messaging System added. Pillar proof, Fortune 500 must-hear and objection evidence aligned with the enterprise focus. Primary audience register fixed (copy error).
   - version: "1.0"
     date: 2026-08-12
     changes:

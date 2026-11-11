@@ -5,7 +5,7 @@ Who Iagon is and how it sounds and looks. Core section: changes need the directo
 | Folder / file | What it holds |
 |---|---|
 | `strategy/` | Vision, mission, Compliance Gap, DNA anchors, values, purpose and promise, narrative, archetype, positioning |
-| `messaging/` | Frames, core message, message box, audience variants, narratives, proof library, objections _(next block)_ |
+| `messaging/` | Frames, core message, message box, audience variants, narratives, proof library, objections |
 | `voice/` | Personality, borders, tone spectrum, writing principles, vocabulary, mechanics, voice test _(next block)_ |
 | `visual/` | Design system: colors, typography, logo, art direction, formats |
 | `brandbook.yaml` | Order of the parts of the Brandbook Package |
