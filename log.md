@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: Proof Library backlog
+- Open item 1 turned into a checklist: deployments (Würth, Fireblocks), funding, proof artifacts (patents, audits, on-chain economics, governance, architecture docs, access records).
+
 ## 2026-11-12: decision: brand story lengths
 - No separate long version. Core is the source of truth, longer formats are written from it per task. Open item 6 closed.
 
