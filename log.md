@@ -6,6 +6,13 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: ingest: Brandbook Package, part 1 (Brand Strategy)
+- Source: [raw/archive/2026-11-12-iagon-brandbook-package.md](raw/archive/2026-11-12-iagon-brandbook-package.md) (Markdown export of the Google Doc).
+- 8 approved pages in `wiki/brand/strategy/`, one per section of the original.
+- "Visual Implications" moved to `wiki/brand/visual/art-direction.md`, aligned with the design system (Figtree only, actual palette).
+- Edits approved by the director: Würth wording, Fireblocks scale as their reach, "Seven years later" → "Since then", enterprise focus instead of sector-by-sector deployment claims, thousands without separator in text, no long dashes.
+- New: `wiki/brand/brandbook.yaml` (manifest), `scripts/build-brandbook.py`, `dist/iagon-brandbook-package.md`, `wiki/brand/open-items.md` (8 open items).
+
 ## 2026-11-12: decision: design system
 - [0004](decisions/0004-design-system.md): Purple Shade `#7C75FF`, background `#F6F6FB`, Insight logo exception, minimum logo sizes, weights 400/600/700 only, format-specific bans.
 - New approved pages: `brand/visual/colors-typography.md`, `brand/visual/logo.md`, three formats in `brand/visual/formats/`.

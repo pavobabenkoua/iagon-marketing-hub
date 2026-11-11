@@ -1,0 +1,44 @@
+# Manifest of the Iagon Brandbook Package.
+# The build script (scripts/build-brandbook.py) joins the parts below, in this order,
+# into one document: dist/iagon-brandbook-package.md.
+# Bump `version` only after the director approves a change.
+
+title: Iagon Brandbook Package
+version: "1.1"
+updated: 2026-11-12
+owner: Pavlo Babenko
+source: raw/archive/2026-11-12-iagon-brandbook-package.md
+
+parts:
+  - title: Brand Strategy
+    files:
+      - strategy/vision-mission.md
+      - strategy/compliance-gap.md
+      - strategy/dna-anchors.md
+      - strategy/core-values.md
+      - strategy/purpose-promise.md
+      - strategy/narrative.md
+      - strategy/archetype.md
+      - strategy/positioning.md
+
+  # Added in the next blocks:
+  # - title: Messaging System   (messaging/)
+  # - title: Tone of Voice · Who is speaking   (voice/)
+  # - title: Tone of Voice · How we write   (voice/)
+
+appendix:
+  - title: Art direction
+    files:
+      - visual/art-direction.md
+
+changelog:
+  - version: "1.1"
+    date: 2026-11-12
+    changes:
+      - Split into parts in the hub.
+      - Würth, Fireblocks, enterprise focus and dates aligned with the hub (see open-items.md, Done).
+      - Visual Implications moved to the design system as Art direction.
+  - version: "1.0"
+    date: 2026-08-12
+    changes:
+      - Original Google Doc export.
