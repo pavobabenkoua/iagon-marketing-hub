@@ -76,7 +76,7 @@ A lighthouse points one strong beam in one direction. Ships approaching from any
 **Do**
 - Use it as the source of truth in sales playbooks, RFPs, analyst briefings, investor materials. The full statement appears in onboarding for every new commercial team member.
 - Use it as the test for new content. Before any campaign or content piece, ask: does this clearly serve a regulated-industry buyer? If yes, ship. If only adjacent, route to community and developer channels.
-- Translate it for each audience. The Message Box (`messaging/message-box.md`) derives audience-specific messaging from this statement. The statement itself stays constant; the translations vary.
+- Translate it for each audience. The [Message Box](../messaging/message-box.md) derives audience-specific messaging from this statement. The statement itself stays constant; the translations vary.
 
 **Don't**
 - Don't publish this statement on the website or in marketing materials. It's an internal compass, not a public message. The public sees its translations, never the statement itself.

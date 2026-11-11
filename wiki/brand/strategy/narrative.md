@@ -7,7 +7,7 @@ owner: Pavlo Babenko
 updated: 2026-11-12
 visibility: team
 sources: [raw/archive/2026-11-12-iagon-brandbook-package.md]
-related: [brand-purpose-promise, brand-open-items]
+related: [brand-purpose-promise, brand-five-narratives, brand-proof-library, brand-open-items]
 tags: [strategy, story]
 ---
 

@@ -7,7 +7,7 @@ owner: Pavlo Babenko
 updated: 2026-11-12
 visibility: team
 sources: [raw/archive/2026-11-12-iagon-brandbook-package.md]
-related: [brand-vision-mission, brand-dna-anchors]
+related: [brand-vision-mission, brand-dna-anchors, brand-three-frames, brand-core-message]
 tags: [strategy]
 ---
 

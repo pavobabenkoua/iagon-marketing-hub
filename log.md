@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: ingest: Brandbook Package, part 2 (Messaging System)
+- 7 approved pages in `wiki/brand/messaging/`.
+- Edits: pillar 01 and 04 proof, pillar 02 data vaults (no production claim), Fortune 500 must-hear and objection evidence aligned with the enterprise focus; primary audience register fixed; Proof Library carries placeholders for deployments and research (open item 1).
+
 ## 2026-11-12: ingest: Brandbook Package, part 1 (Brand Strategy)
 - Source: [raw/archive/2026-11-12-iagon-brandbook-package.md](raw/archive/2026-11-12-iagon-brandbook-package.md) (Markdown export of the Google Doc).
 - 8 approved pages in `wiki/brand/strategy/`, one per section of the original.

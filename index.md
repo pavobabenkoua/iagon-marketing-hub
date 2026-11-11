@@ -20,6 +20,14 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
     - [Brand Narrative](wiki/brand/strategy/narrative.md): the story in 300 and 60 words
     - [Brand Archetype](wiki/brand/strategy/archetype.md): Sage with the soul of the Caregiver, content and storytelling implications
     - [Strategic Positioning](wiki/brand/strategy/positioning.md): internal statement, lighthouse principle, note on figures
+  - **Messaging**
+    - [Three Frames](wiki/brand/messaging/three-frames.md): what is broken, what we built, who it is for
+    - [Core Message](wiki/brand/messaging/core-message.md): the argument under every message
+    - [Message Box](wiki/brand/messaging/message-box.md): the four pillars, proof, never say
+    - [Audience Variants](wiki/brand/messaging/audience-variants.md): pillar order and register for seven audiences
+    - [Five Narratives](wiki/brand/messaging/five-narratives.md): the stories we tell for years
+    - [Proof Library](wiki/brand/messaging/proof-library.md): canonical facts, clearance rules (deployments and research to be built)
+    - [Objection Handling](wiki/brand/messaging/objections.md): seven objections, concede then answer
   - **Visual (design system)**
   - [Art direction](wiki/brand/visual/art-direction.md): what visuals lead with and avoid, mascot rules
   - [Colors and typography](wiki/brand/visual/colors-typography.md): palettes, contrast tables, gradients, Figtree weights, brandbook errata
