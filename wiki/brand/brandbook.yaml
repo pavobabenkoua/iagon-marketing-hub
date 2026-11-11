@@ -61,6 +61,7 @@ changelog:
       - Stats App frequency (every Cardano epoch) and "the only architecture" removed from the positioning statement.
       - Volksbank removed (partnership did not go ahead). Fireblocks reach sourced in the Proof Library.
       - Positioning: concepts moved to the private partnership pipeline.
+      - Proof Library: Idle capacity (NRDC 2014; Koomey and Taylor 2015, 2017).
   - version: "1.0"
     date: 2026-08-12
     changes:

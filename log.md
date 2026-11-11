@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: Idle capacity proof
+- Proof Library: "Idle capacity" entry (NRDC 2014; Koomey and Taylor 2015, 2017). Narrative 03 now points to it. Open item 2 closed.
+
 ## 2026-11-12: structure: partnership pipeline
 - New private page `wiki/partners/pipeline.md`: stages concept → pilot → integration → production → closed, with external-mention rules.
 - Würth (pilot), Fireblocks (integration), Cloud Court, Fortune 500, healthcare (concepts), Volksbank (closed).

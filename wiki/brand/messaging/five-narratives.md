@@ -61,7 +61,7 @@ Every narrative below carries one pillar or one frame, serves a defined audience
 | **Opens with** | Capacity is bought for peak demand and paid for at all times. The sourced figure comes from the [Proof Library](proof-library.md), together with how to cite it. |
 | **Never becomes** | A yield story or a token story. The subject is capacity, not return. |
 
-> ⚠️ The sourced figure for this narrative is not in the Proof Library yet ([open item 2](../open-items.md)). Until it is, the narrative runs without a number.
+> The sourced figures for this narrative: [Idle capacity](proof-library.md#idle-capacity) in the Proof Library. They sit inside the argument, never in the opening line.
 
 ### Narrative 04 · The Hardest Customer
 *Caregiver*

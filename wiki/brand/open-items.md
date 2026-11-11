@@ -19,13 +19,13 @@ What still needs work in the brand section. Add an item whenever a gap or an unr
 | # | Item | Where it shows up | Needs |
 |---|---|---|---|
 | 1 | **Proof Library is not built yet.** No named deployments with clearance status, no external research entries | Messaging: proof library, message box, narratives | A separate working session: list every deployment, its stage, clearance and agreed wording |
-| 2 | **Sourced figure for The Idle World** (share of storage and compute capacity that sits unused) | Narrative 03, mission | External research with author and year |
 | 6 | **Canonical long version of the brand story.** The original said short and core are derived from a canonical story, but only those two versions exist | Narrative | Decide: write a long version or keep core as the source |
 
 ## Done
 
 | Date | Item | Resolution |
 |---|---|---|
+| 2026-11-12 | Sourced figure for The Idle World | NRDC (2014) and Koomey and Taylor (2015, 2017) added to the Proof Library as "Idle capacity". Vendor "stranded capacity" figures rejected |
 | 2026-11-12 | Cloud Court, Fortune 500, healthcare | Concepts, not pilots. Moved to the private [pipeline](../partners/pipeline.md); positioning names only Würth (pilot) and Fireblocks (integration) |
 | 2026-11-12 | Volksbank | Partnership did not go ahead. Removed from narrative, archetype, positioning and pillar 02 proof |
 | 2026-11-12 | Fireblocks 2400+ source | Fireblocks' own figure (fireblocks.com, 1 July 2026; press releases 2026). Added to the Proof Library |
