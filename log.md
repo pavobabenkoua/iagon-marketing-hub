@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-11: decision: chat approval and auto-merge
+- [0002](decisions/0002-chat-approval-and-auto-merge.md): while the director is the only member, approval happens in the chat and the AI agent merges.
+
 ## 2026-11-11: structure: hub skeleton created
 - Folder structure set up (block 1.1).
 - Added `wiki/resources.md` for files that live outside GitHub.

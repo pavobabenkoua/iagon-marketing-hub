@@ -19,7 +19,7 @@ The hub follows the **LLM Wiki** pattern:
 ## Ground rules
 
 - All content is in **English**.
-- Every change to `main` goes through a pull request approved by the Marketing Director.
+- Every change to `main` is approved by the Marketing Director. For now that happens in the chat with the AI agent ([decision 0002](decisions/0002-chat-approval-and-auto-merge.md)).
 - Outdated pages are never deleted. Mark them `status: deprecated` so links keep working.
 
 > Full onboarding guide comes in block 1.5.

@@ -22,4 +22,5 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 ## Governance
 - [Decisions](decisions/): decision records
   - [0001 Foundation](decisions/0001-foundation.md)
+  - [0002 Chat approval and auto-merge](decisions/0002-chat-approval-and-auto-merge.md)
 - [Templates](templates/README.md): file templates

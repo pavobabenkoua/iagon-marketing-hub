@@ -8,4 +8,4 @@ Until then:
 - Read `index.md` first.
 - Never edit files in `raw/`.
 - Never invent facts, numbers or quotes. If a fact has no source, say so.
-- Work on a branch and open a pull request. Never push to `main`.
+- Work on a branch, one block per branch. Merge into `main` only after the director's explicit approval in the chat, with a `--no-ff` merge commit that says `Approved by director in chat` (see [decision 0002](decisions/0002-chat-approval-and-auto-merge.md)). Never commit directly to `main`.
