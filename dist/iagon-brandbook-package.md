@@ -360,7 +360,7 @@ A lighthouse points one strong beam in one direction. Ships approaching from any
 
 ### A note on figures
 
-Network metrics change continuously. Node count, storage capacity, countries, cities, and staked IAG are different every epoch. They are maintained in the Iagon Ecosystem Stats App, updated quarterly, and every other document references that source instead of hard-coding numbers. Where a figure appears in a published material, it carries the line "figures as of [Day Month Year]". A number without a date is a claim we cannot stand behind, and standing behind our claims is the whole point of Verifiable by design. This rule applies to every section of this package, including Messaging, Tone of Voice, Market and Audience, and all Activation Playbooks.
+Network metrics change continuously. Node count, storage capacity, countries, cities, and staked IAG are different every epoch. They are maintained in the Iagon Ecosystem Stats App, which updates automatically every Cardano epoch (5 days), and every other document references that source instead of hard-coding numbers. Where a figure appears in a published material, it carries the line "figures as of [Day Month Year]". A number without a date is a claim we cannot stand behind, and standing behind our claims is the whole point of Verifiable by design. This rule applies to every section of this package, including Messaging, Tone of Voice, Market and Audience, and all Activation Playbooks.
 
 # Messaging System
 
@@ -691,7 +691,7 @@ Evidence is not all of one kind, and the differences matter. Some facts are perm
 | Kind | How it behaves |
 |---|---|
 | **Structural facts** | Founding, patents, architecture, funding. They do not expire. They need a date only when the count can change, as with patent jurisdictions. |
-| **Network metrics** | Nodes, countries, cities, capacity, staked IAG. They change every epoch. They live in the Iagon Ecosystem Stats App, are refreshed per epoch (~weekly), and always publish with "figures as of [Day Month Year]". |
+| **Network metrics** | Nodes, countries, cities, capacity, staked IAG. They change every epoch. They live in the Iagon Ecosystem Stats App, update automatically every Cardano epoch (5 days), and always publish with "figures as of [Day Month Year]". |
 | **Deployments** | Named customers and pilots. These belong to the customer, not to us. Each one needs written clearance and an agreed description before it appears anywhere. |
 | **External research** | Findings that are not ours. Always attributed to the author with the year of publication, never restated in the present tense as a current fact. |
 
