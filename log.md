@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-11: structure: templates
+- Nine templates in `templates/` (block 1.4): product, audience, channel, series, post, campaign, playbook, decision, fact.
+- A post can be published on several channels. Each publication has its own date, URL and results.
+
 ## 2026-11-11: structure: rules for AI agents
 - Full `AGENTS.md` (block 1.3): reading order, ingest / query / lint / create, approval, prohibitions, writing rules.
 - No automatic staleness thresholds: the brand is stable.
