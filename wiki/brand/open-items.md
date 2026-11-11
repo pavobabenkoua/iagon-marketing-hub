@@ -24,13 +24,13 @@ What still needs work in the brand section. Add an item whenever a gap or an unr
 | 4 | **Fireblocks 2400+ institutions:** source and date of the figure | Narrative, positioning (lighthouse) | Fireblocks public source |
 | 5 | **Other pilots named internally:** Cloud Court, Fortune 500, healthcare. Names, stage, clearance | Positioning ("Why regulated industries") | Status of each |
 | 6 | **Canonical long version of the brand story.** The original said short and core are derived from a canonical story, but only those two versions exist | Narrative | Decide: write a long version or keep core as the source |
-| 7 | **Update frequency of the Iagon Ecosystem Stats App.** "Updated quarterly" in the note on figures, "refreshed per epoch (~weekly)" in the proof library | Positioning, proof library | Confirm the real frequency |
-| 8 | **"The only architecture with granted patents in 15+ jurisdictions built specifically for regulated environments."** A superlative that needs evidence, even internally | Positioning statement | Patent register check |
 
 ## Done
 
 | Date | Item | Resolution |
 |---|---|---|
+| 2026-11-12 | "The only architecture…" superlative in the positioning statement | Removed by the director: "an architecture with granted patents in 15+ jurisdictions" |
+| 2026-11-12 | Update frequency of the Iagon Ecosystem Stats App | Confirmed by the director: updates automatically every Cardano epoch (5 days). Fixed in positioning and proof library |
 | 2026-11-12 | Würth wording | "Würth validates 3D printing IP licensing", not "Würth Group secures" |
 | 2026-11-12 | Fireblocks scale | Shown as Fireblocks' own reach: "Fireblocks, which serves 2400+ institutions…" |
 | 2026-11-12 | "Seven years later" | Replaced with "Since then", so the story doesn't age |

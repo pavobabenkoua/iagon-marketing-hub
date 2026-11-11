@@ -26,7 +26,7 @@ Evidence is not all of one kind, and the differences matter. Some facts are perm
 | Kind | How it behaves |
 |---|---|
 | **Structural facts** | Founding, patents, architecture, funding. They do not expire. They need a date only when the count can change, as with patent jurisdictions. |
-| **Network metrics** | Nodes, countries, cities, capacity, staked IAG. They change every epoch. They live in the Iagon Ecosystem Stats App, are refreshed per epoch (~weekly), and always publish with "figures as of [Day Month Year]". |
+| **Network metrics** | Nodes, countries, cities, capacity, staked IAG. They change every epoch. They live in the Iagon Ecosystem Stats App, update automatically every Cardano epoch (5 days), and always publish with "figures as of [Day Month Year]". |
 | **Deployments** | Named customers and pilots. These belong to the customer, not to us. Each one needs written clearance and an agreed description before it appears anywhere. |
 | **External research** | Findings that are not ours. Always attributed to the author with the year of publication, never restated in the present tense as a current fact. |
 
