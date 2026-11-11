@@ -20,13 +20,13 @@ What still needs work in the brand section. Add an item whenever a gap or an unr
 |---|---|---|---|
 | 1 | **Proof Library is not built yet.** No named deployments with clearance status, no external research entries | Messaging: proof library, message box, narratives | A separate working session: list every deployment, its stage, clearance and agreed wording |
 | 2 | **Sourced figure for The Idle World** (share of storage and compute capacity that sits unused) | Narrative 03, mission | External research with author and year |
-| 5 | **Other pilots named internally:** Cloud Court, Fortune 500, healthcare. Names, stage, clearance | Positioning ("Why regulated industries") | Status of each |
 | 6 | **Canonical long version of the brand story.** The original said short and core are derived from a canonical story, but only those two versions exist | Narrative | Decide: write a long version or keep core as the source |
 
 ## Done
 
 | Date | Item | Resolution |
 |---|---|---|
+| 2026-11-12 | Cloud Court, Fortune 500, healthcare | Concepts, not pilots. Moved to the private [pipeline](../partners/pipeline.md); positioning names only Würth (pilot) and Fireblocks (integration) |
 | 2026-11-12 | Volksbank | Partnership did not go ahead. Removed from narrative, archetype, positioning and pillar 02 proof |
 | 2026-11-12 | Fireblocks 2400+ source | Fireblocks' own figure (fireblocks.com, 1 July 2026; press releases 2026). Added to the Proof Library |
 | 2026-11-12 | "The only architecture…" superlative in the positioning statement | Removed by the director: "an architecture with granted patents in 15+ jurisdictions" |
