@@ -1,6 +1,7 @@
 ---
 id: decision-0002
 title: Chat approval and auto-merge while the director is the only member
+type: decision
 status: approved
 owner: Pavlo Babenko (Marketing Director)
 decided: 2026-11-11

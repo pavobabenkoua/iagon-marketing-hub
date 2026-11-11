@@ -1,6 +1,7 @@
 ---
 id: decision-0001
 title: Foundation of the Iagon Marketing Knowledge Base
+type: decision
 status: approved
 owner: Pavlo Babenko (Marketing Director)
 decided: 2026-11-11

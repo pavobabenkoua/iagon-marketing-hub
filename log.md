@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-11: decision: metadata standard
+- [0003](decisions/0003-metadata-standard.md): frontmatter fields, statuses, visibility, ID format, file naming (block 1.2).
+- Added frontmatter to `wiki/resources.md`.
+
 ## 2026-11-11: decision: chat approval and auto-merge
 - [0002](decisions/0002-chat-approval-and-auto-merge.md): while the director is the only member, approval happens in the chat and the AI agent merges.
 

@@ -1,3 +1,13 @@
+---
+id: hub-resources
+title: Resources outside GitHub
+type: hub
+status: approved
+owner: Pavlo Babenko
+updated: 2026-11-11
+visibility: team
+---
+
 # Resources
 
 Every marketing file that lives **outside GitHub**: decks, brandbooks, design sources, folders, dashboards. Keep one row per resource. When a resource is replaced, set the old row to `deprecated` instead of deleting it.
