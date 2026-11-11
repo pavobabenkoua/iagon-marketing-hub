@@ -108,7 +108,17 @@ _To be built ([open item 1](../open-items.md))._ Each entry: name, stage (pilot,
 
 ## External research
 
-_To be built ([open item 1](../open-items.md))._ Each entry: finding, author, year, scope, link.
+_To be completed ([open item 1](../open-items.md))._ Each entry: finding, author, year, scope, link.
+
+### Fireblocks reach
+*Cleared*
+
+| | |
+|---|---|
+| **Say** | Fireblocks, which serves 2400+ institutions, connects its clients to Cardano staking and governance through the Iagon Insight API. |
+| **Source** | Fireblocks: "trusted by 95+ banks and 2,400+ institutions" ([fireblocks.com, 1 July 2026](https://www.fireblocks.com/blog/vietnam-digital-assets-growth)). The same figure appears in Fireblocks press releases through 2026, e.g. [Western Union, 4 May 2026](https://www.prnewswire.com/news-releases/western-union-selects-fireblocks-to-power-its-first-stablecoin-usdpt-302760774.html). |
+| **Limit** | It is Fireblocks' reach, not our adoption (Rule 1). Never "2400+ institutions use Iagon". Access to Iagon through Fireblocks is for approved Fireblocks clients. Recheck the figure before each new use: Fireblocks updates it. |
+| **Serves** | Pillar 04 · Narrative · Lighthouse principle |
 
 ### Rule 2 · Industry facts
 

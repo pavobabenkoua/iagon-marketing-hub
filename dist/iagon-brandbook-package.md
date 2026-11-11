@@ -183,7 +183,7 @@ So they began building the infrastructure that could fix it.
 
 Since then, Iagon has become the patented architecture behind the Shared Storage and Compute Economy: a global, decentralized network where data ownership, compliance, and control belong to the people who create the data, not the platforms that store it. Our technology is protected in 15+ jurisdictions, security-reviewed and audited across key components, and lives on Cardano, a blockchain built for systems that must operate for decades.
 
-Today, our focus is enterprise: the organizations with the strictest requirements for their data. Fireblocks, which serves 2400+ institutions, connects its clients to Cardano staking and governance through the Iagon Insight API. Würth validates 3D printing IP licensing on our network. Volksbank builds user-owned data vaults on our architecture.
+Today, our focus is enterprise: the organizations with the strictest requirements for their data. Fireblocks, which serves 2400+ institutions, connects its clients to Cardano staking and governance through the Iagon Insight API. Würth validates 3D printing IP licensing on our network.
 
 Designed for Enterprise. Built for Everyone. Because the right to own your data doesn't belong to the few. It belongs to anyone who has data worth protecting.
 
@@ -248,7 +248,7 @@ Each dimension of voice is tuned to the Sage–Caregiver combination. Sage calib
 | Content we make | Content we avoid |
 |---|---|
 | **Research papers and whitepapers.** Long-form, evidence-led, technical where needed. | **Hype posts, hot-takes, reaction content.** Sage-Caregiver does not chase timelines. |
-| **Case studies with named outcomes.** How Würth validates 3D printing IP licensing. What Volksbank's data vaults achieve. | **Meme marketing, crypto-Twitter banter.** We are infrastructure, not entertainment. |
+| **Case studies with named outcomes.** How Würth validates 3D printing IP licensing. | **Meme marketing, crypto-Twitter banter.** We are infrastructure, not entertainment. |
 | **Explainers that teach.** "What self-sovereign data actually means." "Why compliance-by-design is different." | **Celebrity endorsements, influencer campaigns.** Authority comes from evidence, not fame. |
 | **Human stories behind infrastructure.** Why a patient in 2017 couldn't access their records. The people the technology protects. | **"Disruption" and "revolution" language.** Rulers disrupt. Sages explain. Caregivers protect. |
 | **Peer-reviewed architectural content.** Audit reports, protocol deep-dives, patent explanations. | **Urgency marketing, FOMO, scarcity plays.** The Sage has no need to rush; the Caregiver never manipulates. |
@@ -330,7 +330,7 @@ This is not the same as saying "we only sell to one type of customer." Iagon's p
 
 Iagon's product serves anyone with data worth protecting. But our positioning concentrates communication on regulated industries for three reasons.
 
-1. **Proof.** Our existing pilots (Volksbank, Würth, Cloud Court, Fortune 500, healthcare, Fireblocks) are concentrated there. Positioning has to reflect reality, not ambition.
+1. **Proof.** Our existing pilots (Würth, Cloud Court, Fortune 500, healthcare, Fireblocks) are concentrated there. Positioning has to reflect reality, not ambition.
 2. **Category ownership.** "Compliance-first decentralized infrastructure" is an empty position in the market. AWS owns "enterprise cloud." Filecoin owns "decentralized storage." Nobody owns the intersection, and Iagon has every asset needed to claim it.
 3. **Natural expansion.** Win the hardest customers (banks, healthcare, legal) and every other audience downstream (Web2 enterprises, individual users, Web3 builders) receives a stronger trust signal than any "for everyone" positioning could ever generate.
 
@@ -457,7 +457,7 @@ Proof here is described by type, not by name. Named deployments, figures, and da
 
 | | |
 |---|---|
-| **Proof** | Encryption keys held by the customer. Permissions granular and revocable. Consent-based access in regulated deployments. User-owned data vaults built on our architecture. Industrial IP held and distributed under the owner's rules. |
+| **Proof** | Encryption keys held by the customer. Permissions granular and revocable. Consent-based access in regulated deployments. Industrial IP held and distributed under the owner's rules. |
 | **Lead with it** | Community. Press. Retail users. Keynotes. Hiring. |
 | **Never say** | Nobody can ever see your data. Total privacy. Your data can never be lost. |
 
@@ -773,7 +773,17 @@ _To be built (open item 1)._ Each entry: name, stage (pilot, integration, produc
 
 ## External research
 
-_To be built (open item 1)._ Each entry: finding, author, year, scope, link.
+_To be completed (open item 1)._ Each entry: finding, author, year, scope, link.
+
+### Fireblocks reach
+*Cleared*
+
+| | |
+|---|---|
+| **Say** | Fireblocks, which serves 2400+ institutions, connects its clients to Cardano staking and governance through the Iagon Insight API. |
+| **Source** | Fireblocks: "trusted by 95+ banks and 2,400+ institutions" ([fireblocks.com, 1 July 2026](https://www.fireblocks.com/blog/vietnam-digital-assets-growth)). The same figure appears in Fireblocks press releases through 2026, e.g. [Western Union, 4 May 2026](https://www.prnewswire.com/news-releases/western-union-selects-fireblocks-to-power-its-first-stablecoin-usdpt-302760774.html). |
+| **Limit** | It is Fireblocks' reach, not our adoption (Rule 1). Never "2400+ institutions use Iagon". Access to Iagon through Fireblocks is for approved Fireblocks clients. Recheck the figure before each new use: Fireblocks updates it. |
+| **Serves** | Pillar 04 · Narrative · Lighthouse principle |
 
 ### Rule 2 · Industry facts
 

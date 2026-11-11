@@ -53,7 +53,7 @@ Each dimension of voice is tuned to the Sage–Caregiver combination. Sage calib
 | Content we make | Content we avoid |
 |---|---|
 | **Research papers and whitepapers.** Long-form, evidence-led, technical where needed. | **Hype posts, hot-takes, reaction content.** Sage-Caregiver does not chase timelines. |
-| **Case studies with named outcomes.** How Würth validates 3D printing IP licensing. What Volksbank's data vaults achieve. | **Meme marketing, crypto-Twitter banter.** We are infrastructure, not entertainment. |
+| **Case studies with named outcomes.** How Würth validates 3D printing IP licensing. | **Meme marketing, crypto-Twitter banter.** We are infrastructure, not entertainment. |
 | **Explainers that teach.** "What self-sovereign data actually means." "Why compliance-by-design is different." | **Celebrity endorsements, influencer campaigns.** Authority comes from evidence, not fame. |
 | **Human stories behind infrastructure.** Why a patient in 2017 couldn't access their records. The people the technology protects. | **"Disruption" and "revolution" language.** Rulers disrupt. Sages explain. Caregivers protect. |
 | **Peer-reviewed architectural content.** Audit reports, protocol deep-dives, patent explanations. | **Urgency marketing, FOMO, scarcity plays.** The Sage has no need to rush; the Caregiver never manipulates. |
