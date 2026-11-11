@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-11: structure: README and relevance check
+- Full `README.md` with onboarding (block 1.5).
+- New rule in `AGENTS.md`: a relevance check before every ingest and create. The agent reports relevance, fit, overlap, placement and proposed changes, then waits for agreement.
+
 ## 2026-11-11: structure: templates
 - Nine templates in `templates/` (block 1.4): product, audience, channel, series, post, campaign, playbook, decision, fact.
 - A post can be published on several channels. Each publication has its own date, URL and results.

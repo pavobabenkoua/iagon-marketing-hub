@@ -21,8 +21,19 @@ Always:
 
 ## 3. Operations
 
+### Relevance check: always first
+Before any ingest or create, assess the material or the request and report back **before doing the work**:
+
+1. **Relevance:** does it relate to Iagon marketing (our products, audiences, channels, positioning)?
+2. **Fit:** is it consistent with `wiki/brand/` and with the logic of the series or campaign it belongs to?
+3. **Overlap:** does it duplicate or contradict anything already in the hub? Name the pages.
+4. **Placement:** which pages it would change or create.
+5. **Proposed changes:** what should be adjusted to make it stronger or consistent: a different angle, wording that matches the glossary, a number that needs a source, a better place in the series arc.
+
+End with a verdict: **Relevant**, **Partly relevant** (say which part) or **Not relevant** (say why and suggest what to do instead). Continue only after the director agrees. For trivial additions, such as a result number for a post that's already in the hub, keep the check to one line.
+
 ### Ingest: turn raw material into knowledge
-1. Take a file from `raw/inbox/`.
+1. Take a file from `raw/inbox/` and run the relevance check.
 2. Find every page it affects. Update existing pages first. Create a new page only when no page fits.
 3. Add the source to each changed page's `sources` and update `updated`.
 4. Add new pages to `index.md`. Add one entry to `log.md` with the type `ingest`.
@@ -49,6 +60,7 @@ Record the lint in `log.md` with the type `lint`, then propose fixes as a normal
 
 ### Create: write content for Iagon
 When writing posts, threads, articles, deck copy, ads or any other content:
+- Run the relevance check on the request first. If the brief is off-brand, off-series or weaker than it could be, say so and propose the change before writing.
 - Follow `wiki/brand/`: positioning, messaging pillars, tone of voice, glossary. Brand rules are not optional.
 - Use only numbers from `wiki/data/`. If a needed number isn't there, leave a visible placeholder (`[NUMBER: what is needed]`) instead of inventing one.
 - If the content belongs to a series, read `series.md` and the previous posts first. Respect the series arc and rules.
