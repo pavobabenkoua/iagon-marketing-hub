@@ -1,0 +1,11 @@
+# One entry in wiki/data/facts.yaml.
+# Copy the block, fill it in, keep the list sorted by id.
+
+- id: fact-<slug>              # stable, never changes
+  value: 0                     # number or short text
+  unit: ""                     # e.g. TB, nodes, users, %, USD
+  description: ""              # what the number means, in one line
+  source: ""                   # raw file path, resource ID or public URL
+  as_of: YYYY-MM-DD            # date the value is true for
+  visibility: team             # public | team | private
+  status: approved             # draft | approved | deprecated
