@@ -20,6 +20,30 @@ What still needs work in the brand section. Add an item whenever a gap or an unr
 |---|---|---|---|
 | 1 | **Proof Library backlog.** Deployments and proof artifacts are missing | Message Box, objections, Narrative 05 | See [Proof Library backlog](#proof-library-backlog) below |
 
+## Gaps to world standard
+
+From the brand system review on 2026-11-12. Strategy, messaging and voice are at the level of mature B2B brands; the applied design layer is the main gap. Priority: **P1** needed in daily work, **P2** one short session each, **P3** later.
+
+**Design system: applied layer**
+
+| # | Gap | Priority | Needs |
+|---|---|---|---|
+| D1 | **Type scale and layout grid:** sizes, line heights, spacing. Today only weights are defined | P1 | Designer, or a proposal to approve |
+| D2 | **Data visualization palette and chart rules.** Art direction asks for "data visualized beautifully" without rules | P1 | Proposal based on the palette |
+| D3 | **Templates:** presentation, social sizes per channel, covers, email signature | P1 | Designer |
+| D4 | **Iconography, illustration, photography:** concrete rules beyond "lead with / avoid" | P3 | Designer |
+| D5 | **Logo files:** monochrome, accent-gradient background, favicon, co-branding lockups | P3 | Designer |
+| D6 | **Design tokens** (colors and sizes in a code format), if products need the same brand | P3 | Product team |
+
+**Brand and messaging**
+
+| # | Gap | Priority | Needs |
+|---|---|---|---|
+| B1 | **Brand architecture:** how Iagon, Insight, Storage, Compute relate; when a product gets its own look. Insight is an exception today, not a system | P2 | One session |
+| B2 | **Boilerplate:** the standard "About Iagon" paragraph for press releases | P2 | One session |
+| B3 | **Personas:** detailed portraits behind the seven audience variants | P3 | Sales and product input |
+| B4 | **Competitive map:** competitors and how we position against each | P3 | Research session |
+
 ## Proof Library backlog
 
 Work through in a separate session. Each item becomes a [Proof Library](messaging/proof-library.md) entry or is marked as not publishable.
