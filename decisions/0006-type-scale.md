@@ -22,6 +22,7 @@ The brand had one typeface (Figtree) and weights, but no sizes or line heights (
 4. **No italic.** The snapshot note in "Total Earned By Nodes" becomes Regular.
 5. **Purple text on `#EAEBF5`** (4.40:1) only at 24 px and up, or 19 px Semibold.
 6. **Body-10** only for legal notes in interfaces. Nothing below 14 px on graphics at 1200 px width.
+7. **JetBrains Mono** for code and technical strings only (addresses, IDs, hashes, commands), weight 400, Code 14 / 22 and Code-12 12 / 18. It matches docs.iagon.com. Added 2026-11-12.
 
 ## Consequences
 
