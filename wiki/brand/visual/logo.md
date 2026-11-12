@@ -26,12 +26,8 @@ Rules from Brand Guidelines v1.0 (2026), completed by [decision 0004](../../../d
 | [iagon-stacked-on-light.svg](logos/iagon-stacked-on-light.svg) | stacked, dark wordmark | 295×300 | light backgrounds, narrow and square spaces |
 | [iagon-symbol.svg](logos/iagon-symbol.svg) | symbol only, gradient | 295×148 | dApp icon, avatar, favicon, merch |
 | [iagon-wordmark-white.svg](logos/iagon-wordmark-white.svg) | wordmark only, white | 260×102 | building block for lockups, **never used alone** |
-| [iagon-horizontal-mono-black.svg](logos/iagon-horizontal-mono-black.svg) | one color `#141A21` | 605×136 | one-color print, stamps, partner sites and event walls that require one color, on light |
-| [iagon-horizontal-mono-white.svg](logos/iagon-horizontal-mono-white.svg) | one color `#FFFFFF` | 605×136 | the same, on dark or on photos |
-| [iagon-stacked-mono-black.svg](logos/iagon-stacked-mono-black.svg) | stacked, one color `#141A21` | 295×300 | merch, embroidery, engraving, on light |
-| [iagon-stacked-mono-white.svg](logos/iagon-stacked-mono-white.svg) | stacked, one color `#FFFFFF` | 295×300 | the same, on dark |
-| [iagon-symbol-mono-black.svg](logos/iagon-symbol-mono-black.svg) | symbol only, `#141A21` | 295×148 | one-color symbol, on light |
-| [iagon-symbol-mono-white.svg](logos/iagon-symbol-mono-white.svg) | symbol only, `#FFFFFF` | 295×148 | one-color symbol, on dark |
+| [iagon-horizontal-mono-black.svg](logos/iagon-horizontal-mono-black.svg) | one color `#141A21`, transparent background | 605×136 | one-color use on light backgrounds |
+| [iagon-horizontal-mono-white.svg](logos/iagon-horizontal-mono-white.svg) | one color `#FFFFFF`, transparent background | 605×136 | one-color use on dark backgrounds and photos |
 | [iagon-insight-on-dark.svg](logos/iagon-insight-on-dark.svg) | Iagon Insight sub-logo | 153×20 | Insight materials on dark |
 | [iagon-insight-on-light.svg](logos/iagon-insight-on-light.svg) | Iagon Insight sub-logo | 153×20 | Insight materials on light |
 
@@ -47,7 +43,7 @@ Not needed for marketing: favicon (a website task), logo on a purple or gradient
 
 ### Monochrome
 
-Use the color logo wherever it is allowed. Monochrome only when one color is required: one-color print, embroidery, engraving, stamps, or a partner or organizer that asks for it. Black `#141A21` on light, white on dark or on photos. For print in black only, the printer may use pure black (K100). Monochrome is never purple and never gray.
+Use the color logo wherever it is allowed. Monochrome only when one color is required: one-color print, embroidery, engraving, stamps, or a partner or organizer that asks for it. Black `#141A21` on light, white on dark or on photos. For print in black only, the printer may use pure black (K100). Monochrome is never purple and never gray. Two files only: dark and white, horizontal, transparent background. Other versions are made from the color files when a task needs them.
 
 ## Composition
 

@@ -7,7 +7,7 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 ---
 
 ## 2026-11-12: update: monochrome logos and co-branding
-- 6 monochrome SVG files (horizontal, stacked, symbol × black `#141A21` / white) generated from the approved color files.
+- Monochrome logos generated from the approved color files. Simplified at the director's request: two files, horizontal dark `#141A21` and white, transparent background.
 - `logo.md`: monochrome rules; co-branding with `×` (joint project) or `|` (side by side), lockup rules, order, clearance.
 - Open items: D5 reduced (symbol on circles left), D6 closed as not needed.
 
