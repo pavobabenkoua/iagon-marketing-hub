@@ -24,7 +24,7 @@ A 1200 px wide post is seen on a phone about 360–400 px wide, so everything sh
 This gives three rules, used by every serious brand system:
 
 1. **One rule for the scale: canvas = web × 2.** The canvas scale is the web scale doubled. The hierarchy designers already know stays the same, and every value is an even number.
-2. **A hard minimum: 24 px** on any canvas 1080–1200 px wide (about 8 px on a phone). Nothing smaller, including sources and disclaimers.
+2. **A minimum: 24 px** for any text the reader should read, on any canvas 1080–1200 px wide (about 8 px on a phone). **Fine print** (sources, disclaimers, snapshot notes) is deliberately quiet: it must be there, not noticed. It may go down to 18 px, readable when the image is zoomed.
 3. **Less text, larger.** A post carries one idea. If text does not fit at the minimum sizes, it belongs in the post copy, not on the image.
 
 ## 2. Canvas type scale
@@ -44,7 +44,8 @@ Applies to every canvas 1080–1200 px wide and to presented slides at 1920×108
 | Body | Body | 32 / 48 | 400 | 0 |
 | Small | Body-14 | 28 / 40 | 400 | 0 |
 | Eyebrow | Title-14 | 28, caps | 600 | +4% |
-| Caption, source, disclaimer | Body-12 | **24** / 32 | 400 | 0 |
+| Caption (note to a number, label) | Body-12 | **24** / 32 | 400 | 0 |
+| Fine print (source, disclaimer, snapshot note) | — | 18–20 / 24, `#62687E` | 400 | 0 |
 | Stat (secondary number) | Numbers-28 | 56 / 64 | 400 | 0 |
 
 Line heights for Lead, Body and Small are slightly tighter than web ×2 (1.4–1.45 instead of 1.6): on images, lines are short and loose leading breaks the block apart.
@@ -53,7 +54,7 @@ Line heights for Lead, Body and Small are slightly tighter than web ×2 (1.4–1
 
 ### Reading decks
 
-Decks sent as PDF to be read (not presented) may use a denser set at 1920×1080: Body 24 / 36, Small 22 / 32, Caption 20 / 28, H1 68 / 76, H2 48 / 56. Minimum 20 px. Presented decks use the canvas scale above.
+Decks sent as PDF to be read (not presented) may use a denser set at 1920×1080: Body 24 / 36, Small 22 / 32, Caption 20 / 28, H1 68 / 76, H2 48 / 56. Minimum 20 px, fine print 16 px. Presented decks use the canvas scale above.
 
 ## 3. Margins and safe zones
 
@@ -101,19 +102,19 @@ Decks sent as PDF to be read (not presented) may use a denser set at 1920×1080:
 
 ## 6. Existing formats against the canvas scale
 
-The approved formats predate this scale. Their main sizes fit it; their small text does not. Below 24 px is unreadable on a phone.
+The approved formats predate this scale. Their main sizes fit it. Text meant to be read needs 24 px; fine print needs at least 18 px.
 
 | Format | Element | Now | Canvas scale | Proposal |
 |---|---|---|---|---|
 | Industry Insights card | Eyebrow | 19.5 px Regular, caps | Eyebrow 28 Semibold, +4% | 28 px |
-| | Note to the number | 23 px | Caption 24 | 24 px |
+| | Note to the number | 23 px | Caption 24 | keep: 1 px off, not worth a change |
 | | Insight lines | 44 px | between H4 (40) and H3 (52) | keep: fixed by the card layout |
-| | Source | 19 px | Caption 24 | 24 px |
+| | Source | 19 px | Fine print 18–20 | keep |
 | | Numbers | 214 / 190 / 104 px | Display number | keep |
 | Total Earned By Nodes | Title | 35 px Semibold | H4 40 | 40 px |
 | | Amount | 107 px | Display number | keep |
-| | Snapshot note | 15 px | Caption 24 | 24 px |
-| Two-panel post | Disclaimer | "small" | Caption 24 | 24 px |
+| | Snapshot note | 15 px | Fine print 18–20 | 18 px |
+| Two-panel post | Disclaimer | "small" | Fine print 18–20 | 18 px |
 
 These changes go into the next version of each format (open item D1). Existing posts are not redone.
 
