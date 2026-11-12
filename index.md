@@ -54,7 +54,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [Products](wiki/technology/products.md): every product in the docs with status, hidden roadmap
   - [Key figures](wiki/technology/key-figures.md): every technical number with status and quote rule
   - [Terminology](wiki/technology/terminology.md): docs terms and how to use them in copy
-  - [Docs feedback](wiki/technology/docs-feedback.md): 27 fixes for the docs, with ready text
+  - [Docs feedback](wiki/technology/docs-feedback.md): 25 open fixes for the docs, with ready text
 - [Products](wiki/products/README.md): one folder per product
 - [Audiences](wiki/audiences/README.md): segments and personas
 - [Data](wiki/data/README.md): approved facts and numbers, with sources

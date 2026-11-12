@@ -2,7 +2,7 @@
 id: decision-0005
 title: docs.iagon.com as the technical source
 type: decision
-status: draft
+status: approved
 owner: Pavlo Babenko (Marketing Director)
 decided: 2026-11-12
 updated: 2026-11-12

@@ -2,7 +2,7 @@
 id: technology-docs-feedback
 title: Docs feedback
 type: technology
-status: draft
+status: approved
 owner: Pavlo Babenko
 updated: 2026-11-12
 reviewed: 2026-11-12
@@ -66,11 +66,6 @@ The brand now leads with enterprise focus. Proposed replacement:
 **F7 · P1 · Dated problem section**
 `overview/introduction.md`, Problem Definition: AWS outage of December 2021, AWS outages "between July 2008 and January 2021", "$1.2 billion" in fines with no source, a March 2017 outage estimate. Footnote markers ("USD2") have no footnotes. Proposed: remove the section, or replace it with a short link to the current brand problem statement, so the docs do not carry unsourced statistics.
 
-**F8 · P1 · "Zero cookies policy" claim**
-`overview/introduction.md`: "we decided to implement strict privacy policies, including a zero cookies policy… all form inputs will be erased when you refresh a page." Verify against the current websites and apps (dashboard, app, docs analytics). If any cookie or analytics is used, the sentence is a public misstatement. Remove unless confirmed.
-
-### Tokenomics
-
 **F9 · P1 · Team allocation in future tense**
 `blockchain/iagon-token/tokenomics.md`, Team: "This amount is ***locked until October 2025***, after which, it will be distributed over a 6-month period." The period has ended.
 → `This amount was locked until October 2025 and distributed over the following 6 months. 10,000,000 IAG from the unlocked Team allocation now funds the [Borrow Stake](/products/borrow-stake) pool.` (Docs team to confirm the distribution end date.)
@@ -125,9 +120,6 @@ Proposed replacement for the list:
 **F20 · P2 · Insight page is behind the product**
 `products/insight.md`: governance, evaluate and Blockfrost/Koios compatibility are missing, and the access wording predates the current model. Text to follow from the Insight product brief (block: Insight migration).
 
-**F21 · P1 · Partner name in public URLs**
-`products/insight.md` links to `docs.fireblocks.partners.iagon.com`, and `design-proof.md` shows `https://api.fireblocks.partners.iagon.com`. Confirm the partner has cleared public use of its name in Iagon URLs. If not, move the reference docs to a neutral host (for example `insight-docs.iagon.com`).
-
 **F22 · P3 · Products named only in Terminology**
 `overview/terminology.md` defines Transfer, HealthSafe, Fantasy Brawl and Network Explorer, which have no pages. Mark each as live, planned or retired, or remove the entries.
 
@@ -152,4 +144,7 @@ Proposed replacement for the list:
 
 ## Closed
 
-None yet.
+| Item | Closed | Resolution |
+|---|---|---|
+| F8 · "Zero cookies policy" claim in the introduction | 2026-11-12 | Confirmed true by the director. No change needed |
+| F21 · Partner name in public Insight URLs (`docs.fireblocks.partners.iagon.com`) | 2026-11-12 | Use of the name confirmed as cleared by the director. No change needed |

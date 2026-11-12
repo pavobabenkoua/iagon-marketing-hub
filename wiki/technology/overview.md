@@ -2,7 +2,7 @@
 id: technology-overview
 title: Technical overview
 type: technology
-status: draft
+status: approved
 owner: Pavlo Babenko
 updated: 2026-11-12
 reviewed: 2026-11-12

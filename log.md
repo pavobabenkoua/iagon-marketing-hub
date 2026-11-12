@@ -11,7 +11,7 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 - [0005](decisions/0005-docs-as-technical-source.md): docs own technical facts, dated snapshots, change report, feedback as ready text. Type `technology` added to 0003.
 - New: `scripts/docs-snapshot.py`, `raw/docs-snapshots/2026-05-26/`, `wiki/technology/` (9 pages).
 - Archived: FYEO staking contract audit (2023-11-18), found unlinked in the docs repository. Linked from brand open item 1.
-- 27 docs issues recorded in `wiki/technology/docs-feedback.md`.
+- 27 docs issues recorded in `wiki/technology/docs-feedback.md`. F8 (zero cookies) and F21 (partner name in URLs) confirmed by the director and closed: 25 open.
 
 ## 2026-11-12: update: gaps to world standard
 - Brand system review: 10 gaps added to `wiki/brand/open-items.md` (design D1–D6, brand B1–B4) with priorities.
