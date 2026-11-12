@@ -262,7 +262,7 @@ Which style to use for which element. Use roles in briefs and code (`H2`, `Butto
 
 The scale for fixed canvases (posts, carousels, slides) is in [Canvas sizes and canvas type scale](canvases.md).
 
-Tracked in [open item D1](../open-items.md): layout grid and spacing for web and product.
+Grid and spacing: [Grid and spacing](grid-spacing.md).
 
 ## Brandbook errata
 

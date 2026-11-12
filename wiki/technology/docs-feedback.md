@@ -53,6 +53,10 @@ Priority: **P1** wrong or risky in public, **P2** contradicts the brand or anoth
 **F4 · P2 · Brand Kit link**
 `.vitepress/sidebar.ts`, lines 113–114 and 229: Brand Kit points to `https://iagon.com/brandAssets`. Check that this page serves the current approved logo files (8 SVG, on dark and on light, Purple Shade `#7C75FF`). If not, replace the files there or point the link to the approved set.
 
+**F28 · P2 · Off-brand font on the home page**
+`.vitepress/theme/custom.css`, around lines 2081 and 2091: `.home-hero-strong` and `.home-hero-light` use `"Poppins"`, weights 600 and 300. The brand has one typeface, Figtree, in weights 400 and 600 only.
+→ `font-family: var(--vp-font-family-base);` in both rules, and `font-weight: 400;` instead of `300` in `.home-hero-light`.
+
 ### Introduction and home page
 
 **F5 · P2 · Opening framing is from 2021**
