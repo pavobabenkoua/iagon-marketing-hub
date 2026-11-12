@@ -43,6 +43,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [Logo files](wiki/brand/visual/logos/): 8 SVG files, on dark and on light
   - [Canvas sizes and canvas type scale](wiki/brand/visual/canvases.md): sizes for every platform, type scale for posts and slides, margins, safe zones, export
   - [Grid and spacing](wiki/brand/visual/grid-spacing.md): spacing scale, columns for web, event landings, social canvases, slides
+  - [Icons](wiki/brand/visual/icons.md): icon style, sizes, construction rules for new icons, SVG format, Iagon metaphors
   - [Formats](wiki/brand/visual/formats/README.md): approved graphic formats
     - [Industry Insights card](wiki/brand/visual/formats/industry-insights-card.md): 1200×700 card with one number, insight lines and grid
     - [Two-panel post](wiki/brand/visual/formats/two-panel-post.md): light / dark panels, used in the Würth series
