@@ -40,7 +40,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [Art direction](wiki/brand/visual/art-direction.md): what visuals lead with and avoid, mascot rules
   - [Colors and typography](wiki/brand/visual/colors-typography.md): palettes, contrast tables, gradients, Figtree type scale, brandbook errata
   - [Logo](wiki/brand/visual/logo.md): files, composition, clear space, Insight exception, minimum sizes, don'ts
-  - [Logo files](wiki/brand/visual/logos/): 8 SVG files, on dark and on light
+  - [Logo files](wiki/brand/visual/logos/): 14 SVG files: color on dark and on light, monochrome black and white
   - [Canvas sizes and canvas type scale](wiki/brand/visual/canvases.md): sizes for every platform, type scale for posts and slides, margins, safe zones, export
   - [Grid and spacing](wiki/brand/visual/grid-spacing.md): spacing scale, columns for web, event landings, social canvases, slides
   - [Data visualization](wiki/brand/visual/data-visualization.md): chart forms, validated palettes (emphasis, categorical, sequential, diverging), marks, labels, diagrams
