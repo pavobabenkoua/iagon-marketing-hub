@@ -21,7 +21,7 @@ What Iagon is technically, in facts marketing can use. The source is docs.iagon.
 ## Rules
 
 1. **The docs own the number.** Do not round, restate or "improve" a technical figure. Copy it from [Key figures](key-figures.md), which points to the docs page.
-2. **Status before use.** `Live` facts may be stated as current. `In development` and `Planned` facts need that wording in copy ("in development", "planned for Q1 2027"). `Legacy` facts are not used.
+2. **Status before use.** `Live` facts may be stated as current. `In development` and `Planned` facts need that wording in copy ("in development", "planned for Q1 2027"). `Legacy` facts are not used. **Exception:** the compliance claims of the brand (Message Box, Core Message, Boilerplate) are worded as in the approved Brandbook Package, by the director's decision (2026-11-12).
 3. **Network metrics are not here.** Nodes, countries, capacity and staked IAG change every epoch. They come from the Ecosystem Stats App with "figures as of [date]" ([Proof Library](../brand/messaging/proof-library.md)).
 4. **Technical is not the headline.** These facts are proof under a business message, not the message ([Vocabulary](../brand/voice/vocabulary.md): decentralization is how the promise is kept, not why anyone buys).
 5. **Found a problem in the docs?** Add it to [Docs feedback](docs-feedback.md) with replacement text. Do not wait for the fix: write the correct fact here.
