@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: canvas sizes and canvas type scale
+- New `wiki/brand/visual/canvases.md`: canvas scale = web × 2, minimum 24 px, margins 64 / 72 / 96 px, safe zones, master and platform sizes (checked November 2026), export rules, dense set for reading decks.
+- Existing formats checked against the scale. Fine print (sources, disclaimers, snapshot notes) stays quiet: 18–20 px, at the director's direction. Next versions: eyebrow 28 px, Total Earned title 40 px, snapshot note 15 → 18 px.
+- Open item D1: canvas scale done.
+
 ## 2026-11-12: update: type roles and responsive sizes
 - `colors-typography.md`: roles for headings, text, interface and numbers, with desktop / tablet / mobile styles. No new sizes. +4% tracking on caps eyebrows.
 - Open item D1: roles and mobile sizes done.

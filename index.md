@@ -41,6 +41,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [Colors and typography](wiki/brand/visual/colors-typography.md): palettes, contrast tables, gradients, Figtree type scale, brandbook errata
   - [Logo](wiki/brand/visual/logo.md): files, composition, clear space, Insight exception, minimum sizes, don'ts
   - [Logo files](wiki/brand/visual/logos/): 8 SVG files, on dark and on light
+  - [Canvas sizes and canvas type scale](wiki/brand/visual/canvases.md): sizes for every platform, type scale for posts and slides, margins, safe zones, export
   - [Formats](wiki/brand/visual/formats/README.md): approved graphic formats
     - [Industry Insights card](wiki/brand/visual/formats/industry-insights-card.md): 1200×700 card with one number, insight lines and grid
     - [Two-panel post](wiki/brand/visual/formats/two-panel-post.md): light / dark panels, used in the Würth series
