@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: type roles and responsive sizes
+- `colors-typography.md`: roles for headings, text, interface and numbers, with desktop / tablet / mobile styles. No new sizes. +4% tracking on caps eyebrows.
+- Open item D1: roles and mobile sizes done.
+
 ## 2026-11-12: decision: type scale
 - [0006](decisions/0006-type-scale.md): Figma specimen "Fonts" becomes the web and product type scale (33 styles). Weights 400 and 600 only, Bold 700 dropped. Data numbers Regular, display numbers on graphics Semibold. No italic.
 - Updated: `colors-typography.md` section 6, art direction, Total Earned format (no italic), Industry Insights note, 0004 point 6 marked superseded.

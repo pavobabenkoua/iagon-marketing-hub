@@ -175,14 +175,77 @@ Underline variants are for links.
 - **Purple text on `#EAEBF5`** (Bg-1) is 4.40:1, below 4.5:1. On that background purple text must be at least 24 px, or 19 px Semibold. On `#F6F6FB` the normal rules apply.
 - **Minimum sizes.** Body-10 only for legal notes in interfaces. Never below 14 px on graphics at 1200 px width.
 - **Line length** for running text: 60–75 characters.
-- **Tracking:** −1% only from 32 px up. Never on text sizes.
+- **Tracking:** −1% only from 32 px up. Never on text sizes. One exception: +4% on caps eyebrows (see Roles).
 - Emphasis inside text: Semibold 600, combined with a color highlight. Never weight alone.
 
 Not allowed: line height so tight that lines touch, tracking so tight that letters overlap, weights or styles outside this page.
 
+### Roles
+
+Which style to use for which element. Use roles in briefs and code (`H2`, `Button`), not raw sizes.
+
+**Headings**
+
+| Role | Desktop ≥1280 | Tablet 768–1279 | Mobile <768 | Notes |
+|---|---|---|---|---|
+| Display | Title-60 | Title-46 | Title-40 | Hero of a landing page only. At most one per page |
+| H1 | Title-46 | Title-40 | Title-32 | Page title. Exactly one per page |
+| H2 | Title-32 | Title-32 | Title-26 | Section |
+| H3 | Title-26 | Title-26 | Title-20 | Subsection, large card title |
+| H4 | Title-20 | Title-20 | Title-16 | Card title, block title |
+| H5 | Title-16 | Title-16 | Title-14 | Small group title, list heading |
+| Subtitle | Title-20-alt | Title-20-alt | Body-18 | One or two lines under H1 or Display |
+| Eyebrow | Title-14, caps, +4% tracking, `#6F47FF` | same | Title-12, caps, +4% | Short label above a title: category, series name |
+
+**Text**
+
+| Role | All sizes | Mobile | Notes |
+|---|---|---|---|
+| Lead | Body-18 | Body | First paragraph of an article or section |
+| Body | Body | Body | Running text. Never below 16 px on mobile |
+| Body emphasis | Body-strong | Body-strong | With a color highlight, see Rules |
+| Secondary | Body-14 | Body-14 | Card text, descriptions, table cells |
+| Caption | Body-12 | Body-12 | Image captions, sources, dates, timestamps |
+| Legal | Body-10 | Body-12 | Interface legal notes only |
+| Link | the underline variant of the surrounding size | same | `#6F47FF` on light, `#7C75FF` on dark |
+| Quote | Title-26, Regular 400 | Title-20-alt | Pull quotes. Weight 400 to set them apart from H3 |
+
+**Interface**
+
+| Role | Style | Notes |
+|---|---|---|
+| Button large | Title-16 | Hero and main calls to action. Min. height 48 px |
+| Button | Title-14 | Default. Min. height 44 px (touch target) |
+| Button small | Title-12 | Dense tables and toolbars, desktop only |
+| Navigation | Title-14 | Top and side navigation |
+| Tab, chip, badge | Title-12 | |
+| Form label | Title-14 | Above the field |
+| Input text | Body | 16 px, also on mobile: smaller text makes iOS zoom in |
+| Helper and error text | Body-14 | Error in the error color, never only red without text |
+| Table header | Title-14 | |
+| Table cell | Body-14 | Numbers in cells: Body-14, right-aligned |
+| Tooltip | Body-12 | |
+
+**Numbers**
+
+| Role | Desktop | Tablet | Mobile |
+|---|---|---|---|
+| KPI (main figure in a stat card) | Numbers-46 | Numbers-40 | Numbers-36 |
+| Stat (secondary figure) | Numbers-28 | Numbers-28 | Numbers-24 |
+| Inline data | Numbers-20 | Numbers-20 | Numbers-20 |
+
+### Logic behind the roles
+
+- **No new sizes.** Every role and every breakpoint uses a style from the specimen.
+- **Each level stays at least ~1.2× the next** (desktop 46 → 32 → 26 → 20 → 16, mobile 32 → 26 → 20 → 16 → 14), so hierarchy survives on small screens.
+- **Large titles shrink, text does not.** Display and H1 step down most; body sizes stay, because reading distance on a phone is shorter, not longer.
+- **One H1, no skipped levels** (H2 after H1, H3 after H2). This is also what screen readers and search engines expect.
+- **Caps need air.** Eyebrows are the one place with positive tracking (+4%). Caps text only in eyebrows, never longer than one line.
+- **Title-56 is not mapped.** It duplicates Title-60 (open item D1).
+
 ### Not defined yet
 
-Tracked in [open item D1](../open-items.md): role mapping (which style is H1, H2, button, eyebrow), mobile sizes, a scale for marketing canvases (1200×700, 1920×1080), monospace for code, layout grid and spacing.
+Tracked in [open item D1](../open-items.md): a scale for marketing canvases (1200×700, 1920×1080), monospace for code, layout grid and spacing.
 
 ## Brandbook errata
 
