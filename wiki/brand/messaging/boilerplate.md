@@ -20,7 +20,7 @@ The standard "About Iagon" text in four lengths, plus optional modules and the l
 
 1. **Copy, don't rewrite.** Each version is used word for word. A boilerplate that changes with every release stops being one.
 2. **Stable facts only.** No network metrics (nodes, countries, capacity): they change every epoch and need a date. They go in the body of the release, from the Ecosystem Stats App.
-3. **Gap first, category second** ([Three Frames](three-frames.md)). The text says what Iagon fixes before it names the category.
+3. **Identity first.** A boilerplate tells a journalist what Iagon is, so it opens with the category in the approved Mission wording ("the infrastructure layer for the Shared Storage and Compute Economy"). This is the one exception to "gap first" ([Three Frames](three-frames.md)): the gap belongs in the body of the release.
 4. **No partner names.** Würth, Fireblocks and other partners are named only in the release about them, never in the boilerplate.
 5. **Third person, no adjectives of self-praise,** no "leading", "revolutionary", "disrupting", "the only". AI and decentralization are never the headline ([Vocabulary](../voice/vocabulary.md)).
 6. **The legal entity (Iagon LTD) is for contracts,** not for the boilerplate.
@@ -28,27 +28,44 @@ The standard "About Iagon" text in four lengths, plus optional modules and the l
 
 ### Versions
 
-#### One-liner (23 words, 159 characters)
+#### Header
+
+Above the boilerplate wherever there is room for a header (media kit, About page, closing slide):
+
+> **Iagon**
+> Designed for Enterprise. Built for Everyone.
+
+In a press release the header is only `About Iagon`, bold, after the body and before the contact block.
+
+#### One-liner (23 words, 149 characters)
 
 For social bios (fits X's 160 characters), directories, conference badges, speaker bios.
 
-> Cloud infrastructure where regulatory requirements are enforced by the system, not by paperwork. The Shared Storage and Compute Economy, on Cardano since 2017.
+> The infrastructure layer for the Shared Storage and Compute Economy. Compliance built into the architecture, not added on top. On Cardano since 2017.
 
-#### Short (about 60 words)
+#### Short (about 50 words)
 
 For joint releases, where the partner's boilerplate stands next to ours, and for listings with a word limit.
 
-> Iagon builds cloud infrastructure for organizations held to strict data rules. Compliance conditions are set by the customer and enforced by the network before data is placed anywhere, not documented by paperwork after the fact. Founded in 2017 and protected by granted patents in 15+ jurisdictions, Iagon is the infrastructure behind the Shared Storage and Compute Economy. Learn more at iagon.com.
+> Iagon is the infrastructure layer for the Shared Storage and Compute Economy: a decentralized network where data sovereignty and compliance are built into the architecture, not added on top. Founded in 2017 and built on Cardano, Iagon holds granted patents in 15+ jurisdictions. Learn more at iagon.com.
 
-#### Standard (about 100 words)
+#### Standard (about 80 words)
 
 For every Iagon press release, the media kit, the About page, LinkedIn.
 
-> Iagon builds cloud infrastructure for organizations held to strict data rules. Most cloud infrastructure cannot enforce the rules its customers answer to, so companies cover the gap with process and paperwork. Iagon moves compliance into the architecture: the customer sets the conditions, and the network enforces them before data is placed anywhere. Founded in 2017 and protected by granted patents in 15+ jurisdictions, Iagon runs on Cardano and is building the Shared Storage and Compute Economy, where storage and compute come from independent providers and every commitment is recorded on-chain. Designed for Enterprise. Built for Everyone. Learn more at iagon.com.
+> Iagon is the infrastructure layer for the Shared Storage and Compute Economy: a decentralized network where data sovereignty and compliance are built into the architecture, not added on top. Compliance conditions are set by the customer and enforced by the network before data is placed anywhere.
+>
+> Founded in 2017 and built on Cardano, Iagon holds granted patents in 15+ jurisdictions. Its focus is enterprise: pilots and deployments with organizations that set the strictest requirements for their data.
 
-#### Heading
+#### What changed from the earlier version
 
-Always `About Iagon`, bold, on its own line, after the body of the release and before the media contact. Never "Iagon About" or "What is Iagon?".
+The version used in 2026 ("…validated in enterprise deployments across banking, healthcare, and manufacturing — running on a network of nodes distributed across 50+ countries") is retired. Its structure and first paragraph are kept. Three things changed:
+
+| Earlier | Now | Why |
+|---|---|---|
+| "validated in enterprise deployments across banking, healthcare, and manufacturing" | "pilots and deployments with organizations that set the strictest requirements for their data" | Healthcare is at concept stage, the banking partnership did not go ahead, and one name never becomes a sector ([Proof Library, Rule 1](proof-library.md#rule-1--enterprise-deployments)). The new wording is the approved Pillar 04 proof |
+| "network of nodes distributed across 50+ countries" | removed | A network figure needs "figures as of [date]" and goes in the body of a release, not in a text that stays unchanged for months |
+| "patent-protected in 15+ jurisdictions", long dash | "holds granted patents in 15+ jurisdictions", no dash | Canonical Proof Library phrasing; no long dashes in English copy ([Mechanics](../voice/mechanics.md)) |
 
 ### Optional modules
 
@@ -65,13 +82,19 @@ Added after the boilerplate, each only where it applies.
 After the boilerplate:
 
 ```
-Media contact
-contact@iagon.com
+Useful links
+Website: https://iagon.com/
+Try it: https://app.iagon.com/
+Learn more: https://docs.iagon.com/
+Ecosystem stats: https://stats.iagon.com/
 
-iagon.com · docs.iagon.com · x.com/IagonOfficial
+X: https://x.com/IagonOfficial
+LinkedIn: https://www.linkedin.com/company/iagon/
+
+Contact: contact@iagon.com
 ```
 
-A named spokesperson is added per release, never as a permanent part of the block.
+Colons instead of long dashes. A named spokesperson is added per release, never as a permanent part of the block.
 
 ### Where Iagon describes itself
 
@@ -79,7 +102,7 @@ Every one of these must use a version from this page. Checked 2026-11-12.
 
 | Place | Version | Current state | Action |
 |---|---|---|---|
-| Press releases (own) | Standard | 2024 text: "decentralized cloud services network… paradigm shift… disrupting the industry" | Replace from the next release |
+| Press releases (own) | Standard | 2024: "decentralized cloud services network… paradigm shift… disrupting the industry". 2026: "…banking, healthcare, and manufacturing… 50+ countries" | Replace from the next release |
 | Joint releases | Short | varies | Short version from the next release |
 | iagon.com: About page, homepage meta description | Standard / one-liner | to check | Web team |
 | docs.iagon.com meta description | One-liner | "AI-driven storage and compute solutions" | Docs feedback F3 |
