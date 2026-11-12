@@ -13,7 +13,7 @@ tags: [visual, icons, iconography, design-system]
 
 # Icons
 
-The rules for using and making icons. The library is the designer's Figma page "Icons": about 280 line icons in 25 categories, based on the Xnix pack with Iagon optimisations and custom icons. Every new icon, drawn by a designer or generated, follows the construction rules in section 3, so it cannot be told apart from the library.
+The rules for using and making icons. The library is the designer's Figma page "Icons": about 280 line icons in 25 categories, based on the Xnix pack with Iagon optimisations and custom icons. Missing icons are generated gradually by the rules below, so new work does not depend on the Xnix license. Every new icon, drawn by a designer or generated, follows the construction rules in section 3, so it cannot be told apart from the library.
 
 ## 1. Style in one line
 
@@ -136,7 +136,7 @@ Every icon is one SVG file:
 
 ## 6. Library gaps
 
-To draw by the rules above (designer task):
+To generate by the rules above, one by one as tasks need them:
 
 - Node / server unit
 - Network of nodes
@@ -147,6 +147,6 @@ To draw by the rules above (designer task):
 - Compliance document (check + shield)
 - Jurisdiction (pin over globe)
 - Audit log (list + magnifier)
-- Social: Telegram, GitHub, if we use these channels
+- Social: Telegram, GitHub (channels in use)
 
-Open questions (open item D4): the license of the Xnix base pack covers marketing use and every person working with the file; which social channels Iagon actively uses.
+Social channels in use: X, LinkedIn, Telegram, GitHub. Social icons are only for links to our own profiles.

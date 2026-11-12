@@ -31,7 +31,7 @@ From the brand system review on 2026-11-12. Strategy, messaging and voice are at
 | D1 | **Type scale and layout grid.** Type scale done ([0006](../../decisions/0006-type-scale.md)). Role mapping, tablet / mobile sizes and the [canvas scale](visual/canvases.md) done. Monospace done (JetBrains Mono). [Grid and spacing](visual/grid-spacing.md) done. Still open (in a separate chat, with the templates): next versions of the formats: eyebrow 28 px, Total Earned title 40 px, fine print at least 18 px ([canvases, section 6](visual/canvases.md#6-existing-formats-against-the-canvas-scale)). Specimen fixes for the designer: Title-56 line height 62 is looser than Title-60's 60 (keep one of the two); typo "2.25remrem" in Numbers-36; purple labels on `#EAEBF5` are 4.40:1 | P1 | Designer, or a proposal to approve |
 | D2 | **Data visualization palette and chart rules.** Done: [Data visualization](visual/data-visualization.md) | P1 | Proposal based on the palette |
 | D3 | **Templates:** presentation, social sizes per channel, covers, email signature | P1 | Designer |
-| D4 | **Iconography, illustration, photography.** Icons done ([Icons](visual/icons.md)); open: custom Iagon icons (designer), Xnix license check, which social channels we use. Illustration and photography: concrete rules beyond "lead with / avoid" | P3 | Designer |
+| D4 | **Iconography, illustration, photography.** Icons done ([Icons](visual/icons.md)). Missing icons are generated gradually by the construction rules, so the library does not depend on the Xnix license. Open: illustration and photography rules | P3 | Designer |
 | D5 | **Logo files.** Monochrome done, co-branding rules done ([Logo](visual/logo.md)). Favicon and gradient-background logo not needed for marketing. Open: symbol on solid circles | P3 | Designer |
 | D6 | **Design tokens.** Not needed: the hub is for marketing materials, and every value is already recorded as HEX and px. Product teams keep their own tokens. Closed | P3 | Product team |
 
@@ -40,7 +40,7 @@ From the brand system review on 2026-11-12. Strategy, messaging and voice are at
 | # | Gap | Priority | Needs |
 |---|---|---|---|
 | B1 | **Brand architecture:** how Iagon, Insight, Storage, Compute relate; when a product gets its own look. Insight is an exception today, not a system | P2 | One session |
-| B2 | **Boilerplate.** Done: [Boilerplate](messaging/boilerplate.md). Follow-up: update every place in its list | P2 | One session |
+| B2 | **Boilerplate.** Done: [Boilerplate](messaging/boilerplate.md). Rolling it out to every listed place is not planned for now | P2 | One session |
 | B3 | **Personas:** detailed portraits behind the seven audience variants | P3 | Sales and product input |
 | B4 | **Competitive map:** competitors and how we position against each | P3 | Research session |
 
