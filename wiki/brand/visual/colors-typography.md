@@ -245,7 +245,9 @@ Which style to use for which element. Use roles in briefs and code (`H2`, `Butto
 
 ### Not defined yet
 
-Tracked in [open item D1](../open-items.md): a scale for marketing canvases (1200×700, 1920×1080), monospace for code, layout grid and spacing.
+The scale for fixed canvases (posts, carousels, slides) is in [Canvas sizes and canvas type scale](canvases.md).
+
+Tracked in [open item D1](../open-items.md): monospace for code, layout grid and spacing for web and product.
 
 ## Brandbook errata
 
