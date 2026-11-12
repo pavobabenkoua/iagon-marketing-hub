@@ -1,0 +1,406 @@
+{
+  "date": "2026-05-26",
+  "source": "iagon-public-documentation (export)",
+  "live": "https://docs.iagon.com/",
+  "pages": {
+    "blockchain/iagon-token/tokenomics.md": {
+      "title": "Tokenomics",
+      "sha256": "d8963d1a8302013036aa6e00d655dd16dbf2c826d302bc8577c1b3792fce2afd",
+      "words": 1071,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/blockchain/iagon-token/tokenomics"
+    },
+    "blockchain/on-chain-activity.md": {
+      "title": "On-Chain Activity",
+      "sha256": "b0cd7a1056bbd8e365429201eb8ad00064f96ef4c464bb3e7b099bafe185b9e5",
+      "words": 525,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/blockchain/on-chain-activity"
+    },
+    "design-proof.md": {
+      "title": "Design Proof",
+      "sha256": "b29045267a04f513d9d45532e5dc9f40f1dce2c7bb2634b630b0aa27e6693eec",
+      "words": 1218,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/design-proof"
+    },
+    "developers/api.md": {
+      "title": "API",
+      "sha256": "e769d8fe1f192643bf8171fa6cb338875cfe6a05204b8e24777532b45940f085",
+      "words": 52,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/developers/api"
+    },
+    "developers/developers-guide/connecting-domain-name.md": {
+      "title": "Connecting a Domain Name",
+      "sha256": "2e0fc4b08127d9f4409d70b911632e2e7190070291ea4f4f46466b2af8948fc4",
+      "words": 62,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/developers/developers-guide/connecting-domain-name"
+    },
+    "developers/developers-guide/developers-guide-overview.md": {
+      "title": "Developers Guide",
+      "sha256": "3d58eef608952d97a7ced4d297c522a916f62f96eb14689a41778ebd0cf8028d",
+      "words": 54,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/developers/developers-guide/developers-guide-overview"
+    },
+    "disclaimer.md": {
+      "title": "Disclaimer",
+      "sha256": "c9f16ed054b91b2d634a79b0a12cd7f2581b4621effe360c21d67d98f625fdb1",
+      "words": 2883,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/disclaimer"
+    },
+    "equinix/setup-process.md": {
+      "title": "Equinix Setup Process",
+      "sha256": "ca532f14bd11f724cdc5ed4928f839e4170e6bd53a955200ad274f65cd34c204",
+      "words": 1063,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/equinix/setup-process"
+    },
+    "iagon-compute/compute-overview.md": {
+      "title": "Compute Overview",
+      "sha256": "0b7d88029c57637840e2ea3a8a039f87cf20fb280457317592d35d88427df333",
+      "words": 1116,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/iagon-compute/compute-overview"
+    },
+    "iagon-compute/compute-solutions/running-apps.md": {
+      "title": "Running Apps",
+      "sha256": "01e499e6a7367164180319b6eb9351d0744614e4f0314637b47b33480ee60a51",
+      "words": 726,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/iagon-compute/compute-solutions/running-apps"
+    },
+    "iagon-compute/compute-specifications.md": {
+      "title": "Compute Specifications",
+      "sha256": "6d3b03230a2659b2cbfbb856796acf2acf4232248bc3ac3adeeb57f1c2b7b269",
+      "words": 756,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/iagon-compute/compute-specifications"
+    },
+    "iagon-compute/compute-subscription.md": {
+      "title": "Compute Subscription",
+      "sha256": "c3f40d67e82f35d1a70972d2c1503511a20ba1e3c29f85da2d5df26bc3cddf0b",
+      "words": 149,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/iagon-compute/compute-subscription"
+    },
+    "iagon-storage/detailed-storage-architecture/adagio.md": {
+      "title": "Adagio",
+      "sha256": "eb5e69ee9ccbab70af67a96bb05f63f40a206d680b1b842ab2b129018891defc",
+      "words": 732,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/iagon-storage/detailed-storage-architecture/adagio"
+    },
+    "iagon-storage/detailed-storage-architecture/fermato.md": {
+      "title": "Fermato",
+      "sha256": "8a58211467a991aef6cf4af57deb79656a2fbdc1d28cc96c43281fe2b56a1a2e",
+      "words": 2182,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/iagon-storage/detailed-storage-architecture/fermato"
+    },
+    "iagon-storage/detailed-storage-architecture/secure-lake.md": {
+      "title": "Secure Lake",
+      "sha256": "d90ba262566595dbceb9cb017074641116755c351df092a555d649ce1183536c",
+      "words": 1325,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/iagon-storage/detailed-storage-architecture/secure-lake"
+    },
+    "iagon-storage/detailed-storage-architecture/sharding.md": {
+      "title": "Sharding",
+      "sha256": "dc07540566cd1b6e7ef20af4e6dbc37e8e0319ae102103d1004a7205011fc559",
+      "words": 454,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/iagon-storage/detailed-storage-architecture/sharding"
+    },
+    "iagon-storage/high-level-architecture.md": {
+      "title": "High-Level Architecture",
+      "sha256": "a728e6873847b6ee49951d74f0e8affd3b8272b2912b900ee90a78d041eb88f4",
+      "words": 740,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/iagon-storage/high-level-architecture"
+    },
+    "iagon-storage/storage-overview.md": {
+      "title": "Storage Overview",
+      "sha256": "a0710aefec9675610c8f3f76af127156b0288e407c4aadda710af9ba29f71659",
+      "words": 846,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/iagon-storage/storage-overview"
+    },
+    "iagon-storage/subscription.md": {
+      "title": "Storage Subscriptions",
+      "sha256": "58abe3d3b9415b1be74b75ed8856496b3c2d5c8d1a93940a8a8cd3a12b96e1b5",
+      "words": 298,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/iagon-storage/subscription"
+    },
+    "iagon-token/tokenomics.md": {
+      "title": "Redirecting\u2026",
+      "sha256": "7ab5299e9b768ddad58052fb013a709ea1d239e2322deafcd8cd1333bdda9d9a",
+      "words": 28,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/iagon-token/tokenomics"
+    },
+    "index.md": {
+      "title": "Iagon Documentation",
+      "sha256": "84a6dd9020df54083a74ed34720b8ea0bf9215d25b5edfad14c10373267196c6",
+      "words": 120,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/index"
+    },
+    "overview/introduction.md": {
+      "title": "Introduction",
+      "sha256": "7b4cfddadf971833a9a3edf40e23f456a4cd54068ba9bffd5699d72de7f92175",
+      "words": 1730,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/overview/introduction"
+    },
+    "overview/lspo.md": {
+      "title": "LSPO",
+      "sha256": "6efea6701d7ede5fbbf9e0aa6b95ce74863c84d4acfd3e990e9158eb8626cad6",
+      "words": 3267,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/overview/lspo"
+    },
+    "overview/on-chain-activity.md": {
+      "title": "Redirecting\u2026",
+      "sha256": "6c3834a1cbdeafc749efe8428c22901e86abd87d477cc3086b0a8d334ed0b186",
+      "words": 29,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/overview/on-chain-activity"
+    },
+    "overview/terminology.md": {
+      "title": "Terminology",
+      "sha256": "14dc543838548d4fc39d1fa16b85cde62e1ae48895b5c36ed693858b86301af4",
+      "words": 944,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/overview/terminology"
+    },
+    "page-moved.md": {
+      "title": "Page moved",
+      "sha256": "e1bce4e61e4650439ce71e33d0289cf3dc3c89863e0ea974b80b1bb3c7028667",
+      "words": 77,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/page-moved"
+    },
+    "products/borrow-stake.md": {
+      "title": "Borrow Stake",
+      "sha256": "771af87b1108cd010a0223535a66796a3153eea789d65938f02b15fb0045040a",
+      "words": 1692,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/borrow-stake"
+    },
+    "products/cyclone/cyclone-qs-faq-maintenance.md": {
+      "title": "Cyclone QS - FAQ & Maintenance",
+      "sha256": "02f0d051bd4f5909b60895afe5ce72ab1fa9d464fe665ac182f5c17eac7bab99",
+      "words": 729,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/products/cyclone/cyclone-qs-faq-maintenance"
+    },
+    "products/cyclone/cyclone-qs-with-drives.md": {
+      "title": "Cyclone QS (with drives)",
+      "sha256": "9afef0aec5c11f93db5b538d7270c2d975f77dbd4ed159e73f69e75482f5be4b",
+      "words": 789,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/products/cyclone/cyclone-qs-with-drives"
+    },
+    "products/cyclone/cyclone-qs-without-drives.md": {
+      "title": "Cyclone QS (without drives)",
+      "sha256": "20fd0e42569766871dbbe170ff3eb637a049796caa2d8bcfe30767e0c647b385",
+      "words": 1010,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/products/cyclone/cyclone-qs-without-drives"
+    },
+    "products/cyclone/cyclone-qs.md": {
+      "title": "Cyclone QS",
+      "sha256": "6be0eb2499325ab07ccbb7400c2d284af3dcedcbb657444fe2a8173fb5e16303",
+      "words": 685,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/cyclone/cyclone-qs"
+    },
+    "products/ecosystem-stats.md": {
+      "title": "Ecosystem Stats",
+      "sha256": "800bf63e3f7c16fc8b273905d169a83b9001dd9f24b3faea1a221e2c38f394ac",
+      "words": 349,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/ecosystem-stats"
+    },
+    "products/insight.md": {
+      "title": "Insight",
+      "sha256": "9c50441b77d030ca8119f7a9db466e7544b201eb94d9ad3cd845c9ac65ef5fa8",
+      "words": 378,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/insight"
+    },
+    "products/kliq.md": {
+      "title": "Kliq",
+      "sha256": "b900214e7cfb7c53c5ae105395701ef31bf892a2e533b9fa27706cba897bc8ef",
+      "words": 522,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/kliq"
+    },
+    "products/ledgerflow.md": {
+      "title": "Ledgerflow",
+      "sha256": "6c68a8a7bc5f43e9162b3bb7b059bfc1b1995849ac2c982c0e2e8cff3ff3e245",
+      "words": 1424,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/ledgerflow"
+    },
+    "products/staking-platform.md": {
+      "title": "Staking Platform",
+      "sha256": "4310ec8834d62482b5cd3de7ae3ea28adf6d8c073b9a581110cfbd37ba63e524",
+      "words": 1931,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/staking-platform"
+    },
+    "products/statur.md": {
+      "title": "Statur",
+      "sha256": "626ec24b564cf617ea105415b8d11b54d66f87cce1ba04a69dc95cd3c1da90ac",
+      "words": 1703,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/statur"
+    },
+    "products/volo.md": {
+      "title": "Volo",
+      "sha256": "2c20e30cf08e2de8c0f7fc45edea000f1526110482a883fa75dc5f6ce5a1e260",
+      "words": 1346,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/volo"
+    },
+    "products/web-hosting.md": {
+      "title": "Decentralized Web Hosting",
+      "sha256": "3ec635e35406c4d24d00ac3f3d0644164ad199f66784ce416fb4020e2a1b915d",
+      "words": 678,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/products/web-hosting"
+    },
+    "provide-resources/compute-node/compute-fees.md": {
+      "title": "Compute Fees",
+      "sha256": "9ed528916db19b37e8ac9bb285a2b1fd80af58cf6d4940257b7b22f7ac3f7318",
+      "words": 281,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/provide-resources/compute-node/compute-fees"
+    },
+    "provide-resources/compute-node/compute-metrics.md": {
+      "title": "Compute Metrics",
+      "sha256": "8686da4a32618395d04dc72787dd4d20200995175c948f5f47b4800787600924",
+      "words": 683,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/provide-resources/compute-node/compute-metrics"
+    },
+    "provide-resources/compute-node/compute-requirements.md": {
+      "title": "Compute Requirements",
+      "sha256": "b6658e48b111366a905829af9d488d628e6fb79d68cb39f758ee3383124a582a",
+      "words": 179,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/provide-resources/compute-node/compute-requirements"
+    },
+    "provide-resources/compute-node/compute-rewards.md": {
+      "title": "Compute Rewards",
+      "sha256": "ae17a20e3ceab8b099868dfeee398ea0366f0fe4abdaec7be6f3b19ad3425225",
+      "words": 638,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/provide-resources/compute-node/compute-rewards"
+    },
+    "provide-resources/compute-node-setup/compute-changelogs.md": {
+      "title": "Compute Changelogs",
+      "sha256": "23f313d0519bbe8b3bc62e3e212c9f7f539116d7decd9424fc58eb8b52924cb0",
+      "words": 145,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/provide-resources/compute-node-setup/compute-changelogs"
+    },
+    "provide-resources/compute-node-setup/compute-node-cli.md": {
+      "title": "Compute Node CLI",
+      "sha256": "ae98f7e943912240bd021bca1dd4319ed1bc9ade71d2038afde53a895e598bae",
+      "words": 810,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/provide-resources/compute-node-setup/compute-node-cli"
+    },
+    "provide-resources/compute-testnet/running-apps-testnet.md": {
+      "title": "Running Apps (Testnet)",
+      "sha256": "8647d0c5081ce75443ecc943ee68c537486e2771f1dd06358a90e85b6a109735",
+      "words": 738,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/provide-resources/compute-testnet/running-apps-testnet"
+    },
+    "provide-resources/compute-testnet/testnet-node-cli.md": {
+      "title": "Testnet Node CLI",
+      "sha256": "08a718783dff2578f82cfd6a3e13eeb2758ae4df5b243a4bf10ae9afd2e7925f",
+      "words": 1119,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/provide-resources/compute-testnet/testnet-node-cli"
+    },
+    "provide-resources/compute-testnet/testnet-updates-changelogs.md": {
+      "title": "Testnet Updates & Changelogs",
+      "sha256": "48ee5fbfce3ba9080f95be9e52e6ea638bc66aeb34c144bc719c98441f12bb11",
+      "words": 228,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/provide-resources/compute-testnet/testnet-updates-changelogs"
+    },
+    "provide-resources/storage-node-setup/faq.md": {
+      "title": "FAQ",
+      "sha256": "61cf2d6720518c17e3dcf221911c228964b4f8ed05c5f82abecf058951eb1ad1",
+      "words": 261,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/provide-resources/storage-node-setup/faq"
+    },
+    "provide-resources/storage-node-setup/maintenance-support.md": {
+      "title": "Maintenance and Support",
+      "sha256": "17756a0f8066de7cc387a974b4375568382e0697d78b34df6a456750752b1dcb",
+      "words": 525,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/provide-resources/storage-node-setup/maintenance-support"
+    },
+    "provide-resources/storage-node-setup/node-cli.md": {
+      "title": "Node CLI",
+      "sha256": "6c80b5f3476a12871e7c8983b7fe1612fb318ddf306b20887eaf49694b54f0d0",
+      "words": 1799,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/provide-resources/storage-node-setup/node-cli"
+    },
+    "provide-resources/storage-node-setup/node-gui.md": {
+      "title": "Node GUI",
+      "sha256": "50bbd5b2c8bde0e743a139af50d9e97ea551f0220deee4bef1cfcbd757c33eac",
+      "words": 737,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/provide-resources/storage-node-setup/node-gui"
+    },
+    "provide-resources/storage-nodes/fees.md": {
+      "title": "Fees",
+      "sha256": "474b1124fd7215ec6484467688286ecf79e8e540237145a2dccb35775c92d7a3",
+      "words": 255,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/provide-resources/storage-nodes/fees"
+    },
+    "provide-resources/storage-nodes/iag-staking.md": {
+      "title": "IAG Staking",
+      "sha256": "a1f147c0b7c42f9d2700c59aeaec12065ced5f4ccd772fe913ee92f3f011a97c",
+      "words": 1990,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/provide-resources/storage-nodes/iag-staking"
+    },
+    "provide-resources/storage-nodes/minimum-requirements.md": {
+      "title": "Minimum Requirements",
+      "sha256": "9ebc4b14660229ac901415aa7782bc09191aa06a4c5c92518e2922e025e02f7d",
+      "words": 338,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/provide-resources/storage-nodes/minimum-requirements"
+    },
+    "provide-resources/storage-nodes/tier-system.md": {
+      "title": "Node Tier System",
+      "sha256": "84097035493fbfeb6674552f3abac6f046da39fd669e1686fbc67ec3c4e5492c",
+      "words": 1206,
+      "in_nav": true,
+      "url": "https://docs.iagon.com/provide-resources/storage-nodes/tier-system"
+    },
+    "roadmap/roadmap.md": {
+      "title": "Roadmap",
+      "sha256": "078d83181c72d38459dde11d32a189b5c8cbeb787d8db5a2cc1745b70b642829",
+      "words": 356,
+      "in_nav": false,
+      "url": "https://docs.iagon.com/roadmap/roadmap"
+    }
+  }
+}

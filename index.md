@@ -45,6 +45,16 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
     - [Industry Insights card](wiki/brand/visual/formats/industry-insights-card.md): 1200×700 card with one number, insight lines and grid
     - [Two-panel post](wiki/brand/visual/formats/two-panel-post.md): light / dark panels, used in the Würth series
     - [Total Earned By Nodes post](wiki/brand/visual/formats/stats-earned-post.md): monthly nodes stats post
+- [Technology](wiki/technology/README.md): technical facts from docs.iagon.com, with status, snapshot 2026-05-26
+  - [Overview](wiki/technology/overview.md): components, how they connect, what is live
+  - [Storage](wiki/technology/storage.md): Secure Lake, sharding, Fermato, subscription tiers
+  - [Nodes and staking](wiki/technology/nodes-and-staking.md): requirements, 10-tier system, staking, fees, rewards, Borrow Stake, Cyclone
+  - [Compute](wiki/technology/compute.md): architecture, requirements, pricing, unclear status
+  - [Token and on-chain](wiki/technology/token-and-onchain.md): IAG, allocations, on-chain identifiers, FYEO audit, LSPO
+  - [Products](wiki/technology/products.md): every product in the docs with status, hidden roadmap
+  - [Key figures](wiki/technology/key-figures.md): every technical number with status and quote rule
+  - [Terminology](wiki/technology/terminology.md): docs terms and how to use them in copy
+  - [Docs feedback](wiki/technology/docs-feedback.md): 25 open fixes for the docs, with ready text
 - [Products](wiki/products/README.md): one folder per product
 - [Audiences](wiki/audiences/README.md): segments and personas
 - [Data](wiki/data/README.md): approved facts and numbers, with sources
@@ -58,10 +68,15 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 ## Built documents
 - [Iagon Brandbook Package](dist/iagon-brandbook-package.md): all brand parts in one file, built by `scripts/build-brandbook.py`
 
+## Scripts
+- `scripts/build-brandbook.py`: builds the Brandbook Package
+- `scripts/docs-snapshot.py`: stores a dated docs.iagon.com snapshot and reports what changed
+
 ## Governance
 - [Decisions](decisions/): decision records
   - [0001 Foundation](decisions/0001-foundation.md)
   - [0002 Chat approval and auto-merge](decisions/0002-chat-approval-and-auto-merge.md)
   - [0003 Metadata and naming standard](decisions/0003-metadata-standard.md)
   - [0004 Design system](decisions/0004-design-system.md)
+  - [0005 docs.iagon.com as the technical source](decisions/0005-docs-as-technical-source.md)
 - [Templates](templates/README.md): file templates

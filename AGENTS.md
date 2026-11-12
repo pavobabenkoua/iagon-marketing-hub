@@ -15,7 +15,7 @@ These rules apply to every AI agent working with the Iagon Marketing Hub: Claude
 3. The section the task is about.
 
 Always:
-- Take numbers only from `wiki/data/`.
+- Take numbers only from `wiki/data/`, and technical figures from `wiki/technology/key-figures.md`.
 - Check wording against `wiki/brand/` (positioning, messaging, tone of voice, glossary).
 - Check `wiki/resources.md` before saying a file doesn't exist. It may live outside GitHub.
 
@@ -39,6 +39,8 @@ End with a verdict: **Relevant**, **Partly relevant** (say which part) or **Not 
 4. Add new pages to `index.md`. Add one entry to `log.md` with the type `ingest`.
 5. Move the file to `raw/archive/`, with the date first in the name.
 6. Give the director a short summary: which pages changed, what is new, what contradicts existing content. Wait for approval.
+
+**Docs exports** (docs.iagon.com) skip `inbox/`: follow the refresh procedure in `wiki/technology/README.md`. The script writes the snapshot and the list of wiki pages to re-check ([0005](decisions/0005-docs-as-technical-source.md)).
 
 ### Query: answer from the hub
 - Answer from pages with `status: approved`. Content from `draft` pages must be labeled as draft.

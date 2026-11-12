@@ -44,7 +44,7 @@ tags: [analytics, launch]
 |---|---|---|
 | `id` | yes | Stable ID, see section 3 |
 | `title` | yes | Human-readable title |
-| `type` | yes | `brand`, `product`, `audience`, `data`, `channel`, `series`, `post`, `campaign`, `partner`, `playbook`, `decision`, `hub` |
+| `type` | yes | `brand`, `product`, `audience`, `data`, `channel`, `series`, `post`, `campaign`, `partner`, `playbook`, `decision`, `technology`, `hub` |
 | `status` | yes | `draft`: work in progress. `approved`: approved by the director. `deprecated`: outdated, kept so links still work |
 | `owner` | yes | Person responsible for the page |
 | `updated` | yes | Date of the last content change, `YYYY-MM-DD` |
@@ -55,6 +55,8 @@ tags: [analytics, launch]
 | `tags` | no | Free keywords, lowercase |
 
 Deliberately left out: `author` (git records it) and an `in-review` status (approval happens in the chat, see [0002](0002-chat-approval-and-auto-merge.md)).
+
+`technology` is the type for pages in `wiki/technology/`, added by [0005](0005-docs-as-technical-source.md).
 
 `hub` is the type for hub-level pages that are not knowledge themselves, such as `wiki/resources.md`.
 
