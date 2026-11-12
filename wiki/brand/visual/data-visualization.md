@@ -148,7 +148,7 @@ Dark mode: `#F2F2FA` and `#9097B0` instead.
 
 - **Label selectively.** The last point of a line, the highlighted bar, the extreme. Never a number on every point.
 - **Legend** for 2 or more series; none for one series (the title says what it is).
-- **Numbers:** thousands with a separator per [Mechanics](../voice/mechanics.md); compact on axes (10K, 2.4M); in tables and axis ticks use tabular figures so columns align.
+- **Numbers:** as in [Mechanics](../voice/mechanics.md). Axis ticks compact (10K, 2.4M). Display numbers on graphics follow their format page. Tables and axis ticks use tabular figures so columns align.
 - Labels never overflow or get clipped by their bar. If a label does not fit inside, it goes outside the bar end or into the tooltip.
 
 ## 6. Interactive charts (web, dashboards)
