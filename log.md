@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: open items after review
+- Boilerplate rollout to every listed place: not planned for now.
+- Icons: missing icons are generated gradually by the construction rules; the Xnix license question is closed. Social channels in use: X, LinkedIn, Telegram, GitHub.
+- Media contact confirmed: contact@iagon.com.
+
 ## 2026-11-12: update: boilerplate
 - New `wiki/brand/messaging/boilerplate.md`, built on the version already in use (header with tagline, Mission wording, links block): one-liner (149 characters), short, standard; sector claims and the 50+ countries figure removed (stage accuracy, dated metrics); token and disclaimer modules; contact block; list of 11 places where Iagon describes itself, with current state.
 - Director's decisions: Iagon LTD only for contracts; "granted patents in 15+ jurisdictions" approved everywhere; partners named only case by case; compliance claims worded as in the Brandbook Package (exception noted in `wiki/technology/README.md`).
