@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: decision: phase-2/migration not merged as is
+- The branch `phase-2/migration` stays as raw reference only. Content series (and the related campaign, channel and fact pages) are rebuilt from scratch in a separate chat.
+
 ## 2026-11-12: update: open items after review
 - Boilerplate rollout to every listed place: not planned for now.
 - Icons: missing icons are generated gradually by the construction rules; the Xnix license question is closed. Social channels in use: X, LinkedIn, Telegram, GitHub.
