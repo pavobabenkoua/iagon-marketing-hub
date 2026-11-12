@@ -28,6 +28,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
     - [Five Narratives](wiki/brand/messaging/five-narratives.md): the stories we tell for years
     - [Proof Library](wiki/brand/messaging/proof-library.md): canonical facts, clearance rules (deployments and research to be built)
     - [Objection Handling](wiki/brand/messaging/objections.md): seven objections, concede then answer
+    - [Boilerplate](wiki/brand/messaging/boilerplate.md): "About Iagon" in three lengths, modules, every place Iagon describes itself
   - **Voice**
     - [Brand Personality](wiki/brand/voice/personality.md): five traits, each visible in one sentence
     - [We are, we are not](wiki/brand/voice/we-are-we-are-not.md): where each trait turns into a slip

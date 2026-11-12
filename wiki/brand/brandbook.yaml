@@ -4,7 +4,7 @@
 # Bump `version` only after the director approves a change.
 
 title: Iagon Brandbook Package
-version: "1.1"
+version: "1.2"
 updated: 2026-11-12
 owner: Pavlo Babenko
 source: raw/archive/2026-11-12-iagon-brandbook-package.md
@@ -30,6 +30,7 @@ parts:
       - messaging/five-narratives.md
       - messaging/proof-library.md
       - messaging/objections.md
+      - messaging/boilerplate.md
 
   - title: Tone of Voice · Who is speaking
     files:
@@ -50,6 +51,11 @@ appendix:
       - visual/art-direction.md
 
 changelog:
+  - version: "1.2"
+    date: 2026-11-12
+    changes:
+      - Boilerplate added (one-liner, short, standard, modules, list of places where Iagon describes itself).
+      - Patents in 15+ jurisdictions approved for use everywhere.
   - version: "1.1"
     date: 2026-11-12
     changes:

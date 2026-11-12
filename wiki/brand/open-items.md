@@ -40,7 +40,7 @@ From the brand system review on 2026-11-12. Strategy, messaging and voice are at
 | # | Gap | Priority | Needs |
 |---|---|---|---|
 | B1 | **Brand architecture:** how Iagon, Insight, Storage, Compute relate; when a product gets its own look. Insight is an exception today, not a system | P2 | One session |
-| B2 | **Boilerplate:** the standard "About Iagon" paragraph for press releases | P2 | One session |
+| B2 | **Boilerplate.** Done: [Boilerplate](messaging/boilerplate.md). Follow-up: update every place in its list | P2 | One session |
 | B3 | **Personas:** detailed portraits behind the seven audience variants | P3 | Sales and product input |
 | B4 | **Competitive map:** competitors and how we position against each | P3 | Research session |
 
@@ -57,7 +57,7 @@ Work through in a separate session. Each item becomes a [Proof Library](messagin
 - [ ] Funding: what "national innovation funding" in Pillar 04 means. Who, when, can it be named
 
 **Proof artifacts** (what we link to: "if there is nothing to link to, there is nothing to publish")
-- [ ] Patents: register or list of jurisdictions behind "granted patents in 15+ jurisdictions"
+- [x] Patents: "granted patents in 15+ jurisdictions" approved by the director for use everywhere (2026-11-12). Individual jurisdictions still only after checking the register
 - [ ] Security audits: which components, auditor, published report or not. Found so far: staking contract, FYEO Inc., November 2023, public report ([Token and on-chain](../technology/token-and-onchain.md#security-audit))
 - [ ] On-chain economics: where "published openly" points
 - [ ] Governance decisions: where they are on record
