@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: data visualization
+- New `wiki/brand/visual/data-visualization.md`: principles, form chooser, palettes validated for color blindness in light and dark (emphasis purple + gray; categorical 6 slots purple, teal, amber, magenta, olive, brand Blu; sequential purple ramp; diverging purple ↔ amber; status reserved), marks for web and canvases, chart text, interaction, diagram rules, checklist.
+- Aligned with the approved design system before merge: 3:1 for every data mark, axis and diagram outline; brand Blu as slot 6; ordinal and diverging steps limited to ≥ 3:1; tertiary palette = status in charts.
+- Open item D2 done.
+
 ## 2026-11-12: update: icons
 - New `wiki/brand/visual/icons.md`, from the designer's "Icons" page (Xnix base + customs, ~280 icons): style, sizes for web and canvases, construction rules and SVG format for new or generated icons, metaphors for Iagon concepts, color and use rules, library gaps.
 - Open item D4: icons done; custom icons, license and social channels open.
