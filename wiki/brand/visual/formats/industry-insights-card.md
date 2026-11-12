@@ -26,7 +26,7 @@ v2.1 (2026-11-12) aligns v2 with [decision 0004](../../../../decisions/0004-desi
 | Eyebrow | gradient `#9E55FE → #6636FA` | solid `#6F47FF` | the gradient start is 3.76:1 at 19.5 px, 4.5:1 is needed. The gradient isn't in the palette |
 | Purple insight line | the same gradient | solid `#6F47FF` | gradient text isn't allowed |
 | Logo | wordmark only, `#050A30` | horizontal lockup with symbol, wordmark `#141A21` | wordmark without the symbol is forbidden; `#141A21` is the light-background color |
-| Headline numbers | Bold 700 | Semibold 600 | headline numbers are Semibold; Bold only for emphasis in text |
+| Headline numbers | Bold 700 | Semibold 600 | display numbers on graphics are Semibold; Bold 700 is not a brand weight |
 | Context line | Medium 500 (v2) | Regular 400 | Medium isn't a brand weight |
 | Background | `#F6F6FC` (v2) | `#F6F6FB` | brand Surface 1 |
 
