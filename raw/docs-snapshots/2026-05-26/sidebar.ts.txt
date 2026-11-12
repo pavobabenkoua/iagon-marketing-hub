@@ -1,0 +1,234 @@
+import type { DefaultTheme } from "vitepress";
+
+/**
+ * Paths are relative to / (docs root).
+ */
+export const sidebar: DefaultTheme.SidebarItem[] = [
+  { text: "Home", link: "/" },
+  {
+    text: "Overview",
+    items: [
+      { text: "Introduction", link: "/overview/introduction" },
+      { text: "Terminology", link: "/overview/terminology" },
+      { text: "LSPO", link: "/overview/lspo" },
+    ],
+  },
+  {
+    text: "Products",
+    items: [
+      { text: "Staking Platform", link: "/products/staking-platform" },
+      { text: "Borrow Stake", link: "/products/borrow-stake" },
+      { text: "Decentralized Web Hosting", link: "/products/web-hosting" },
+      { text: "Insight", link: "/products/insight" },
+      { text: "Ecosystem Stats", link: "/products/ecosystem-stats" },
+      { text: "Ledgerflow", link: "/products/ledgerflow" },
+      { text: "Kliq", link: "/products/kliq" },
+      { text: "Statur", link: "/products/statur" },
+      { text: "Volo", link: "/products/volo" },
+      {
+        text: "Cyclone",
+        collapsed: true,
+        items: [
+          { text: "Cyclone QS", link: "/products/cyclone/cyclone-qs" },
+        ],
+      },
+    ],
+  },
+  {
+    text: "Iagon Storage",
+    items: [
+      { text: "Storage Overview", link: "/iagon-storage/storage-overview" },
+      { text: "Storage Subscriptions", link: "/iagon-storage/subscription" },
+      {
+        text: "High Level Architecture",
+        link: "/iagon-storage/high-level-architecture",
+      },
+      {
+        text: "Detailed Architecture",
+        collapsed: true,
+        items: [
+          { text: "Adagio", link: "/iagon-storage/detailed-storage-architecture/adagio" },
+          { text: "Fermato", link: "/iagon-storage/detailed-storage-architecture/fermato" },
+          {
+            text: "Secure Lake",
+            link: "/iagon-storage/detailed-storage-architecture/secure-lake",
+          },
+          { text: "Sharding", link: "/iagon-storage/detailed-storage-architecture/sharding" },
+        ],
+      },
+    ],
+  },
+  {
+    text: "Iagon Compute",
+    items: [
+      { text: "Compute Overview", link: "/iagon-compute/compute-overview" },
+    ],
+  },
+  {
+    text: "Provide Resources",
+    items: [
+      {
+        text: "Storage Node Info",
+        collapsed: true,
+        items: [
+{ text: "Minimum Requirements", link: "/provide-resources/storage-nodes/minimum-requirements" },
+          { text: "IAG Staking", link: "/provide-resources/storage-nodes/iag-staking" },
+          { text: "Tier System", link: "/provide-resources/storage-nodes/tier-system" },
+          { text: "Fees", link: "/provide-resources/storage-nodes/fees" },
+        ],
+      },
+      {
+        text: "Storage Node Setup",
+        collapsed: true,
+        items: [
+          { text: "FAQ", link: "/provide-resources/storage-node-setup/faq" },
+          {
+            text: "Maintenance & Support",
+            link: "/provide-resources/storage-node-setup/maintenance-support",
+          },
+          { text: "Node CLI", link: "/provide-resources/storage-node-setup/node-cli" },
+          { text: "Node GUI", link: "/provide-resources/storage-node-setup/node-gui" },
+        ],
+      },
+    ],
+  },
+  {
+    text: "Blockchain",
+    items: [
+      {
+        text: "IAG Token",
+        collapsed: true,
+        items: [
+          { text: "Tokenomics", link: "/blockchain/iagon-token/tokenomics" },
+        ],
+      },
+      { text: "On-Chain Activity", link: "/blockchain/on-chain-activity" },
+    ],
+  },
+  {
+    text: "Developers",
+    items: [{ text: "API", link: "/developers/api" }],
+  },
+  {
+    text: "Brand Kit",
+    link: "https://iagon.com/brandAssets",
+    target: "_blank",
+    rel: "noopener noreferrer",
+  },
+  { text: "Disclaimer", link: "/disclaimer" },
+];
+
+export const jpSidebar: DefaultTheme.SidebarItem[] = [
+  { text: "ホーム", link: "/jp/" },
+  {
+    text: "概要",
+    items: [
+      { text: "はじめに", link: "/jp/overview/introduction" },
+      { text: "用語集", link: "/jp/overview/terminology" },
+      { text: "LSPO", link: "/jp/overview/lspo" },
+    ],
+  },
+  {
+    text: "製品",
+    items: [
+      { text: "ステーキングプラットフォーム", link: "/jp/products/staking-platform" },
+      { text: "ボローステーク", link: "/jp/products/borrow-stake" },
+      { text: "分散型ウェブホスティング", link: "/jp/products/web-hosting" },
+      { text: "Insight", link: "/jp/products/insight" },
+      { text: "エコシステム統計", link: "/jp/products/ecosystem-stats" },
+      { text: "Ledgerflow", link: "/jp/products/ledgerflow" },
+      { text: "Kliq", link: "/jp/products/kliq" },
+      { text: "Statur", link: "/jp/products/statur" },
+      { text: "Volo", link: "/jp/products/volo" },
+      {
+        text: "Cyclone",
+        collapsed: true,
+        items: [
+          { text: "Cyclone QS", link: "/jp/products/cyclone/cyclone-qs" },
+        ],
+      },
+    ],
+  },
+  {
+    text: "Iagonストレージ",
+    items: [
+      { text: "ストレージ概要", link: "/jp/iagon-storage/storage-overview" },
+      { text: "ストレージサブスクリプション", link: "/jp/iagon-storage/subscription" },
+      {
+        text: "高レベルアーキテクチャ",
+        link: "/jp/iagon-storage/high-level-architecture",
+      },
+      {
+        text: "詳細アーキテクチャ",
+        collapsed: true,
+        items: [
+          { text: "Adagio", link: "/jp/iagon-storage/detailed-storage-architecture/adagio" },
+          { text: "Fermato", link: "/jp/iagon-storage/detailed-storage-architecture/fermato" },
+          {
+            text: "セキュアレイク",
+            link: "/jp/iagon-storage/detailed-storage-architecture/secure-lake",
+          },
+          { text: "シャーディング", link: "/jp/iagon-storage/detailed-storage-architecture/sharding" },
+        ],
+      },
+    ],
+  },
+  {
+    text: "Iagonコンピュート",
+    items: [
+      { text: "コンピュート概要", link: "/jp/iagon-compute/compute-overview" },
+    ],
+  },
+  {
+    text: "リソース提供",
+    items: [
+      {
+        text: "ストレージノード情報",
+        collapsed: true,
+        items: [
+          { text: "最小要件", link: "/jp/provide-resources/storage-nodes/minimum-requirements" },
+          { text: "IAGステーキング", link: "/jp/provide-resources/storage-nodes/iag-staking" },
+          { text: "ティアシステム", link: "/jp/provide-resources/storage-nodes/tier-system" },
+          { text: "手数料", link: "/jp/provide-resources/storage-nodes/fees" },
+        ],
+      },
+      {
+        text: "ストレージノードセットアップ",
+        collapsed: true,
+        items: [
+          { text: "よくある質問", link: "/jp/provide-resources/storage-node-setup/faq" },
+          {
+            text: "メンテナンス＆サポート",
+            link: "/jp/provide-resources/storage-node-setup/maintenance-support",
+          },
+          { text: "ノードCLI", link: "/jp/provide-resources/storage-node-setup/node-cli" },
+          { text: "ノードGUI", link: "/jp/provide-resources/storage-node-setup/node-gui" },
+        ],
+      },
+    ],
+  },
+  {
+    text: "ブロックチェーン",
+    items: [
+      {
+        text: "IAGトークン",
+        collapsed: true,
+        items: [
+          { text: "トークノミクス", link: "/jp/blockchain/iagon-token/tokenomics" },
+        ],
+      },
+      { text: "オンチェーンアクティビティ", link: "/jp/blockchain/on-chain-activity" },
+    ],
+  },
+  {
+    text: "開発者",
+    items: [{ text: "API", link: "/jp/developers/api" }],
+  },
+  {
+    text: "ブランドキット",
+    link: "https://iagon.com/brandAssets",
+    target: "_blank",
+    rel: "noopener noreferrer",
+  },
+  { text: "免責事項", link: "/jp/disclaimer" },
+];

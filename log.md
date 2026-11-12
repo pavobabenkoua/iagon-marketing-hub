@@ -6,6 +6,13 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: ingest: docs.iagon.com technical base
+- Source: export of the iagon-public-documentation repository, state 2026-05-26 (uploaded 2026-11-12). 57 English pages, 33 in the navigation.
+- [0005](decisions/0005-docs-as-technical-source.md): docs own technical facts, dated snapshots, change report, feedback as ready text. Type `technology` added to 0003.
+- New: `scripts/docs-snapshot.py`, `raw/docs-snapshots/2026-05-26/`, `wiki/technology/` (9 pages).
+- Archived: FYEO staking contract audit (2023-11-18), found unlinked in the docs repository. Linked from brand open item 1.
+- 27 docs issues recorded in `wiki/technology/docs-feedback.md`.
+
 ## 2026-11-12: update: gaps to world standard
 - Brand system review: 10 gaps added to `wiki/brand/open-items.md` (design D1–D6, brand B1–B4) with priorities.
 

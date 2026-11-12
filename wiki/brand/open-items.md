@@ -58,7 +58,7 @@ Work through in a separate session. Each item becomes a [Proof Library](messagin
 
 **Proof artifacts** (what we link to: "if there is nothing to link to, there is nothing to publish")
 - [ ] Patents: register or list of jurisdictions behind "granted patents in 15+ jurisdictions"
-- [ ] Security audits: which components, auditor, published report or not
+- [ ] Security audits: which components, auditor, published report or not. Found so far: staking contract, FYEO Inc., November 2023, public report ([Token and on-chain](../technology/token-and-onchain.md#security-audit))
 - [ ] On-chain economics: where "published openly" points
 - [ ] Governance decisions: where they are on record
 - [ ] Architecture documentation: what we link to when asked "why a blockchain"
