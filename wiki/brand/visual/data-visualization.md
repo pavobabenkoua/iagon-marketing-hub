@@ -2,7 +2,7 @@
 id: brand-data-visualization
 title: Data visualization
 type: brand
-status: draft
+status: approved
 owner: Pavlo Babenko
 updated: 2026-11-12
 reviewed: 2026-11-12
@@ -13,7 +13,7 @@ tags: [visual, charts, diagrams, data-visualization, design-system]
 
 # Data visualization
 
-How Iagon shows numbers and systems: chart forms, color palettes, marks, labels, and diagrams. Art direction asks for "data visualized beautifully"; this page is how. All palettes here were checked with a colorblind-safety validator (OKLab ΔE under protanopia and deuteranopia simulation, normal-vision separation, contrast), not chosen by eye.
+How Iagon shows numbers and systems: chart forms, color palettes, marks, labels, and diagrams. Art direction asks for "data visualized beautifully"; this page is how. All values follow the approved design system (colors, contrast rule, type scale, canvas scale, icons). All palettes here were checked with a colorblind-safety validator (OKLab ΔE under protanopia and deuteranopia simulation, normal-vision separation, contrast), not chosen by eye.
 
 ## 1. Principles
 
@@ -50,13 +50,13 @@ Chart surfaces: light `#F6F6FB`, dark `#13181E`. Purple on dark always uses Purp
 | Role | Light | Dark |
 |---|---|---|
 | Focus series | `#6F47FF` | `#7C75FF` |
-| Context series | `#A9AEC0` | `#565D6E` |
+| Context series | `#868CA0` | `#656C7E` |
 
 One focus series per chart. If two things need focus, it is two charts or a categorical chart.
 
 ### Categorical (when the series are the subject)
 
-Fixed order. Slot 1 is always purple, then the next slots in order. Never skip, never reorder, never generate extra colors.
+Fixed order. Slot 1 is Purple Main, slot 6 is Blu from the [secondary palette](colors-typography.md#2-secondary-palette); slots 2–5 extend the brand palette for charts only. Slot 1 is always first, then the next slots in order. Never skip, never reorder, never generate extra colors.
 
 | Slot | Hue | Light | Dark | Label inside the fill |
 |---|---|---|---|---|
@@ -65,7 +65,7 @@ Fixed order. Slot 1 is always purple, then the next slots in order. Never skip, 
 | 3 | Amber | `#BB7400` | `#BE7C1C` | `#141A21` |
 | 4 | Magenta | `#C06099` | `#C3699E` | white |
 | 5 | Olive | `#7C9217` | `#82972F` | `#141A21` |
-| 6 | Sky | `#0091CE` | `#1997CF` | `#141A21` |
+| 6 | Blu (brand secondary) | `#5786FF` | `#5786FF` | `#141A21` |
 
 Validation results (both modes pass every check):
 
@@ -93,9 +93,10 @@ One hue: purple. Use for heatmaps, maps and any "how much" scale.
 | Hex | `#E5E5FF` | `#C9C7FF` | `#AAA4FF` | `#8C7AFF` | `#6F47FF` | `#5936C8` | `#432A99` |
 
 - Continuous scales (heatmaps, maps) may use all steps; 100 means "close to zero".
-- Ordered groups (tiers, funnel stages, age bands): light mode steps 300–700, dark mode steps 600 → 200 (light end on dark is the bright step). Both checked: one hue, even steps, the faintest step still ≥ 2:1 against the surface.
+- **Brand contrast rule (3:1 for graphics):** on light, steps 400–700 meet it; on dark, steps 500–100. Steps below that (100–300 on light, 600–700 on dark) are allowed only as the low end of continuous scales (heatmaps, maps) where every value is also readable as a label, in the tooltip or in the table.
+- Ordered groups (tiers, funnel stages, age bands): light mode steps 400–700 (up to 4 groups), dark mode steps 500 → 100 (up to 5 groups). Both checked: one hue, even steps, the faintest step ≥ 3:1 against the surface. More groups than steps: combine them (Tier 1–2, 3–4, …) or label every bar.
 
-The node tier chart (Tier 1–10) is the typical use: tiers are ordered, so they take this ramp, never the categorical colors.
+The node tier chart is the typical use: tiers are ordered, so they take this ramp (grouped, as above), never the categorical colors.
 
 ### Diverging (above / below a baseline)
 
@@ -103,14 +104,14 @@ Purple ↔ amber with a gray midpoint. Equal number of steps on each side.
 
 | | Amber arm | Midpoint | Purple arm |
 |---|---|---|---|
-| Light | `#742E00` `#A95F00` `#E5A14B` | `#DADCE6` | `#AAA4FF` `#6F47FF` `#432A99` |
-| Dark | `#E5A14B` `#CB7F00` `#8D4500` | `#2A303A` | `#5936C8` `#8C7AFF` `#C9C7FF` |
+| Light | `#742E00` `#8D4500` `#A95F00` | `#DADCE6` | `#6F47FF` `#5936C8` `#432A99` |
+| Dark | `#F0C595` `#E5A14B` `#CB7F00` | `#2A303A` | `#8C7AFF` `#AAA4FF` `#C9C7FF` |
 
-Purple is the "positive" or "Iagon" side unless the data says otherwise.
+Arms run from the midpoint outward. Every arm step meets 3:1 against its surface; the gray midpoint means "no change" and is neutral by design. Purple is the "positive" or "Iagon" side unless the data says otherwise.
 
 ### Status (reserved)
 
-Status uses the [tertiary palette](colors-typography.md#3-tertiary-palette-functional): green good, yellow warning, orange serious, red critical. Status colors never stand in for a series, and a series color never means a status. A status always comes with an icon and a word, never color alone.
+In charts the [tertiary palette](colors-typography.md#3-tertiary-palette-functional) is used for status only: green good, yellow warning, orange serious, red critical. (Outside charts it keeps its approved uses.) Status colors never stand in for a series, and a series color never means a status. A status always comes with an icon and a word, never color alone.
 
 Never in charts: gradients, the brand gradient, transparency stacks, glow.
 
@@ -124,8 +125,8 @@ Never in charts: gradients, the brand gradient, transparency stacks, glow.
 | Line | 2 px, round joins | 4 px |
 | Point marker | ≥ 8 px, with a 2 px surface-colored ring | ≥ 16 px, 4 px ring |
 | Area fill | series color at 10% | same |
-| Gridlines | 1 px solid, light `#E1E3EE`, dark `#262C35` | 2 px |
-| Baseline / axis | 1 px, light `#A9AEC0`, dark `#3A414D` | 2 px |
+| Gridlines | 1 px solid, light `#E1E3EE`, dark `#262C35`. Decorative: a value is never read from a gridline alone | 2 px |
+| Baseline / axis | 1 px, light `#868CA0`, dark `#656C7E` (≥ 3:1) | 2 px |
 
 - No borders around marks: the surface gap separates them.
 - Gridlines only horizontal for bar and line charts, as few as needed (3–5). Never dashed.
@@ -165,7 +166,7 @@ For the "architectural and system diagrams" in art direction: clean, accurate, t
 
 | Element | Rule |
 |---|---|
-| Nodes (boxes) | Rounded rectangles, radius 8 web / 16 canvas, 1.5 px outline `#A9AEC0` (dark `#3A414D`), fill the surface or Surface 2 (`#EAEBF5` / `#191E25`) |
+| Nodes (boxes) | Rounded rectangles, radius 8 web / 16 canvas, 1.5 px outline `#7E8499` (dark `#656C7E`), ≥ 3:1 on both surfaces; fill the surface or Surface 2 (`#EAEBF5` / `#191E25`) |
 | The one element the diagram is about | Purple outline 2 px, or purple fill with white text. One per diagram |
 | Connections | 1.5 px lines (3 px on canvas), `#62687E`, round caps. Arrows: small open chevrons, not filled triangles |
 | Line routing | Straight or right-angle only, no curves across the diagram, no crossings where avoidable |
