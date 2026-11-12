@@ -2,7 +2,7 @@
 id: brand-grid-spacing
 title: Grid and spacing
 type: brand
-status: draft
+status: approved
 owner: Pavlo Babenko
 updated: 2026-11-12
 reviewed: 2026-11-12
