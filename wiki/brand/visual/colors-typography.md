@@ -114,7 +114,7 @@ Working proportions: about 1/8 purple, 1/8 to 1/4 dark or grey, the rest backgro
 
 ## 6. Typography
 
-**One typeface: Figtree** ([Google Fonts](https://fonts.google.com/specimen/Figtree)). Source of the scale: the Figma type specimen "Fonts" (web and product). Decision [0006](../../../decisions/0006-type-scale.md).
+**One brand typeface: Figtree** ([Google Fonts](https://fonts.google.com/specimen/Figtree)). For code and technical strings only: JetBrains Mono (see Code below). Source of the scale: the Figma type specimen "Fonts" (web and product). Decision [0006](../../../decisions/0006-type-scale.md).
 
 ### Weights
 
@@ -123,7 +123,7 @@ Working proportions: about 1/8 purple, 1/8 to 1/4 dark or grey, the rest backgro
 | Semibold (600) | titles, display numbers on graphics, buttons, emphasis inside text |
 | Regular (400) | body text, data numbers in interfaces and tables |
 
-**Two weights only.** No Bold 700, no Medium 500, no Light 300. No italic.
+**Two weights only.** No Bold 700, no Medium 500, no Light 300. No italic. (JetBrains Mono: 400 only.)
 
 ### Web and product scale
 
@@ -179,6 +179,21 @@ Underline variants are for links.
 - Emphasis inside text: Semibold 600, combined with a color highlight. Never weight alone.
 
 Not allowed: line height so tight that lines touch, tracking so tight that letters overlap, weights or styles outside this page.
+
+### Code: JetBrains Mono
+
+A monospace font: every character has the same width. It keeps characters that look alike in Figtree apart (`0` / `O`, `1` / `l` / `I`) and tells the reader "copy this exactly". Free, [Google Fonts](https://fonts.google.com/specimen/JetBrains+Mono). Already used by docs.iagon.com (Figma style "specialHighlight").
+
+| Style | Size / line height | Weight | Use |
+|---|---|---|---|
+| Code | 14 / 22 (0.875rem / 1.375rem) | 400 | Inline code and code blocks on web and in docs |
+| Code-12 | 12 / 18 (0.75rem / 1.125rem) | 400 | Dense tables of identifiers |
+
+Inline code on light: text `#141A21`, background `#6F47FF` at 10%, radius 6 px, horizontal padding 8 px (as in the docs).
+
+**Use only for:** code, API requests and responses, CLI commands, wallet and contract addresses, policy IDs, hashes, transaction IDs, file names and paths.
+
+**Never for:** headlines, ordinary numbers, labels, or decoration to look "technical".
 
 ### Roles
 
@@ -247,7 +262,7 @@ Which style to use for which element. Use roles in briefs and code (`H2`, `Butto
 
 The scale for fixed canvases (posts, carousels, slides) is in [Canvas sizes and canvas type scale](canvases.md).
 
-Tracked in [open item D1](../open-items.md): monospace for code, layout grid and spacing for web and product.
+Tracked in [open item D1](../open-items.md): layout grid and spacing for web and product.
 
 ## Brandbook errata
 

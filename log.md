@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: monospace font
+- JetBrains Mono added for code and technical strings (Code 14 / 22, Code-12, canvas 28 / 44), as used on docs.iagon.com. Decision 0006 point 7. Open item D1: monospace done.
+
 ## 2026-11-12: update: canvas sizes and canvas type scale
 - New `wiki/brand/visual/canvases.md`: canvas scale = web × 2, minimum 24 px, margins 64 / 72 / 96 px, safe zones, master and platform sizes (checked November 2026), export rules, dense set for reading decks.
 - Existing formats checked against the scale. Fine print (sources, disclaimers, snapshot notes) stays quiet: 18–20 px, at the director's direction. Next versions: eyebrow 28 px, Total Earned title 40 px, snapshot note 15 → 18 px.

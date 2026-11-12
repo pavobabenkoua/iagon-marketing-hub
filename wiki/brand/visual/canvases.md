@@ -47,8 +47,11 @@ Applies to every canvas 1080–1200 px wide and to presented slides at 1920×108
 | Caption (note to a number, label) | Body-12 | **24** / 32 | 400 | 0 |
 | Fine print (source, disclaimer, snapshot note) | — | 18–20 / 24, `#62687E` | 400 | 0 |
 | Stat (secondary number) | Numbers-28 | 56 / 64 | 400 | 0 |
+| Code (JetBrains Mono) | Code | 28 / 44 | 400 | 0 |
 
 Line heights for Lead, Body and Small are slightly tighter than web ×2 (1.4–1.45 instead of 1.6): on images, lines are short and loose leading breaks the block apart.
+
+**Code on canvases:** at most a few lines. Long addresses and hashes are shortened in the middle on the image (`addr1qxd4…24cetc`), the full string goes in the post copy.
 
 **Per canvas, use at most three roles** (for example Eyebrow, H1, Caption). More levels than that is a document, not a post.
 
