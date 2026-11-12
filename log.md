@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: icons
+- New `wiki/brand/visual/icons.md`, from the designer's "Icons" page (Xnix base + customs, ~280 icons): style, sizes for web and canvases, construction rules and SVG format for new or generated icons, metaphors for Iagon concepts, color and use rules, library gaps.
+- Open item D4: icons done; custom icons, license and social channels open.
+
 ## 2026-11-12: update: grid and spacing
 - New `wiki/brand/visual/grid-spacing.md`: spacing scale (4–160), web grid 4 / 8 / 12 columns with 1200 container, vertical rhythm, event and promo landing structure, social canvas grids (12 × 66 on 1200, 8 × 98 on 1080), slide grid 12 × 122 with zones and layouts.
 - Docs feedback F28: Poppins on the docs home page.
