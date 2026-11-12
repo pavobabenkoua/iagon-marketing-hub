@@ -28,7 +28,7 @@ From the brand system review on 2026-11-12. Strategy, messaging and voice are at
 
 | # | Gap | Priority | Needs |
 |---|---|---|---|
-| D1 | **Type scale and layout grid.** Type scale done ([0006](../../decisions/0006-type-scale.md)). Still open: role mapping (H1, H2, button, eyebrow), mobile sizes, scale for marketing canvases (1200×700, 1920×1080), monospace for code, layout grid and spacing. Specimen fixes for the designer: Title-56 line height 62 is looser than Title-60's 60 (keep one of the two); typo "2.25remrem" in Numbers-36; purple labels on `#EAEBF5` are 4.40:1 | P1 | Designer, or a proposal to approve |
+| D1 | **Type scale and layout grid.** Type scale done ([0006](../../decisions/0006-type-scale.md)). Role mapping and tablet / mobile sizes done. Still open: scale for marketing canvases (1200×700, 1920×1080), monospace for code, layout grid and spacing. Specimen fixes for the designer: Title-56 line height 62 is looser than Title-60's 60 (keep one of the two); typo "2.25remrem" in Numbers-36; purple labels on `#EAEBF5` are 4.40:1 | P1 | Designer, or a proposal to approve |
 | D2 | **Data visualization palette and chart rules.** Art direction asks for "data visualized beautifully" without rules | P1 | Proposal based on the palette |
 | D3 | **Templates:** presentation, social sizes per channel, covers, email signature | P1 | Designer |
 | D4 | **Iconography, illustration, photography:** concrete rules beyond "lead with / avoid" | P3 | Designer |
