@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: grid and spacing
+- New `wiki/brand/visual/grid-spacing.md`: spacing scale (4–160), web grid 4 / 8 / 12 columns with 1200 container, vertical rhythm, event and promo landing structure, social canvas grids (12 × 66 on 1200, 8 × 98 on 1080), slide grid 12 × 122 with zones and layouts.
+- Docs feedback F28: Poppins on the docs home page.
+- Open item D1 closed except the format updates.
+
 ## 2026-11-12: update: monospace font
 - JetBrains Mono added for code and technical strings (Code 14 / 22, Code-12, canvas 28 / 44), as used on docs.iagon.com. Decision 0006 point 7. Open item D1: monospace done.
 

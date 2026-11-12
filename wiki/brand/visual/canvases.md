@@ -61,6 +61,8 @@ Decks sent as PDF to be read (not presented) may use a denser set at 1920×1080:
 
 ## 3. Margins and safe zones
 
+Columns and spacing inside canvases: [Grid and spacing](grid-spacing.md#4-social-canvases).
+
 | Canvas width | Outer margin | Grid |
 |---|---|---|
 | 1080 | 64 px | 8 px steps |
