@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: decision: type scale
+- [0006](decisions/0006-type-scale.md): Figma specimen "Fonts" becomes the web and product type scale (33 styles). Weights 400 and 600 only, Bold 700 dropped. Data numbers Regular, display numbers on graphics Semibold. No italic.
+- Updated: `colors-typography.md` section 6, art direction, Total Earned format (no italic), Industry Insights note, 0004 point 6 marked superseded.
+- Open item D1 half done. Specimen fixes listed for the designer. Source file not stored, at the director's request.
+
 ## 2026-11-12: ingest: docs.iagon.com technical base
 - Source: export of the iagon-public-documentation repository, state 2026-05-26 (uploaded 2026-11-12). 57 English pages, 33 in the navigation.
 - [0005](decisions/0005-docs-as-technical-source.md): docs own technical facts, dated snapshots, change report, feedback as ready text. Type `technology` added to 0003.

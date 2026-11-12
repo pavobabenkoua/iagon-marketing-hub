@@ -8,7 +8,7 @@ updated: 2026-11-12
 reviewed: 2026-11-12
 visibility: team
 sources: [res-brandbook, raw/archive/2026-11-11-claude-project-iagon-sources.md]
-related: [brand-logo, brand-format-industry-insights-card, brand-format-two-panel-post, brand-format-stats-earned-post, decision-0004]
+related: [decision-0006, brand-logo, brand-format-industry-insights-card, brand-format-two-panel-post, brand-format-stats-earned-post, decision-0004]
 tags: [visual, colors, typography, design-system]
 ---
 
@@ -114,19 +114,75 @@ Working proportions: about 1/8 purple, 1/8 to 1/4 dark or grey, the rest backgro
 
 ## 6. Typography
 
-**One typeface: Figtree** ([Google Fonts](https://fonts.google.com/specimen/Figtree)).
+**One typeface: Figtree** ([Google Fonts](https://fonts.google.com/specimen/Figtree)). Source of the scale: the Figma type specimen "Fonts" (web and product). Decision [0006](../../../decisions/0006-type-scale.md).
+
+### Weights
 
 | Weight | Use |
 |---|---|
-| Semibold (600) | titles, headline numbers, buttons |
-| Regular (400) | body text |
-| Bold (700) | emphasis inside text only |
+| Semibold (600) | titles, display numbers on graphics, buttons, emphasis inside text |
+| Regular (400) | body text, data numbers in interfaces and tables |
 
-No other weights (no Light 300, no Medium 500).
+**Two weights only.** No Bold 700, no Medium 500, no Light 300. No italic.
 
-Allowed: slightly tightened line height in titles, light negative tracking in titles, bold emphasis combined with a color highlight.
+### Web and product scale
 
-Not allowed: line height so tight that lines touch, tracking so tight that letters overlap, emphasis with bold only, without color.
+Units in rem, base 16 px. All values in px are multiples of 2.
+
+**Titles (Semibold 600)**
+
+| Style | Size | Line height | Tracking |
+|---|---|---|---|
+| Title-60 | 3.75rem (60) | 3.75rem (60) | −1% |
+| Title-56 | 3.5rem (56) | 3.875rem (62) | −1% |
+| Title-46 | 2.875rem (46) | 3.125rem (50) | −1% |
+| Title-40 | 2.5rem (40) | 2.75rem (44) | −1% |
+| Title-32 | 2rem (32) | 2.375rem (38) | −1% |
+| Title-26 | 1.625rem (26) | 1.875rem (30) | 0 |
+| Title-20 | 1.25rem (20) | 1.5rem (24) | 0 |
+| Title-20-alt | 1.25rem (20), **Regular 400** | 1.5rem (24) | 0 |
+| Title-16 | 1rem (16) | 1.25rem (20) | 0 |
+| Title-14 | 0.875rem (14) | 1.125rem (18) | 0 |
+| Title-12 | 0.75rem (12) | 1rem (16) | 0 |
+
+**Text (Regular 400)**
+
+| Style | Size | Line height | Variants |
+|---|---|---|---|
+| Body-18 | 1.125rem (18) | 1.75rem (28) | |
+| Body | 1rem (16) | 1.625rem (26) | Body-strong (600), Body-underline |
+| Body-14 | 0.875rem (14) | 1.375rem (22) | Body-14-strong (600), Body-14-underline |
+| Body-12 | 0.75rem (12) | 1rem (16) | Body-12-underline |
+| Body-10 | 0.625rem (10) | 0.875rem (14) | interface legal notes only |
+
+Underline variants are for links.
+
+**Numbers (Regular 400)**, for data in interfaces, dashboards and tables
+
+| Style | Size | Line height |
+|---|---|---|
+| Numbers-20 | 1.25rem (20) | 1.5rem (24) |
+| Numbers-24 | 1.5rem (24) | 1.75rem (28) |
+| Numbers-28 | 1.75rem (28) | 2rem (32) |
+| Numbers-36 | 2.25rem (36) | 2.25rem (36) |
+| Numbers-40 | 2.5rem (40) | 2.5rem (40) |
+| Numbers-46 | 2.875rem (46) | 2.875rem (46) |
+
+### Rules
+
+- **Numbers by role.** Data numbers up to 46 px use the Numbers styles, Regular 400. Display numbers on graphics (posts, cards, slides, larger than 46 px) are Semibold 600, as in the [formats](formats/README.md).
+- **Colors.** Titles and numbers `#141A21`, text `#62687E`, links and labels `#6F47FF` (light mode). Dark mode: section 4.
+- **Purple text on `#EAEBF5`** (Bg-1) is 4.40:1, below 4.5:1. On that background purple text must be at least 24 px, or 19 px Semibold. On `#F6F6FB` the normal rules apply.
+- **Minimum sizes.** Body-10 only for legal notes in interfaces. Never below 14 px on graphics at 1200 px width.
+- **Line length** for running text: 60–75 characters.
+- **Tracking:** −1% only from 32 px up. Never on text sizes.
+- Emphasis inside text: Semibold 600, combined with a color highlight. Never weight alone.
+
+Not allowed: line height so tight that lines touch, tracking so tight that letters overlap, weights or styles outside this page.
+
+### Not defined yet
+
+Tracked in [open item D1](../open-items.md): role mapping (which style is H1, H2, button, eyebrow), mobile sizes, a scale for marketing canvases (1200×700, 1920×1080), monospace for code, layout grid and spacing.
 
 ## Brandbook errata
 

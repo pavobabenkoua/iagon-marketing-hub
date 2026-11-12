@@ -21,7 +21,7 @@ The visual rules lived in several places: Brand Guidelines v1.0 (PDF), an extrac
 3. **Light background Surface 1 = `#F6F6FB`.** `#F6F6FC` in the Industry Insights spec is aligned to it.
 4. **Iagon Insight logo is an approved exception** to the sub-logo rule: blue → violet gradient symbol, "insight" in `#5786FF`. Applies to Insight only.
 5. **Minimum logo sizes are a standard:** horizontal 140 px / 30 mm, stacked 70 px / 18 mm, symbol 24 px / 8 mm.
-6. **Font weights: 400, 600, 700 only.** Headline numbers and titles are Semibold 600. No Medium 500.
+6. **Font weights: 400, 600, 700 only.** _(Superseded by [0006](0006-type-scale.md): 400 and 600 only.)_ Headline numbers and titles are Semibold 600. No Medium 500.
 7. **Formats follow the brand rules.** "Total Earned By Nodes" moves to Semibold 600 and a palette green; Industry Insights context line moves to Regular 400.
 8. **Format bans are format-specific.** The Industry Insights ban on spheres and globes applies to that series only; the "Total Earned By Nodes" post keeps its globe.
 9. **Logo files are in the repo**, named by background (`-on-dark`, `-on-light`), with new light-background versions of the horizontal and stacked lockups.

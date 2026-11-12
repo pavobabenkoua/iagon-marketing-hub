@@ -38,7 +38,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
     - [The voice test](wiki/brand/voice/voice-test.md): one question, three checks
   - **Visual (design system)**
   - [Art direction](wiki/brand/visual/art-direction.md): what visuals lead with and avoid, mascot rules
-  - [Colors and typography](wiki/brand/visual/colors-typography.md): palettes, contrast tables, gradients, Figtree weights, brandbook errata
+  - [Colors and typography](wiki/brand/visual/colors-typography.md): palettes, contrast tables, gradients, Figtree type scale, brandbook errata
   - [Logo](wiki/brand/visual/logo.md): files, composition, clear space, Insight exception, minimum sizes, don'ts
   - [Logo files](wiki/brand/visual/logos/): 8 SVG files, on dark and on light
   - [Formats](wiki/brand/visual/formats/README.md): approved graphic formats
@@ -79,4 +79,5 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [0003 Metadata and naming standard](decisions/0003-metadata-standard.md)
   - [0004 Design system](decisions/0004-design-system.md)
   - [0005 docs.iagon.com as the technical source](decisions/0005-docs-as-technical-source.md)
+  - [0006 Type scale](decisions/0006-type-scale.md)
 - [Templates](templates/README.md): file templates
