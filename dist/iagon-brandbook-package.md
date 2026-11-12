@@ -1215,7 +1215,7 @@ Adapted from the "Visual Implications" block of the Brandbook Package and aligne
 - **A restrained palette.** Light and dark neutrals as the base, purple as the accent that leads the eye, Blu and Violet only where a design needs to stand out. Never neon, never "Web3 gradient overload". See Colors and typography.
 - **Quality typography with clear hierarchy.** One typeface, Figtree. Hierarchy comes from weight and size: Semibold for titles and display numbers, Regular for text and data numbers. Two weights only.
 - **Generous whitespace.** Space around content signals confidence. Clutter signals anxiety.
-- **Data visualized beautifully.** Charts, patents map, node distribution. Evidence presented with care. Every chart and diagram carries a caption stating what it shows. Every number carries its source and date.
+- **Data visualized beautifully** (rules). Charts, patents map, node distribution. Evidence presented with care. Every chart and diagram carries a caption stating what it shows. Every number carries its source and date.
 
 ## Avoid
 

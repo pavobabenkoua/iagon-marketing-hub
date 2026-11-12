@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-12: update: monochrome logos and co-branding
+- 6 monochrome SVG files (horizontal, stacked, symbol × black `#141A21` / white) generated from the approved color files.
+- `logo.md`: monochrome rules; co-branding with `×` (joint project) or `|` (side by side), lockup rules, order, clearance.
+- Open items: D5 reduced (symbol on circles left), D6 closed as not needed.
+
 ## 2026-11-12: update: data visualization
 - New `wiki/brand/visual/data-visualization.md`: principles, form chooser, palettes validated for color blindness in light and dark (emphasis purple + gray; categorical 6 slots purple, teal, amber, magenta, olive, brand Blu; sequential purple ramp; diverging purple ↔ amber; status reserved), marks for web and canvases, chart text, interaction, diagram rules, checklist.
 - Aligned with the approved design system before merge: 3:1 for every data mark, axis and diagram outline; brand Blu as slot 6; ordinal and diverging steps limited to ≥ 3:1; tertiary palette = status in charts.

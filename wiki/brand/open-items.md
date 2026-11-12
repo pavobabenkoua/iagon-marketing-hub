@@ -32,8 +32,8 @@ From the brand system review on 2026-11-12. Strategy, messaging and voice are at
 | D2 | **Data visualization palette and chart rules.** Done: [Data visualization](visual/data-visualization.md) | P1 | Proposal based on the palette |
 | D3 | **Templates:** presentation, social sizes per channel, covers, email signature | P1 | Designer |
 | D4 | **Iconography, illustration, photography.** Icons done ([Icons](visual/icons.md)); open: custom Iagon icons (designer), Xnix license check, which social channels we use. Illustration and photography: concrete rules beyond "lead with / avoid" | P3 | Designer |
-| D5 | **Logo files:** monochrome, accent-gradient background, favicon, co-branding lockups | P3 | Designer |
-| D6 | **Design tokens** (colors and sizes in a code format), if products need the same brand | P3 | Product team |
+| D5 | **Logo files.** Monochrome done, co-branding rules done ([Logo](visual/logo.md)). Favicon and gradient-background logo not needed for marketing. Open: symbol on solid circles | P3 | Designer |
+| D6 | **Design tokens.** Not needed: the hub is for marketing materials, and every value is already recorded as HEX and px. Product teams keep their own tokens. Closed | P3 | Product team |
 
 **Brand and messaging**
 
