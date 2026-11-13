@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: update: Monthly Recap card 2 lead
+- Card 2 lead is now "All changes in [Month], by the kind of work it took." (director). Open item closed in the series page; the stale Weekly item removed (Weekly is its own series).
+- Card 2 keeps three purple elements: recorded on the format page as an approved exception to the attention rules.
+
 ## 2026-11-13: update: automatic layout check
 - New `scripts/layout-check.py`, a check before approval: colors outside the palette and grayscale filters in a layout's source; purple share (limit 1/8), separate purple spots (limit 2: logo + one accent), purple-tinted decoration; a squint preview at feed size. Reports only.
 - Runs before a new or changed layout goes to the director for approval, not on regular renders of an approved layout (director). `layouts/README.md` and colors-typography §5 point to it.
