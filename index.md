@@ -66,8 +66,8 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 - [Data](wiki/data/README.md): approved facts and numbers, with sources
 - [Channels](wiki/channels/README.md): rules and formats for each channel
 - [Layouts](layouts/README.md): approved graphic layouts as HTML, with render scripts
-- [Series](wiki/series/README.md): content series, their logic and posts; three types: recurring, thematic, evergreen
-  - [Development Update](wiki/series/development-update/series.md) _(draft)_: weekly record and monthly recap of shipped work
+- [Series](wiki/series/README.md): the series registry and every series; three types: recurring, thematic, evergreen
+  - [Development Update | Monthly Recap](wiki/series/development-update/series.md) _(draft)_: monthly recap of shipped work
 - [Posts](wiki/posts/README.md): posts outside any series (releases, announcements)
 - [Campaigns](wiki/campaigns/README.md): campaign briefs, tests, results, learnings
 - [Partners](wiki/partners/README.md): Catalyst, grants, partnerships
@@ -91,4 +91,5 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [0006 Type scale](decisions/0006-type-scale.md)
   - [0007 Approved layouts live as HTML](decisions/0007-approved-layouts-live-as-html.md)
   - [0008 Series types](decisions/0008-series-types.md)
+  - [0009 Series registry](decisions/0009-series-registry.md)
 - [Templates](templates/README.md): file templates

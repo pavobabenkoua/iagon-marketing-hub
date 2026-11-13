@@ -6,6 +6,18 @@ status: approved
 owner: Pavlo Babenko
 updated: 2026-11-13
 visibility: team
+series: series-development-update
+position: 1
+publications:
+  - channel: x
+    date: 2026-11-12
+    url:
+  - channel: telegram
+    date: 2026-11-12
+    url:
+  - channel: discord
+    date: 2026-11-12
+    url:
 sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv]
 related: [series-development-update, brand-format-monthly-recap-cards]
 tags: [development-update, monthly-recap]
