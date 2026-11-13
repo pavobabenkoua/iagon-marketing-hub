@@ -6,9 +6,12 @@ status: draft
 owner: Pavlo Babenko
 updated: YYYY-MM-DD
 visibility: team
+summary: <One sentence: what the series is about, for someone who has never seen it>   # decision 0009
 series_type: <recurring | thematic | evergreen>   # decision 0008
 arc: <true | false>                             # thematic only; delete for other types
-cadence: <weekly | every two weeks | monthly | …>
+narrative: <01 | 02 | 03 | 04 | 05>             # wiki/brand/messaging/five-narratives.md
+cadence: <weekly | biweekly | monthly | quarterly | irregular>
+state: <planned | active | paused | finished>   # the life of the series; `status` is the page approval
 channels: [x, linkedin]
 related: []
 tags: []

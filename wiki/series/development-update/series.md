@@ -1,21 +1,26 @@
 ---
 id: series-development-update
-title: Development Update
+title: Development Update | Monthly Recap
 type: series
 status: draft
 owner: Pavlo Babenko
 updated: 2026-11-13
 visibility: team
+summary: A monthly recap of what the development team shipped, by product area, with the totals by type of work.
+series_type: recurring
+narrative: "05"
+cadence: monthly
+state: active
 channels: [x, discord, telegram]
 sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv]
 related: [brand-format-monthly-recap-cards, decision-0007]
 tags: [development, proof, recurring]
 ---
 
-# Development Update
+# Development Update | Monthly Recap
 
 ## Idea
-A regular record of what the team shipped. Weekly for the community, monthly as a recap for a wider audience.
+A monthly recap of what the team shipped, for a wider audience. Its sibling, the Development Update Weekly, is the full record for the community; it will be a separate series with its own cadence.
 
 ## Goal
 Show that development moves, steadily and in the open. The series carries Narrative 05, The Proof File: continuous, small, dated. It is a habit, not a campaign.
