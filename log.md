@@ -6,6 +6,12 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: update: Development Update Weekly
+- [0013](decisions/0013-series-cadence.md): a new series is justified when it differs in narrative, audience or cadence.
+- New series `wiki/series/development-update-weekly/` (recurring, weekly on Mondays, Discord and Telegram, state planned): overview of the week from the dashboard's marketing statements, word for word; the week as dates; number of changes only; thanks at the end, no closing announcement.
+- New format `weekly-cover` (draft): 1200×675, the September cover rebuilt on the design system; template `layouts/weekly-cover/` with an SVG halftone sphere; `scripts/weekly-update.py` reads the dashboard copy as is.
+- Open: week 44 shows 94 changes / 15 topics in the dashboard and 46 / 8 in the October export.
+
 ## 2026-11-13: update: series lifecycle playbook
 - New `wiki/playbooks/series-lifecycle.md`: start a series, publish an issue by type, results after 7 days, quarterly review, pause or finish. Built from decisions 0007–0012.
 - Sections C (results) and D (quarterly review) are interim: the monitoring and review system is to be designed separately.

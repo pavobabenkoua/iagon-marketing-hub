@@ -5,6 +5,7 @@ Approved graphic layouts as plain HTML and CSS ([decision 0007](../decisions/000
 | Folder | Format page | Script |
 |---|---|---|
 | [monthly-recap](monthly-recap/) | [Monthly recap cards](../wiki/brand/visual/formats/monthly-recap-cards.md) | `scripts/monthly-recap.py` |
+| [weekly-cover](weekly-cover/) | [Weekly cover](../wiki/brand/visual/formats/weekly-cover.md) | `scripts/weekly-update.py` |
 
 ## Rules
 

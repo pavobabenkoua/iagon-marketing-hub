@@ -27,7 +27,7 @@ A single post that won't repeat is not a series: it goes to `wiki/posts/`.
 
 ### A. Start a series
 
-1. **Check the registry** in [`wiki/series/README.md`](../series/README.md). If a series already covers the same narrative and audience, the idea is an issue of that series. Stop here.
+1. **Check the registry** in [`wiki/series/README.md`](../series/README.md). If a series already covers the same narrative, audience and cadence, the idea is an issue of that series. Stop here ([0013](../../decisions/0013-series-cadence.md)).
 2. **Pick the type** ([0008](../../decisions/0008-series-types.md)):
    - `recurring`: a regular issue built from data, only the data changes;
    - `thematic`: one theme, every post written from scratch; `arc: true` if the order of posts matters;

@@ -1,0 +1,17 @@
+/* Development Update Weekly: cover.
+   Spec: wiki/brand/visual/formats/weekly-cover.md */
+
+@font-face { font-family: "Figtree"; font-weight: 400; src: url("assets/fonts/figtree-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-weight: 600; src: url("assets/fonts/figtree-latin-600-normal.woff2") format("woff2"); }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #f6f6fb; }
+p, h1 { margin: 0; }
+
+/* 1200×675 (16:9), margins 72 px (canvases.md). Two text roles: eyebrow and H1. */
+.cover { position: relative; width: 1200px; height: 675px; background: #f6f6fb; font-family: "Figtree", system-ui, sans-serif; overflow: hidden; }
+.sphere { position: absolute; top: 36px; right: 64px; width: 480px; height: 480px; }
+.text { position: absolute; left: 72px; bottom: 72px; }
+.logo { width: 160px; height: 36px; display: block; margin-bottom: 40px; }
+.eyebrow { margin-bottom: 16px; font-size: 28px; line-height: 36px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: #6f47ff; }
+.title { font-size: 92px; line-height: 100px; font-weight: 600; letter-spacing: -0.01em; color: #141a21; white-space: nowrap; }
