@@ -298,8 +298,6 @@ Message 2:
 From here, a recap like this goes out every month. Weekly updates, with every change as it lands, go out right here.
 
 Thank you to the community. You move this ecosystem forward.
-
-What would you like to see in the next one?
 ```
 
 ## Results

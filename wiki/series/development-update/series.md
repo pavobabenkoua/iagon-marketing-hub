@@ -64,6 +64,7 @@ Channel rules (limits, markup, audience, what is public) live on the channel pag
 - **X:** opener with both cards, one numbered tweet per area, an unnumbered close.
 - **Telegram:** one message.
 - **Discord:** two messages, split after the first half of the areas; cards on the first.
+- Telegram and Discord end with the thanks, no closing question. The question goes only in the X thread.
 
 ## Narrative arc
 The series has no arc. Each issue stands alone and is dated. Its value is the run of issues: one month is a claim, twelve months in a row are proof.
