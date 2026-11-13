@@ -64,7 +64,8 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 - [Audiences](wiki/audiences/README.md): segments and personas
 - [Data](wiki/data/README.md): approved facts and numbers, with sources
 - [Channels](wiki/channels/README.md): rules and formats for each channel
-- [Series](wiki/series/README.md): content series, their logic and posts
+- [Series](wiki/series/README.md): content series, their logic and posts; three types: recurring, thematic, evergreen
+- [Posts](wiki/posts/README.md): posts outside any series (releases, announcements)
 - [Campaigns](wiki/campaigns/README.md): campaign briefs, tests, results, learnings
 - [Partners](wiki/partners/README.md): Catalyst, grants, partnerships
   - [Pipeline](wiki/partners/pipeline.md) _(private)_: every partnership and opportunity with its real stage
@@ -85,4 +86,5 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [0004 Design system](decisions/0004-design-system.md)
   - [0005 docs.iagon.com as the technical source](decisions/0005-docs-as-technical-source.md)
   - [0006 Type scale](decisions/0006-type-scale.md)
+  - [0008 Series types](decisions/0008-series-types.md)
 - [Templates](templates/README.md): file templates

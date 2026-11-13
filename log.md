@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: decision: series types
+- [0008](decisions/0008-series-types.md): three series types (`recurring`, `thematic`, `evergreen`), `arc` flag for thematic series, cadence required for all; articles are a format, not a type; posts outside series go to `wiki/posts/`.
+- `templates/series.md`: new fields `series_type`, `arc`, `cadence`; sections by type (narrative and boundary, cadence, data source and build, issue structure, lines already used, post set and rotation, commitments).
+- `wiki/series/README.md` lists the types. New `wiki/posts/README.md`.
+
 ## 2026-11-12: decision: phase-2/migration not merged as is
 - The branch `phase-2/migration` stays as raw reference only. Content series (and the related campaign, channel and fact pages) are rebuilt from scratch in a separate chat.
 
