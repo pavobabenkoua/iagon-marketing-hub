@@ -1,5 +1,7 @@
 # Series
 
+How to start a series, publish an issue and review: [playbook](../playbooks/series-lifecycle.md).
+
 One folder per content series. Every series has a type ([decision 0008](../../decisions/0008-series-types.md)):
 
 | Type | What it is | Example |

@@ -74,6 +74,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 - [Partners](wiki/partners/README.md): Catalyst, grants, partnerships
   - [Pipeline](wiki/partners/pipeline.md) _(private)_: every partnership and opportunity with its real stage
 - [Playbooks](wiki/playbooks/README.md): how we do things
+  - [How we run a content series](wiki/playbooks/series-lifecycle.md) _(draft)_: from an idea to a closed series
 
 ## Built documents
 - [Iagon Brandbook Package](dist/iagon-brandbook-package.md): all brand parts in one file, built by `scripts/build-brandbook.py`
