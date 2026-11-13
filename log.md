@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: update: layouts rule in AGENTS.md
+- `AGENTS.md` and `wiki/brand/visual/formats/README.md` now point to `layouts/`: build from the template when a format has one; move approved layouts there (decision 0007).
+
 ## 2026-11-13: update: series lifecycle playbook
 - New `wiki/playbooks/series-lifecycle.md`: start a series, publish an issue by type, results after 7 days, quarterly review, pause or finish. Built from decisions 0007–0012.
 - Sections C (results) and D (quarterly review) are interim: the monitoring and review system is to be designed separately.
