@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: decision: approved layouts live in the repo as HTML
+- [0007](decisions/0007-approved-layouts-live-as-html.md): once approved, a layout moves from the design canvas to `layouts/<format>/` as self-contained HTML; data layouts get a render script.
+- First layout: `layouts/monthly-recap/` (cards, local Figtree, background shapes) and `scripts/monthly-recap.py` (numbers, checks, PNG at 2×, texts for X, Telegram, Discord).
+- October picks saved as `wiki/series/development-update/picks/2026-10.txt`. Chip names now follow the export's `Area` column; open item closed.
+
 ## 2026-11-13: update: Development Update series
 - New series `wiki/series/development-update/`: `series.md` (draft), first post `posts/01-october-2026-monthly-recap.md`, `learnings.md`.
 - New format `wiki/brand/visual/formats/monthly-recap-cards.md` (approved by the director 2026-11-13): two 1080×1080 cards, 112 px side safe zone for the X multi-image crop.

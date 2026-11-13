@@ -50,7 +50,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
     - [Industry Insights card](wiki/brand/visual/formats/industry-insights-card.md): 1200×700 card with one number, insight lines and grid
     - [Two-panel post](wiki/brand/visual/formats/two-panel-post.md): light / dark panels, used in the Würth series
     - [Total Earned By Nodes post](wiki/brand/visual/formats/stats-earned-post.md): monthly nodes stats post
-    - [Monthly recap cards](wiki/brand/visual/formats/monthly-recap-cards.md): two 1080×1080 cards for the Development Update monthly recap
+    - [Monthly recap cards](wiki/brand/visual/formats/monthly-recap-cards.md): two 1080×1080 cards for the Development Update monthly recap, template in `layouts/monthly-recap/`
 - [Technology](wiki/technology/README.md): technical facts from docs.iagon.com, with status, snapshot 2026-05-26
   - [Overview](wiki/technology/overview.md): components, how they connect, what is live
   - [Storage](wiki/technology/storage.md): Secure Lake, sharding, Fermato, subscription tiers
@@ -65,6 +65,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 - [Audiences](wiki/audiences/README.md): segments and personas
 - [Data](wiki/data/README.md): approved facts and numbers, with sources
 - [Channels](wiki/channels/README.md): rules and formats for each channel
+- [Layouts](layouts/README.md): approved graphic layouts as HTML, with render scripts
 - [Series](wiki/series/README.md): content series, their logic and posts
   - [Development Update](wiki/series/development-update/series.md) _(draft)_: weekly record and monthly recap of shipped work
 - [Campaigns](wiki/campaigns/README.md): campaign briefs, tests, results, learnings
@@ -87,4 +88,5 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [0004 Design system](decisions/0004-design-system.md)
   - [0005 docs.iagon.com as the technical source](decisions/0005-docs-as-technical-source.md)
   - [0006 Type scale](decisions/0006-type-scale.md)
+  - [0007 Approved layouts live as HTML](decisions/0007-approved-layouts-live-as-html.md)
 - [Templates](templates/README.md): file templates

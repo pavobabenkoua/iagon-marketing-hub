@@ -8,7 +8,7 @@ updated: 2026-11-13
 visibility: team
 channels: [x, discord, telegram]
 sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv]
-related: [brand-format-monthly-recap-cards]
+related: [brand-format-monthly-recap-cards, decision-0007]
 tags: [development, proof, recurring]
 ---
 
@@ -50,7 +50,9 @@ Discord and Telegram are public. The series gets no extra freedom there because 
 
 **Grouping.** By `Area`, in order of number of changes, largest first. Area names exactly as in the export.
 
-**Line selection.** 3–4 lines per area, copied from `Change` **character for character**. Never reword, merge, shorten or add punctuation. Prefer lines a reader can use or see (something live, a new feature) over internal ones. In security areas, take the lines that reveal least about how defence works. Before publishing, check every line against the export with an exact match.
+**Build.** `scripts/monthly-recap.py` turns the export and the picks file into the cards and all post texts. The templates below are what it writes. Don't type numbers or lines by hand.
+
+**Line selection.** 3–4 lines per area, copied from `Change` **character for character**. Never reword, merge, shorten or add punctuation. Prefer lines a reader can use or see (something live, a new feature) over internal ones. In security areas, take the lines that reveal least about how defence works. Picks go in `picks/YYYY-MM.txt`; the script refuses any line that is not in the export word for word.
 
 **X thread.** One numbered tweet per area, plus an opener and an unnumbered close. X Premium removes the 280-character limit, but the first ~280 characters of each tweet are what the feed shows.
 
@@ -77,7 +79,7 @@ Discord and Telegram are public. The series gets no extra freedom there because 
   What would you like to see in the next one?
   ```
 
-**Telegram.** One message: same opener without the thread line, all areas with `**bold**` names, the close with the Discord link. No closing question unless comments are open in the channel.
+**Telegram.** One message: title `**Development Update | [Month YYYY]**`, the intro line ending "What shipped in each one:", all areas with `**bold**` names, the close with the Discord link. No closing question unless comments are open in the channel.
 
 **Discord.** Same text with `##` title, split into two messages after the fifth area so each stays under 2,000 characters. Cards attach to the first message. The close says "go out right here" instead of the link, and keeps the question.
 
@@ -107,6 +109,5 @@ Monthly Recap: active, format approved 2026-11-13. Next issue: November 2026, fi
 Open:
 - Weekly Update: visual and text format not defined yet.
 - Card 2 lead says "Every change in [Month]", which conflicts with the no-completeness rule. Suggested: "All [Total] changes, by the kind of work each took." Decide before the November issue.
-- Chip names on card 1 mix short and full area names ("Storage Node", "Admin Dashboard" next to "Iagon Platform"). Align with the export's `Area` names.
 - "Insight API live on the Cardano preprod network" is logged under Iagon Infrastructure. Ask engineering whether preprod work should move to Insight API in the export.
 - Owner of the monthly export and of publishing.
