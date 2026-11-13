@@ -11,13 +11,13 @@ position: 1
 publications:
   - channel: x
     date: 2026-11-12
-    url:
+    url: https://x.com/IagonOfficial/status/2120992144714547452
   - channel: telegram
     date: 2026-11-12
-    url:
+    url: https://t.me/iagonofficial/1167
   - channel: discord
     date: 2026-11-12
-    url:
+    url: https://discord.com/channels/837215135999197246/846654998096117791/1570552925099524226
 sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv]
 related: [series-development-update, brand-format-monthly-recap-cards]
 tags: [development-update, monthly-recap]
