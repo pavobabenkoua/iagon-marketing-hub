@@ -8,6 +8,7 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ## 2026-11-13: update: series lifecycle playbook
 - New `wiki/playbooks/series-lifecycle.md`: start a series, publish an issue by type, results after 7 days, quarterly review, pause or finish. Built from decisions 0007–0012.
+- Sections C (results) and D (quarterly review) are interim: the monitoring and review system is to be designed separately.
 
 ## 2026-11-13: decision: post history
 - [0012](decisions/0012-post-history.md): file names by series type, evergreen posts as one file with many publications, texts kept as published per channel, no images in the repo (publication links are the record; recurring cards rebuild from git), sections by type, results after 7 days.

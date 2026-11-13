@@ -64,9 +64,13 @@ A single post that won't repeat is not a series: it goes to `wiki/posts/`.
 5. Merge.
 
 ### C. Seven days later
+_Interim. The monitoring and review system is to be designed separately; until then, follow this._
+
 Add the results to the post page, with their source. One learning per post. A learning that repeats moves to `learnings.md`, then to the rules.
 
 ### D. Quarterly review
+_Interim, as C._
+
 1. Run `python3 scripts/series-registry.py`. Every **overdue** series is paused with a reason in its Status section, or finished.
 2. Move repeated learnings into rules.
 3. Check that open commitments were closed.
