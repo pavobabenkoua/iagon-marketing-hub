@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: update: Monthly Recap close
+- `issue/x-thread.txt`: the closing question removed; every channel now ends with the thanks (director). Series rules updated.
+- The launch line "From here, a recap like this goes out every month…" removed. X points to the Weekly: "Weekly updates go out every Monday in our Discord" with https://discord.gg/4wDSHGgfzn. Thanks line unified with the Weekly.
+
 ## 2026-11-13: update: Monthly Recap card 2 lead
 - Card 2 lead is now "All changes in [Month], by the kind of work it took." (director). Open item closed in the series page; the stale Weekly item removed (Weekly is its own series).
 - Card 2 keeps three purple elements: recorded on the format page as an approved exception to the attention rules.
