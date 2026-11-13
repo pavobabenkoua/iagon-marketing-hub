@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: update: attention rules in color balance
+- `wiki/brand/visual/colors-typography.md` §5: the 1/8 proportion named as the brand's 60-30-10; new Attention rules: besides the logo symbol at most one purple element, decoration tonal in palette neutrals, no pure grey, reading order checked at feed size. Gradients only on the element that is the accent point.
+- Source: the weekly cover review with the director (purple in three places, the sphere outweighing the title); checked against Apple HIG, Material 3, IBM Carbon, Refactoring UI and NN/g.
+
 ## 2026-11-13: update: Development Update Weekly
 - [0013](decisions/0013-series-cadence.md): a new series is justified when it differs in narrative, audience or cadence.
 - New series `wiki/series/development-update-weekly/` (recurring, weekly on Mondays, Discord and Telegram, state planned): overview of the week from the dashboard's marketing statements, word for word; the week as a number (Week 44, 2026), no dates; number of changes only; thanks at the end, no closing announcement.
