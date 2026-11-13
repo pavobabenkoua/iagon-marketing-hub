@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: decision: design system first
+- [0014](decisions/0014-design-system-first.md): every layout follows the design system, then the art direction, then the format page. References are input, not a spec; conflicts are named and built to the rule; exceptions only with chat approval, written on the format page.
+- `AGENTS.md` (Create and Never) and `wiki/brand/visual/formats/README.md` updated.
+
 ## 2026-11-13: update: series lifecycle playbook
 - New `wiki/playbooks/series-lifecycle.md`: start a series, publish an issue by type, results after 7 days, quarterly review, pause or finish. Built from decisions 0007–0012.
 - Sections C (results) and D (quarterly review) are interim: the monitoring and review system is to be designed separately.
