@@ -29,5 +29,9 @@ Before starting a new series, check the table: if a series already covers the sa
 - `series.md`: idea, goal, narrative, boundary, format, cadence, rules, and the sections required for its type. Start from `templates/series.md`.
 - `posts/`: one file per post, from `templates/post.md`. Texts as published, links, results.
 - `learnings.md`: what worked, what didn't, what we change.
+- `issue/`: fixed wording of an issue, one file per channel (recurring series).
+- `inputs/`: the editorial input of each issue, one file per period.
+
+Raw data goes to `raw/archive/`, visual templates to `layouts/`, build output to `dist/` (not in git). Full map: [decision 0011](../../decisions/0011-series-files.md).
 
 The point is to keep the logic of each series, not just an archive of texts.

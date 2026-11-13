@@ -67,7 +67,7 @@ Tile order is fixed, the order of the source dashboard: Development, Security, P
 ## Monthly checklist
 
 1. Export the month from the development dashboard as CSV. Save it as `raw/archive/YYYY-MM-DD-dev-changelog-YYYY-MM.csv`.
-2. Write the picks file: `wiki/series/development-update/picks/YYYY-MM.txt`, 3–4 lines per area, copied from the export.
-3. Run `python3 scripts/monthly-recap.py --csv <export> --picks <picks>`. It fills every value, checks that the categories add up to the total and that every picked line is in the export word for word, and stops on any error.
+2. Write the inputs file: `wiki/series/development-update/inputs/YYYY-MM.txt`, 3–4 lines per area, copied from the export.
+3. Run `python3 scripts/monthly-recap.py --csv <export> --inputs <inputs>`. It fills every value, checks that the categories add up to the total and that every picked line is in the export word for word, and stops on any error.
 4. Take the output from `dist/development-update/YYYY-MM/`: two cards and the texts for X, Telegram and Discord.
 5. Load both cards into the X composer without posting. The logo and the outer tile edges must be fully visible.

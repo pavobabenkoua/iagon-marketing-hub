@@ -3,7 +3,7 @@
 
 Usage:
   python3 scripts/monthly-recap.py --csv raw/archive/2026-11-12-dev-changelog-2026-10.csv \
-      --picks wiki/series/development-update/picks/2026-10.txt
+      --inputs wiki/series/development-update/inputs/2026-10.txt
 
 Output (dist/development-update/YYYY-MM/):
   card-1.png, card-2.png   1080x1080 cards rendered at 2x (2160x2160)
@@ -15,15 +15,17 @@ Output (dist/development-update/YYYY-MM/):
 
 Rules: wiki/series/development-update/series.md
 Layout: layouts/monthly-recap/ (spec: wiki/brand/visual/formats/monthly-recap-cards.md)
+Wording: wiki/series/development-update/issue/ (x-thread.txt, telegram.txt, discord.txt).
+         The script holds no wording of its own: edit the files, not this script.
 
-The picks file is the editorial choice of 3-4 lines per area, copied from the
+The inputs file is the editorial choice of 3-4 lines per area, copied from the
 export's Change column. Format:
 
   # Iagon Storage Node
   - Self-healing Iagon Storage Nodes
   - Live node alerts in the Iagon Dashboard
 
-Without --picks the script renders the cards and numbers only.
+Without --inputs the script renders the cards and numbers only.
 Needs Playwright with Chromium: pip install playwright && playwright install chromium
 """
 import argparse
@@ -36,7 +38,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LAYOUT = ROOT / "layouts" / "monthly-recap"
-DISCORD_URL = "https://discord.gg/TCS23VWuWm"
+ISSUE = ROOT / "wiki" / "series" / "development-update" / "issue"
 DISCORD_LIMIT = 2000
 
 # Fixed tile order on card 2: the order of the source dashboard.
@@ -127,7 +129,7 @@ def render_cards(out, month_label, month_name, total, by_cat, areas):
             t.unlink(missing_ok=True)
 
 
-def read_picks(path, rows, areas):
+def read_inputs(path, rows, areas):
     changes = defaultdict(set)
     for r in rows:
         changes[r["Area"]].add(r["Change"])
@@ -138,17 +140,17 @@ def read_picks(path, rows, areas):
         if line.startswith("# "):
             current = line[2:].strip()
             if current not in changes:
-                fail(f"picks line {n}: area '{current}' is not in the export")
+                fail(f"inputs line {n}: area '{current}' is not in the export")
             picks[current] = []
         elif line.startswith("- "):
             if current is None:
-                fail(f"picks line {n}: a line before any area")
+                fail(f"inputs line {n}: a line before any area")
             text = line[2:]
             if text not in changes[current]:
-                fail(f"picks line {n}: not found word for word under '{current}': {text}")
+                fail(f"inputs line {n}: not found word for word under '{current}': {text}")
             picks[current].append(text)
         else:
-            fail(f"picks line {n}: start with '# ' for an area or '- ' for a line")
+            fail(f"inputs line {n}: start with '# ' for an area or '- ' for a line")
     missing = [a for a in areas if a not in picks]
     if missing:
         fail(f"every area must appear in the post; missing: {missing}")
@@ -158,36 +160,50 @@ def read_picks(path, rows, areas):
     return picks
 
 
-def block(area, lines, bold=False):
-    # X: area name, blank line, bullets. Telegram/Discord: bold name directly above bullets.
-    head = f"**{area}**\n" if bold else f"{area}\n\n"
-    return head + "\n".join(f"- {l}" for l in lines)
+PLACEHOLDER = re.compile(r"\[(Month YYYY|Month|Total|Areas|Tweets|n|Area)\]")
+LEFTOVER = re.compile(r"\[[A-Za-z][A-Za-z ]*\]")
+
+
+def load_issue(name):
+    path = ISSUE / name
+    parts = re.split(r"\n=====\n", path.read_text(encoding="utf-8").strip("\n"))
+    if len(parts) != 3:
+        fail(f"{path.relative_to(ROOT)}: needs three parts (opening, area block, close) separated by a line =====")
+    return [part.strip("\n") for part in parts]
+
+
+def fill_text(template, values, lines=None, where=""):
+    out = PLACEHOLDER.sub(lambda m: str(values[m.group(1)]) if m.group(1) in values else m.group(0), template)
+    unknown = [x for x in LEFTOVER.findall(out) if x != "[Lines]"]
+    if unknown:
+        fail(f"{where}: unknown placeholder(s) {unknown}")
+    if "[Lines]" in out:
+        out = out.replace("[Lines]", lines or "")
+    return out
 
 
 def build_texts(out, month_label, month_name, total, areas, picks):
     n = len(areas)
-    words = NUMBER_WORDS[n] if n < len(NUMBER_WORDS) else str(n)
-    count_tweets = n + 1
-    title = f"Development Update | {month_label}"
-    intro = f"{total} changes shipped across {words} areas."
-    close_core = "From here, a recap like this goes out every month. Weekly updates, with every change as it lands, go out"
-    thanks = "Thank you to the community. You move this ecosystem forward."
-    question = "What would you like to see in the next one?"
+    common = {"Month YYYY": month_label, "Month": month_name, "Total": total,
+              "Areas": NUMBER_WORDS[n] if n < len(NUMBER_WORDS) else n, "Tweets": n + 1}
+    bullets = {a: "\n".join(f"- {l}" for l in picks[a]) for a in areas}
 
-    tweets = [f"{title}\n\n{intro}\n\nWhat shipped in each area, in the thread below ⬇️.\n\n🧵 1/{count_tweets}"]
-    for i, a in enumerate(areas, 2):
-        tweets.append(f"{block(a, picks[a])}\n\n🧵 {i}/{count_tweets}")
-    tweets.append(f"That was {month_name}.\n\n{close_core} in our Discord:\n{DISCORD_URL}\n\n{thanks}\n\n{question}")
-    (out / "x-thread.txt").write_text("\n\n=====\n\n".join(tweets) + "\n", encoding="utf-8")
+    def render(name, numbered=False):
+        head, block, close = load_issue(name)
+        blocks = [fill_text(block, {**common, "n": i, "Area": a}, bullets[a], name)
+                  for i, a in enumerate(areas, 2 if numbered else 1)]
+        return fill_text(head, common, where=name), blocks, fill_text(close, common, where=name)
 
-    body = [block(a, picks[a], bold=True) for a in areas]
-    telegram = (f"**{title}**\n\n{intro[:-1]}. What shipped in each one:\n\n" + "\n\n".join(body) +
-                f"\n\n{close_core} in our Discord:\n{DISCORD_URL}\n\n{thanks}\n")
-    (out / "telegram.txt").write_text(telegram, encoding="utf-8")
+    head, blocks, close = render("x-thread.txt", numbered=True)
+    (out / "x-thread.txt").write_text("\n\n=====\n\n".join([head, *blocks, close]) + "\n", encoding="utf-8")
 
-    split = (len(body) + 1) // 2  # 9 areas -> 5 + 4
-    d1 = f"## {title}\n\n{intro[:-1]}. What shipped in each one:\n\n" + "\n\n".join(body[:split]) + "\n"
-    d2 = "\n\n".join(body[split:]) + f"\n\n{close_core} right here.\n\n{thanks}\n\n{question}\n"
+    head, blocks, close = render("telegram.txt")
+    (out / "telegram.txt").write_text("\n\n".join([head, *blocks, close]) + "\n", encoding="utf-8")
+
+    head, blocks, close = render("discord.txt")
+    split = (len(blocks) + 1) // 2  # 9 areas -> 5 + 4
+    d1 = "\n\n".join([head, *blocks[:split]]) + "\n"
+    d2 = "\n\n".join([*blocks[split:], close]) + "\n"
     for name, text in (("discord-1.txt", d1), ("discord-2.txt", d2)):
         if len(text) > DISCORD_LIMIT:
             fail(f"{name} is {len(text)} characters, over the Discord limit of {DISCORD_LIMIT}")
@@ -197,7 +213,7 @@ def build_texts(out, month_label, month_name, total, areas, picks):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--csv", required=True, help="monthly dashboard export")
-    ap.add_argument("--picks", help="chosen lines per area")
+    ap.add_argument("--inputs", help="chosen lines per area (wiki/series/<series>/inputs/YYYY-MM.txt)")
     ap.add_argument("--out", help="output folder (default dist/development-update/YYYY-MM)")
     args = ap.parse_args()
 
@@ -215,8 +231,8 @@ def main():
     (out / "numbers.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     render_cards(out, month_label, month_name, total, by_cat, areas)
-    if args.picks:
-        build_texts(out, month_label, month_name, total, areas, read_picks(args.picks, rows, areas))
+    if args.inputs:
+        build_texts(out, month_label, month_name, total, areas, read_inputs(args.inputs, rows, areas))
     print(f"Done: {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}")
     print(f"  {total} changes, {len(topics)} topics, {len(areas)} areas")
 

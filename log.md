@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: decision: where series files live
+- [0011](decisions/0011-series-files.md): visual templates in `layouts/`, issue wording in `wiki/series/<series>/issue/`, raw data in `raw/archive/`, editorial input in `inputs/`, build output in `dist/` (not in git), drafts outside the hub.
+- Development Update: wording moved out of `scripts/monthly-recap.py` into `issue/x-thread.txt`, `telegram.txt`, `discord.txt`; `picks/` renamed `inputs/`; option `--inputs`. Output byte-identical to before.
+
 ## 2026-11-13: decision: series rules
 - [0010](decisions/0010-series-rules.md): a series keeps only its own rules and links to brand, formats, channels, data and partners; every rule carries its reason; light Approval section; how rules change.
 - New draft channel pages `wiki/channels/x.md`, `discord.md`, `telegram.md` with the channel rules taken out of Development Update. `templates/channel.md` gets Communication approach and Formats and limits.

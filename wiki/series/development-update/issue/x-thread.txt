@@ -1,0 +1,22 @@
+Development Update | [Month YYYY]
+
+[Total] changes shipped across [Areas] areas.
+
+What shipped in each area, in the thread below ⬇️.
+
+🧵 1/[Tweets]
+=====
+[Area]
+
+[Lines]
+
+🧵 [n]/[Tweets]
+=====
+That was [Month].
+
+From here, a recap like this goes out every month. Weekly updates, with every change as it lands, go out in our Discord:
+https://discord.gg/TCS23VWuWm
+
+Thank you to the community. You move this ecosystem forward.
+
+What would you like to see in the next one?

@@ -13,7 +13,7 @@ cadence: monthly
 state: active
 channels: [x, discord, telegram]
 sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv]
-related: [brand-format-monthly-recap-cards, decision-0007, decision-0010, channel-x, channel-discord, channel-telegram]
+related: [brand-format-monthly-recap-cards, decision-0007, decision-0010, decision-0011, channel-x, channel-discord, channel-telegram]
 tags: [development, proof, recurring]
 ---
 
@@ -55,38 +55,15 @@ Channel rules (limits, markup, audience, what is public) live on the channel pag
 
 **Grouping.** By `Area`, in order of number of changes, largest first. Area names exactly as in the export.
 
-**Build.** `scripts/monthly-recap.py` turns the export and the picks file into the cards and all post texts. The templates below are what it writes. Don't type numbers or lines by hand.
+**Build.** `scripts/monthly-recap.py` turns the export and the inputs file into the cards and all post texts. Don't type numbers or lines by hand.
 
-**Line selection.** 3–4 lines per area, copied from `Change` **character for character**. Never reword, merge, shorten or add punctuation. Prefer lines a reader can use or see (something live, a new feature) over internal ones. In security areas, take the lines that reveal least about how defence works. Picks go in `picks/YYYY-MM.txt`; the script refuses any line that is not in the export word for word.
+**Line selection.** 3–4 lines per area, copied from `Change` **character for character**. Never reword, merge, shorten or add punctuation. Prefer lines a reader can use or see (something live, a new feature) over internal ones. In security areas, take the lines that reveal least about how defence works. The choice goes in `inputs/YYYY-MM.txt`; the script refuses any line that is not in the export word for word.
 
-**X thread.** One numbered tweet per area, plus an opener and an unnumbered close.
+**Wording.** The fixed wording of every issue lives in [`issue/`](issue/README.md), one file per channel: [X thread](issue/x-thread.txt), [Telegram](issue/telegram.txt), [Discord](issue/discord.txt). Change a phrase there; the script picks it up.
 
-- Tweet 1, with both cards attached:
-  ```
-  Development Update | [Month YYYY]
-
-  [Total] changes shipped across [N] areas.
-
-  What shipped in each area, in the thread below ⬇️.
-
-  🧵 1/[N+1]
-  ```
-- Area tweets: area name, blank line, lines as `- ` bullets, blank line, `🧵 [n]/[N+1]`.
-- Closing tweet, no number:
-  ```
-  That was [Month].
-
-  From here, a recap like this goes out every month. Weekly updates, with every change as it lands, go out in our Discord:
-  https://discord.gg/TCS23VWuWm
-
-  Thank you to the community. You move this ecosystem forward.
-
-  What would you like to see in the next one?
-  ```
-
-**Telegram.** One message: title `**Development Update | [Month YYYY]**`, the intro line ending "What shipped in each one:", all areas with bold names, the close with the Discord link.
-
-**Discord.** Same text with `##` title, in two messages split after the fifth area. Cards attach to the first message. The close says "go out right here" instead of the link, and keeps the question.
+- **X:** opener with both cards, one numbered tweet per area, an unnumbered close.
+- **Telegram:** one message.
+- **Discord:** two messages, split after the first half of the areas; cards on the first.
 
 ## Narrative arc
 The series has no arc. Each issue stands alone and is dated. Its value is the run of issues: one month is a claim, twelve months in a row are proof.
