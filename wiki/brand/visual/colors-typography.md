@@ -112,10 +112,12 @@ This is the brand's version of the 60-30-10 rule used in interface and graphic d
 
 The eye goes first to the most saturated, highest-contrast element. Every layout decides what that is.
 
-- **One accent point per canvas.** Purple goes to one element: the logo symbol, or the one number or word the piece is about. 1/8 is a ceiling, not a target. Purple in two or three places splits attention even within 1/8.
-- **Decoration stays below content.** Spheres, patterns, grids and shapes are texture, not message. They are tonal: the palette neutral at low opacity (`#62687E` on light, `#9097B0` on dark, about 20 to 35%). They take purple only if they are the accent point themselves.
+- **One accent point per canvas.** The logo symbol is the brand signature and stays in color ([logo rules](logo.md)). Besides it, purple goes to at most one element: the one number or word the piece is about. Many canvases need none. 1/8 is a ceiling, not a target: purple in several places splits attention even within 1/8.
+- **Decoration stays below content.** Spheres, patterns, grids and shapes are texture, not message. They are tonal and light: the palette neutral at low opacity (`#62687E` on light, `#9097B0` on dark, about 20 to 35%), never a midtone that competes with text. They take purple only if they are the accent point themselves.
 - **Neutrals come from the palette.** No pure grey and no grayscale filters: the Iagon neutrals are cool and slightly violet, and a pure grey next to them looks dirty.
 - **Order of reading:** title, then the accent, then everything else, decoration last. Check it at feed size (about one third, see [canvases](canvases.md)) or by squinting at the layout: if decoration is seen before the title, it is too strong.
+
+These rules match the leading design systems: Apple ("apply your accent color judiciously… too broadly can overwhelm and dilute its impact", "branding always defers to content"), Google Material 3 ("the human eye is particularly drawn to vibrant colors"; neutral surfaces "represent the majority"), IBM Carbon (neutral grey dominant, accents "used sparingly and purposefully", avoid midtones), Refactoring UI (tinted greys, "one primary element per view") and the Nielsen Norman Group squint test.
 
 ### Gradients
 

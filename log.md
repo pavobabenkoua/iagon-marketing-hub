@@ -7,8 +7,8 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 ---
 
 ## 2026-11-13: update: attention rules in color balance
-- `wiki/brand/visual/colors-typography.md` §5: the 1/8 proportion named as the brand's 60-30-10; new Attention rules: one accent point per canvas, decoration tonal in palette neutrals, no pure grey, reading order checked at feed size. Gradients only on the element that is the accent point.
-- Source: the weekly cover review with the director (purple in three places, the sphere outweighing the title).
+- `wiki/brand/visual/colors-typography.md` §5: the 1/8 proportion named as the brand's 60-30-10; new Attention rules: besides the logo symbol at most one purple element, decoration tonal in palette neutrals, no pure grey, reading order checked at feed size. Gradients only on the element that is the accent point.
+- Source: the weekly cover review with the director (purple in three places, the sphere outweighing the title); checked against Apple HIG, Material 3, IBM Carbon, Refactoring UI and NN/g.
 
 ## 2026-11-13: decision: design system first
 - [0014](decisions/0014-design-system-first.md): every layout follows the design system, then the art direction, then the format page. References are input, not a spec; conflicts are named and built to the rule; exceptions only with chat approval, written on the format page.
