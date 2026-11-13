@@ -68,6 +68,7 @@ When writing posts, threads, articles, deck copy, ads or any other content:
 - If the content belongs to a series, read `series.md` and the previous posts first. Respect the series arc and rules.
 - Follow the rules of the target channel in `wiki/channels/`.
 - For any visual: follow `wiki/brand/visual/` (colors, typography, logo) and the format page in `wiki/brand/visual/formats/` if one exists. Use logo files from `wiki/brand/visual/logos/`, never redraw them.
+- If the format has a template in `layouts/`, build from it (and its script, if there is one); never rebuild the layout by hand. Once a new layout is approved, move it to `layouts/<format>/` as HTML ([0007](decisions/0007-approved-layouts-live-as-html.md)).
 - Content drafts are not hub pages. Save a post to the hub only when it is published or when the director asks.
 
 ## 4. Changes and approval
