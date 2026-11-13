@@ -17,18 +17,23 @@ tags: []
 Why we are on this channel.
 
 ## Audience
-Who we reach here.
+Who we reach here and what they expect from us.
 
-## Formats
-Post types we use, with length and visual specs.
+## Communication approach
+How we talk here: tone setting from `wiki/brand/voice/tone-spectrum.md`, how direct or detailed, whether we ask questions, how we answer.
+
+## Formats and limits
+Post types we use and the technical rules of the platform: length, markup, media sizes, links. Link visual formats in `wiki/brand/visual/formats/`, don't repeat their specs.
 
 ## Cadence
 How often we post.
 
 ## Do / Don't
+Each rule with its reason.
+
 | Do | Don't |
 |---|---|
 | | |
 
 ## Examples of good posts
-Links to post pages in `wiki/series/` or to published posts.
+Links to post pages in `wiki/series/`, `wiki/posts/` or to published posts.
