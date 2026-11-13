@@ -14,7 +14,7 @@ What shipped in each area, in the thread below ⬇️.
 =====
 That was [Month].
 
-From here, a recap like this goes out every month. Weekly updates, with every change as it lands, go out in our Discord:
-https://discord.gg/TCS23VWuWm
+Weekly updates go out every Monday in our Discord:
+https://discord.gg/4wDSHGgfzn
 
-Thank you to the community. You move this ecosystem forward.
+Thank you to everyone in the community who supports us.
