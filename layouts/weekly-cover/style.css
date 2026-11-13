@@ -10,9 +10,7 @@ p, h1 { margin: 0; }
 
 /* 1200×675 (16:9), margins 72 px (canvases.md). Two text roles: H1 and Small (the week chip). */
 .cover { position: relative; width: 1200px; height: 675px; background: #f6f6fb; font-family: "Figtree", system-ui, sans-serif; overflow: hidden; }
-.sphere { position: absolute; top: -170px; right: -150px; width: 600px; height: 600px; }
-.sphere-neutral { filter: grayscale(1); opacity: 0.32; }
-.sphere-tint { opacity: 0.3; }
+.sphere { position: absolute; top: -170px; right: -150px; width: 600px; height: 600px; opacity: 0.25; }
 .text { position: absolute; left: 72px; bottom: 72px; }
 .logo { width: 200px; height: 45px; display: block; margin-bottom: 48px; }
 .week { display: inline-block; padding: 8px 24px; border: 1px solid rgba(98, 104, 126, 0.15); border-radius: 999px; background: #eaebf5; font-size: 28px; line-height: 40px; font-weight: 400; color: #141a21; }
