@@ -117,7 +117,7 @@ The eye goes first to the most saturated, highest-contrast element. Every layout
 - **Neutrals come from the palette.** No pure grey and no grayscale filters: the Iagon neutrals are cool and slightly violet, and a pure grey next to them looks dirty.
 - **Order of reading:** title, then the accent, then everything else, decoration last. Check it at feed size (about one third, see [canvases](canvases.md)) or by squinting at the layout: if decoration is seen before the title, it is too strong.
 
-The layout scripts check these rules after every render with `scripts/layout-check.py`, and it can be run on any PNG ([layouts](../../../layouts/README.md)).
+Every new or changed layout is checked against these rules with `scripts/layout-check.py` before it goes to the director for approval ([layouts](../../../layouts/README.md#layout-check-before-approval)).
 
 These rules match the leading design systems: Apple ("apply your accent color judiciously… too broadly can overwhelm and dilute its impact", "branding always defers to content"), Google Material 3 ("the human eye is particularly drawn to vibrant colors"; neutral surfaces "represent the majority"), IBM Carbon (neutral grey dominant, accents "used sparingly and purposefully", avoid midtones), Refactoring UI (tinted greys, "one primary element per view") and the Nielsen Norman Group squint test.
 

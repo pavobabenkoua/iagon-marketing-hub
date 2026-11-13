@@ -7,8 +7,8 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 ---
 
 ## 2026-11-13: update: automatic layout check
-- New `scripts/layout-check.py`: colors outside the palette and grayscale filters in a layout's source; purple share (limit 1/8), separate purple spots (limit 2: logo + one accent), purple-tinted decoration; a squint preview at feed size. Reports only.
-- `scripts/weekly-update.py` and `scripts/monthly-recap.py` run it after rendering. `layouts/README.md` and colors-typography §5 point to it.
+- New `scripts/layout-check.py`, a check before approval: colors outside the palette and grayscale filters in a layout's source; purple share (limit 1/8), separate purple spots (limit 2: logo + one accent), purple-tinted decoration; a squint preview at feed size. Reports only.
+- Runs before a new or changed layout goes to the director for approval, not on regular renders of an approved layout (director). `layouts/README.md` and colors-typography §5 point to it.
 - First run: weekly cover passes; Monthly Recap card 2 has three purple spots (logo, the DEVELOPMENT UPDATE eyebrow, the Total tile). To decide with the director.
 
 ## 2026-11-13: update: attention rules in color balance

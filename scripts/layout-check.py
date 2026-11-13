@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Check rendered layouts against the attention rules of the design system.
+"""Check a new or changed layout against the attention rules, before approval.
+
+Run it before the layout goes to the director. Approved layouts are not
+re-checked on every render: only their data changes.
 
 Usage:
   python3 scripts/layout-check.py --layout layouts/weekly-cover dist/development-update-weekly/2026-W44/cover.png

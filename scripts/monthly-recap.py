@@ -210,22 +210,6 @@ def build_texts(out, month_label, month_name, total, areas, picks):
         (out / name).write_text(text, encoding="utf-8")
 
 
-
-def layout_check(folder, pngs):
-    """Report deviations from the attention rules (scripts/layout-check.py). Reports only."""
-    import importlib.util
-    spec = importlib.util.spec_from_file_location("layout_check", Path(__file__).with_name("layout-check.py"))
-    lc = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(lc)
-    lines, bad = lc.check_source(folder)
-    for p in pngs:
-        more, n = lc.check(p)
-        lines += more
-        bad += n
-    print("Layout check:")
-    print("\n".join("  " + l for l in lines))
-    print(f"  {bad} deviation(s): show them to the director" if bad else "  No deviations.")
-
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--csv", required=True, help="monthly dashboard export")
@@ -247,7 +231,6 @@ def main():
     (out / "numbers.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     render_cards(out, month_label, month_name, total, by_cat, areas)
-    layout_check(LAYOUT, [out / "card-1.png", out / "card-2.png"])
     if args.inputs:
         build_texts(out, month_label, month_name, total, areas, read_inputs(args.inputs, rows, areas))
     print(f"Done: {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}")
