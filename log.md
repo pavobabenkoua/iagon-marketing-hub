@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: update: main Discord invite
+- `wiki/channels/discord.md`: main invite is now https://discord.gg/4wDSHGgfzn (director). The old `TCS23VWuWm` remains only in published texts.
+
 ## 2026-11-13: update: Monthly Recap close
 - `issue/x-thread.txt`: the closing question removed; every channel now ends with the thanks (director). Series rules updated.
 - The launch line "From here, a recap like this goes out every month…" removed. X points to the Weekly: "Weekly updates go out every Monday in our Discord" with https://discord.gg/4wDSHGgfzn. Thanks line unified with the Weekly.
