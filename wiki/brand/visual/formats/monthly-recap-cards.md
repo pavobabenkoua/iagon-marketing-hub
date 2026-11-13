@@ -47,7 +47,7 @@ Text blocks in the top band sit on the bottom edge of the band. Chips are sorted
 | Top, light `#F6F6FB` | Logo | top left, 160×36 | `iagon-horizontal-on-light.svg` |
 | | Eyebrow `DEVELOPMENT UPDATE` | 28/36, Semibold 600, caps, +4% | `#6F47FF` |
 | | Title `[Total] in detail` | 52/60, Semibold 600, −1% | `#141A21` |
-| | Lead `Every change in [Month], by the kind of work it took.` | 28/40, Regular | `#62687E` |
+| | Lead `All changes in [Month], by the kind of work it took.` | 28/40, Regular | `#62687E` |
 | Bottom, dark `#13181E` | Background shape | dark form, right-anchored, bottom-aligned | as in the file |
 | | Grid | 3 columns, rows 132 px, gap 14 px, padding 48 px top and bottom | |
 | | Tile | `#191E25` fill, 1 px border `rgba(144,151,176,0.15)`, radius 12, padding 12/20 | |
@@ -62,6 +62,7 @@ Tile order is fixed, the order of the source dashboard: Development, Security, P
 - Purple marks the system, not the data: eyebrow on both cards and the Total tile tint. All numbers are neutral.
 - No gradient on text. Solid accent per theme: `#7C75FF` on dark, `#6F47FF` on light.
 - The background shapes are neutral graphics and sit outside the purple budget.
+- **Exception to the attention rules** ([colors and typography](../colors-typography.md#attention)): card 2 has three purple elements (logo symbol, eyebrow, Total tile), one more than the rule allows. The director kept the approved card as is (2026-11-13): the eyebrow is the series mark and stays the same on both cards.
 - No date note on the cards. The numbers describe a closed month, so they cannot change. The "figures as of" rule applies to live network figures only.
 
 ## Monthly checklist

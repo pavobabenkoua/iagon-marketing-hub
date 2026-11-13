@@ -95,7 +95,5 @@ The two bi-weekly updates of 1 and 14 September 2026 predate this format and are
 Monthly Recap: active, format approved 2026-11-13. Next issue: November 2026, first half of December.
 
 Open:
-- Weekly Update: visual and text format not defined yet.
-- Card 2 lead says "Every change in [Month]", which conflicts with the no-completeness rule. Suggested: "All [Total] changes, by the kind of work each took." Decide before the November issue.
 - "Insight API live on the Cardano preprod network" is logged under Iagon Infrastructure. Ask engineering whether preprod work should move to Insight API in the export.
 - Owner of the monthly export and of publishing.
