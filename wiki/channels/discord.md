@@ -6,12 +6,14 @@ status: draft
 owner: Pavlo Babenko
 updated: 2026-11-13
 visibility: team
-url: https://discord.gg/TCS23VWuWm
+url: https://discord.gg/4wDSHGgfzn
 related: [series-development-update]
 tags: [discord, community]
 ---
 
 # Discord
+
+Main invite: https://discord.gg/4wDSHGgfzn (director, 2026-11-13). The older invite `TCS23VWuWm` stays only where it was already published: the October 2026 recap and docs.iagon.com.
 
 ## Purpose
 _To fill._ The community's home: where weekly development updates go out with every change as it lands.

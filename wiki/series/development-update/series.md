@@ -65,7 +65,7 @@ Channel rules (limits, markup, audience, what is public) live on the channel pag
 - **Telegram:** one message.
 - **Discord:** two messages, split after the first half of the areas; cards on the first.
 - Every channel ends with the thanks, no closing question (director, 2026-11-13). The October X thread was the last with a question.
-- The close is the same thanks as the Weekly: "Thank you to everyone in the community who supports us." X adds one line before it pointing to the Weekly in Discord (https://discord.gg/4wDSHGgfzn). Telegram and Discord carry the Weekly themselves, so they need no pointer.
+- The close is the same thanks as the Weekly: "Thank you to everyone in the community who supports us." X adds one line before it pointing to the Weekly in Discord, with the main invite from the [Discord page](../../channels/discord.md). Telegram and Discord carry the Weekly themselves, so they need no pointer.
 
 ## Narrative arc
 The series has no arc. Each issue stands alone and is dated. Its value is the run of issues: one month is a claim, twelve months in a row are proof.
