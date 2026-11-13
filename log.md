@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: update: thanks line
+- Monthly and Weekly end with "Thank you to the community. You move this ecosystem forward." (director), the line of the published October recap.
+
 ## 2026-11-13: update: main Discord invite
 - `wiki/channels/discord.md`: main invite is now https://discord.gg/4wDSHGgfzn (director). The old `TCS23VWuWm` remains only in published texts.
 
