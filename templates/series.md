@@ -47,10 +47,10 @@ Post format, length, channels. For every visual, link its format page in `wiki/b
 How often a post goes out, on which channels, and what happens when there is nothing to publish.
 
 ## Data source and build
-_Recurring only._ Where the data comes from, where inputs are saved, the command that builds an issue, what it checks.
+_Recurring only._ Where the data comes from (`raw/archive/`), the inputs file (`inputs/`), the command that builds an issue, what it checks (decision 0011).
 
 ## Issue structure
-_Recurring only._ The fixed parts of every issue: opener, block structure, close. Exact wording.
+_Recurring only._ The fixed parts of every issue: opener, block structure, close. The exact wording lives in `issue/`, one file per channel; link to it here.
 
 ## Arc
 _Thematic with `arc: true` only._ The stages of the series and what each stage does.
