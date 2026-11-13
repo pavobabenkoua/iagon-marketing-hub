@@ -1,0 +1,48 @@
+/* Development Update: monthly recap cards.
+   Spec: wiki/brand/visual/formats/monthly-recap-cards.md */
+
+@font-face { font-family: "Figtree"; font-weight: 400; src: url("assets/fonts/figtree-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-weight: 600; src: url("assets/fonts/figtree-latin-600-normal.woff2") format("woff2"); }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #13181e; }
+p, h1 { margin: 0; }
+
+.card { width: 1080px; height: 1080px; display: flex; flex-direction: column; font-family: "Figtree", system-ui, sans-serif; overflow: hidden; }
+
+/* Bands: 400 px identity on top, 680 px data below. Side safe zone 112 px (X crops multi-image posts to ~7:8). */
+.band-top { height: 400px; flex-shrink: 0; padding: 64px 112px; display: flex; flex-direction: column; }
+.band-bottom { flex-grow: 1; }
+.spacer { flex-grow: 1; }
+.logo { width: 160px; height: 36px; display: block; }
+
+.dark { background-color: #13181e; }
+.light { background-color: #f6f6fb; }
+.form-left { background-image: url("assets/bg-form-left.png"); background-size: 1200px 700px; background-position: left bottom; background-repeat: no-repeat; }
+.form-right { background-image: url("assets/bg-form-right.png"); background-size: 1200px 700px; background-position: right bottom; background-repeat: no-repeat; }
+
+.eyebrow { margin-bottom: 16px; font-size: 28px; line-height: 36px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; }
+.title { margin-bottom: 24px; font-size: 52px; line-height: 60px; font-weight: 600; letter-spacing: -0.01em; }
+.lead { font-size: 28px; line-height: 40px; font-weight: 400; }
+
+.dark .eyebrow { color: #7c75ff; }
+.dark .title { color: #f2f2fa; }
+.dark .lead { color: #9097b0; }
+.light .eyebrow { color: #6f47ff; }
+.light .title { color: #141a21; }
+.light .lead { color: #62687e; }
+
+/* Card 1, bottom band */
+.total-band { padding: 56px 112px; display: flex; flex-direction: column; justify-content: center; }
+.total { font-size: 180px; line-height: 168px; font-weight: 600; letter-spacing: -0.01em; color: #141a21; }
+.total-caption { margin: 4px 0 40px; font-size: 32px; line-height: 44px; font-weight: 400; color: #141a21; }
+.chips { display: flex; flex-wrap: wrap; gap: 12px; }
+.chip { padding: 8px 24px; border: 1px solid rgba(98, 104, 126, 0.15); border-radius: 999px; background: #eaebf5; font-size: 28px; line-height: 40px; font-weight: 400; color: #141a21; }
+
+/* Card 2, bottom band */
+.tiles { padding: 48px 112px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: 132px; gap: 14px; align-content: center; }
+.tile { background: #191e25; border: 1px solid rgba(144, 151, 176, 0.15); border-radius: 12px; padding: 12px 20px; }
+.tile-num { font-size: 40px; line-height: 48px; font-weight: 400; color: #f2f2fa; }
+.tile-label { font-size: 24px; line-height: 30px; font-weight: 400; color: #9097b0; }
+.tile-total { background: rgba(124, 117, 255, 0.16); border-color: rgba(124, 117, 255, 0.35); }
+.tile-total .tile-num { font-weight: 600; }

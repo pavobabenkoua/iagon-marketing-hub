@@ -1,0 +1,177 @@
+﻿Week,Month,Area,Topic,Category,Group,Change
+2026-W44,2026-10,Iagon Infrastructure,Server security updates,Server security,DevOps,Security hardening of all production servers
+2026-W44,2026-10,Iagon Infrastructure,Server security updates,Server updates,DevOps,Operating system and kernel updates on all production servers
+2026-W44,2026-10,Iagon Infrastructure,Server security updates,Server security,DevOps,Automatic security updates on all servers
+2026-W44,2026-10,Iagon Infrastructure,Server security updates,Debugging,Software,Restart behaviour of the chain services checked
+2026-W44,2026-10,Iagon Infrastructure,Server security updates,Bug fixes,Software,Restart handling improvements of the chain services
+2026-W44,2026-10,Iagon Infrastructure,Server security updates,Production-ready tests,Software,Full check of all servers after the updates
+2026-W44,2026-10,Iagon Infrastructure,Preparing server security updates,Server updates,DevOps,Update plan for all production servers
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,Development,Software,Iagon Admin Dashboard for all Iagon Services
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,Development,Software,Access rights per service and team member in the Iagon Admin Dashboard
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,Development,Software,Overview of open items and one attack page for all Iagon Services
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,Security,Software,Code and security optimizations of the Iagon Admin Dashboard
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,Production-ready tests,Software,Browser tests of every Iagon Admin Dashboard page with every access right
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,Production deployments,DevOps,Iagon Admin Dashboard live
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,New software and servers,DevOps,Backup and monitoring for the Iagon Admin Dashboard
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,Performance,DevOps,Faster page loads in the Iagon Admin Dashboard
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,Updates,Software,Page transitions across all Iagon dashboards
+2026-W44,2026-10,Iagon Admin Dashboard,Iagon Admin Dashboard for all services,Production deployments,DevOps,Iagon Admin Dashboard updates on production
+2026-W44,2026-10,Iagon Admin Dashboard,Preparing Iagon Admin Dashboard,Development,Software,Architecture of the Iagon Admin Dashboard
+2026-W44,2026-10,Iagon Admin Dashboard,Preparing Iagon Admin Dashboard,Development,Software,Production rollout plan for the Iagon Admin Dashboard
+2026-W44,2026-10,Würth Partner platform,"Würth Royalty platform: orders, download links",Development,Software,Orders with a cancel window and download links in the Würth Royalty platform
+2026-W44,2026-10,Würth Partner platform,"Würth Royalty platform: orders, download links",Development,Software,Dashboard tokens for the Würth order API
+2026-W44,2026-10,Würth Partner platform,"Würth Royalty platform: orders, download links",Security,Software,Code and security optimizations of the Würth Royalty platform
+2026-W44,2026-10,Würth Partner platform,"Würth Royalty platform: orders, download links",Production-ready tests,Software,Browser tests for orders and download links
+2026-W44,2026-10,Würth Partner platform,"Würth Royalty platform: orders, download links",Production deployments,DevOps,Orders and download links on production
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Smarter data placement across independent networks and reliable nodes
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,New Storage Nodes build trust before taking on more data
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Storage Nodes connected to several network entry points at once
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Cryptographic proofs of data in the decentralized network further improved
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Further improved integrity checks of stored data on every Storage Node
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Integrity verification of every download further improved
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Security,Software,"Further improved encryption, prepared for the user's own device"
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,"Higher redundancy, every file spread over more Storage Nodes"
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,"Higher fault tolerance, files readable with many Storage Nodes offline"
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Further improved choice of redundancy levels
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Extra redundancy for small files
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Automatic repair well before stored data is at risk
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,More precise uptime measurement
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Further improved disk and network speed tests
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Further improved automatic reconnection after network interruptions
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,More resilient connection of Storage Nodes to the network
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Upload and download performance improvements
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Live status page of the storage network
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Security,Software,Security improvements for the Iagon Storage Node
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Production-ready tests,Software,"Iagon Storage Node release tests on x86 and ARM, fuzz testing"
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Self-healing Iagon Storage Nodes
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Iagon Storage Node helper for even more reliable Storage Nodes
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,"Early warnings for full disks, clock drift and missing drives"
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Further improved spread of each file across different Operators
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Further optimizations to automatic repair and redistribution
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Further optimizations to tier and score calculation
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Security,Software,Further improvements to fair rewards protection
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Security,Software,Further improvements to secure automatic updates
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Security,Software,Further improved isolation of the Storage Node software
+2026-W43,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Production-ready tests,Software,Test network with remote Iagon Storage Nodes
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,One-time code to add a new Storage Node to an account
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Move-over of existing Storage Nodes into the new network
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Live node alerts in the Iagon Dashboard
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Operator choice of which alerts arrive by email
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,"Alert emails bundled, only for new alerts"
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Further improvements to node notifications by email
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Node overview per account in the Iagon Dashboard
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Optional email login with authenticator app for the Iagon Dashboard
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Security,Software,Further improved protection against duplicate Storage Nodes
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Security,Software,Further improved protection of the node identity
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,New software and servers,DevOps,Live data mirror from the previous Iagon system
+2026-W44,2026-10,Iagon Storage Node,Iagon Storage Node rebuild,Development,Software,Demonstration mode for the Iagon Storage Node network
+2026-W43,2026-10,Iagon Storage Node,Preparing Iagon Storage Node rebuild,Development,Software,System design and architecture of the new Iagon Storage Node
+2026-W43,2026-10,Iagon Storage Node,Preparing Iagon Storage Node rebuild,Development,Software,Iagon Storage Node specification
+2026-W44,2026-10,Iagon Platform,Attack protection,Security,Software,Code and security optimizations of the Insight Frontend
+2026-W44,2026-10,Iagon Platform,Attack protection,Security,Software,"Security page in the Würth Partner platform with passkeys, authenticator app and sessions"
+2026-W44,2026-10,Iagon Platform,Attack protection,Production deployments,DevOps,Security release of the Würth Partner platform
+2026-W44,2026-10,Iagon Platform,Attack protection,Security,Software,Automatic blocking of scans and attacks for Insight and the Würth Partner platform
+2026-W44,2026-10,Iagon Platform,Attack protection,Development,Software,Attack overview for the Iagon team
+2026-W44,2026-10,Iagon Platform,Attack protection,Updates,Software,Attack alerts in the team chat
+2026-W44,2026-10,Iagon Platform,Attack protection,Production deployments,DevOps,Attack protection for Insight on production
+2026-W44,2026-10,Iagon Platform,Attack protection,Development,Software,Automatic cleanup of messages from blocked addresses
+2026-W44,2026-10,Iagon Platform,Attack protection,Production deployments,DevOps,Attack protection for the Würth Partner platform on production
+2026-W44,2026-10,Iagon Platform,Preparing attack protection,Security,Software,Security monitoring design for all Iagon Services
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Development,Software,Smart contracts for license tokens and royalty payouts
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Production-ready tests,Software,Smart contract tests including property and mutation testing
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Security,Software,Security audits of the Würth smart contracts
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Development,Software,Payout service and order API for Würth
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Development,Software,Royalty payouts as IOU tokens
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Development,Software,"Portal of the Würth Royalty platform with catalog, orders, print queue and feedback"
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Security,Software,Code and security optimizations of the Würth Royalty platform
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Production deployments,DevOps,Würth Royalty platform live
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,New software and servers,DevOps,Backup and monitoring for the Würth Royalty platform
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Bug fixes,Software,Connection handling improvements of the Würth Royalty platform
+2026-W43,2026-10,Würth Partner platform,Würth Royalty platform,Updates,Software,Layout improvements of the Würth Royalty platform
+2026-W43,2026-10,Würth Partner platform,Preparing Würth Royalty platform,Development,Software,Takeover plan for the existing Würth royalty system
+2026-W43,2026-10,Würth Partner platform,Preparing Würth Royalty platform,Development,Software,Smart contract design for licenses and the royalty treasury
+2026-W42,2026-10,Iagon Infrastructure,Platform upkeep,Server updates,DevOps,Go toolchain update for all services
+2026-W42,2026-10,Iagon Infrastructure,Platform upkeep,Performance,DevOps,Higher connection limits for the database cluster
+2026-W42,2026-10,Iagon Infrastructure,Platform upkeep,Updates,Software,Monitoring of database connections and certificate expiry
+2026-W43,2026-10,Iagon Infrastructure,Platform upkeep,Development,Software,Statistics across all accounts in the Iagon Admin Dashboard
+2026-W43,2026-10,Iagon Infrastructure,Platform upkeep,Server updates,DevOps,Further Go toolchain update for all services
+2026-W42,2026-10,Würth Partner platform,Würth Storage platform,Development,Software,"Storage platform for Würth: Storage API compatible with the existing system, folders, zip downloads and share links"
+2026-W42,2026-10,Würth Partner platform,Würth Storage platform,Development,Software,"Würth Partner platform dashboard with file explorer, share links, API tokens, team and audit log"
+2026-W42,2026-10,Würth Partner platform,Würth Storage platform,Development,Software,Admin dashboard of the Würth Partner platform
+2026-W42,2026-10,Würth Partner platform,Würth Storage platform,New software and servers,DevOps,"Storage, web and API servers for the Würth Storage platform"
+2026-W42,2026-10,Würth Partner platform,Würth Storage platform,Production-ready tests,Software,End to end and browser tests of the Würth Storage platform on production
+2026-W42,2026-10,Würth Partner platform,Würth Storage platform,Production deployments,DevOps,Würth Storage platform live
+2026-W43,2026-10,Würth Partner platform,Würth Storage platform,Development,Software,API documentation page in the Würth Partner platform
+2026-W43,2026-10,Würth Partner platform,Würth Storage platform,Security,Software,Code and security optimizations of the Würth Storage platform
+2026-W43,2026-10,Würth Partner platform,Würth Storage platform,Bug fixes,Software,Backup improvements of the Würth Storage platform
+2026-W43,2026-10,Würth Partner platform,Würth Storage platform,Server security,DevOps,Security hardening of the Würth Storage platform servers
+2026-W43,2026-10,Würth Partner platform,Würth Storage platform,Updates,Software,Extended monitoring of the Würth Storage platform
+2026-W43,2026-10,Würth Partner platform,Würth Storage platform,Production deployments,DevOps,Würth Storage platform updates on production
+2026-W42,2026-10,Würth Partner platform,Preparing Würth Storage platform,Development,Software,Design of the Würth Storage platform
+2026-W42,2026-10,Würth Partner platform,Preparing Würth Storage platform,Development,Software,Architecture and go-live plan of the Würth Storage platform
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Bug fixes,Software,Compatibility improvements of the Insight API for Blockfrost clients
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Development,Software,Mempool endpoints in the Insight API
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Development,Software,"More Blockfrost compatible endpoints for accounts, addresses, assets, scripts and governance"
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Development,Software,Token registry served from an Iagon copy
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Production-ready tests,Software,"Automated Insight API tests from the client side, including Lucid and Mesh"
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Updates,Software,Extended monitoring of the Iagon Infrastructure
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Performance,DevOps,Faster account transaction queries in the Insight API
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Debugging,Software,Query plan profiling of the Insight Backend
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Updates,Software,Improved request logging in the Insight API
+2026-W42,2026-10,Insight API,"Blockfrost client compatibility, mempool, token registry",Production deployments,DevOps,Insight API updates on production
+2026-W41,2026-10,Iagon Dashboard,"Iagon Dashboard v2: history, nodes, tx lifecycle",Development,Software,On-chain transaction tracking in the new Iagon Dashboard
+2026-W41,2026-10,Iagon Dashboard,"Iagon Dashboard v2: history, nodes, tx lifecycle",Development,Software,"Node history with tiers, benchmarks, uptime and rewards"
+2026-W41,2026-10,Iagon Dashboard,"Iagon Dashboard v2: history, nodes, tx lifecycle",Production-ready tests,Software,Node history checked against the previous Iagon system
+2026-W42,2026-10,Iagon Dashboard,"Iagon Dashboard v2: history, nodes, tx lifecycle",Updates,Software,"Delegate list search by node, city and country"
+2026-W42,2026-10,Iagon Dashboard,"Iagon Dashboard v2: history, nodes, tx lifecycle",Bug fixes,Software,Chart display improvements of the Iagon Dashboard
+2026-W42,2026-10,Iagon Dashboard,"Iagon Dashboard v2: history, nodes, tx lifecycle",Updates,Software,Reworked node page charts in the new Iagon Dashboard
+2026-W41,2026-10,Iagon Infrastructure,Preprod network,New software and servers,DevOps,Two database servers for the Cardano preprod network
+2026-W41,2026-10,Iagon Infrastructure,Preprod network,Development,Software,Insight API servers per Cardano network
+2026-W42,2026-10,Iagon Infrastructure,Preprod network,Performance,DevOps,Faster epoch queries in the Insight API
+2026-W42,2026-10,Iagon Infrastructure,Preprod network,New software and servers,DevOps,Preprod Insight API behind the load balancers
+2026-W42,2026-10,Iagon Infrastructure,Preprod network,Production-ready tests,Software,Preprod Insight API checked against Koios and real transactions
+2026-W42,2026-10,Iagon Infrastructure,Preprod network,Production deployments,DevOps,Insight API live on the Cardano preprod network
+2026-W41,2026-10,Iagon Infrastructure,Preparing preprod network,New software and servers,DevOps,Rollout plan for the Cardano preprod network
+2026-W42,2026-10,Insight API,"Developer endpoints, governance data",Development,Software,"New Insight API endpoints for outputs by address, reference scripts and UTxOs by policy"
+2026-W42,2026-10,Insight API,"Developer endpoints, governance data",Development,Software,Datum details on transaction outputs in the Insight API
+2026-W42,2026-10,Insight API,"Developer endpoints, governance data",Performance,DevOps,Faster UTxO queries by policy in the Insight API
+2026-W42,2026-10,Insight API,"Developer endpoints, governance data",Bug fixes,Software,Data accuracy improvements of the Insight API for Byron epochs and governance votes
+2026-W42,2026-10,Insight API,"Developer endpoints, governance data",Development,Software,Internal accounts for the Iagon team
+2026-W42,2026-10,Insight API,"Developer endpoints, governance data",Security,Software,Code and security optimizations of the Insight Frontend
+2026-W42,2026-10,Insight API,"Developer endpoints, governance data",Production-ready tests,Software,Developer endpoints compared with Blockfrost and Koios on mainnet and preprod
+2026-W42,2026-10,Insight API,"Developer endpoints, governance data",Server security,DevOps,Credential rotation and stricter database access
+2026-W42,2026-10,Insight API,"Developer endpoints, governance data",Production deployments,DevOps,Insight API and Insight Dashboard updates on production
+2026-W41,2026-10,Insight API,"Shared rate limits, reseller accounts",Development,Software,Rate limits shared across all Insight API servers
+2026-W41,2026-10,Insight API,"Shared rate limits, reseller accounts",Development,Software,"Insight reseller accounts with their own customers, keys and usage"
+2026-W41,2026-10,Insight API,"Shared rate limits, reseller accounts",Development,Software,Reseller management API
+2026-W41,2026-10,Insight API,"Shared rate limits, reseller accounts",Security,Software,Code and security optimizations of the Insight Backend
+2026-W41,2026-10,Insight API,"Shared rate limits, reseller accounts",Development,Software,Limits per Insight account and a newsletter
+2026-W41,2026-10,Insight API,"Shared rate limits, reseller accounts",Production-ready tests,Software,Shared rate limits tested live on production
+2026-W41,2026-10,Insight API,"Shared rate limits, reseller accounts",Production deployments,DevOps,"Shared rate limits, reseller accounts and newsletter on production"
+2026-W41,2026-10,Insight API,Preparing shared rate limits and reseller accounts,Development,Software,Design of the Insight reseller accounts
+2026-W41,2026-10,Insight API,Preparing shared rate limits and reseller accounts,Development,Software,Design of the rate limit sync across Insight API servers
+2026-W40,2026-10,Iagon Dashboard,"Iagon Dashboard v2: wallet, contracts, transactions",Development,Software,"Cardano transaction library for the new Iagon Dashboard: encoding, Plutus V3 and wallet signatures"
+2026-W40,2026-10,Iagon Dashboard,"Iagon Dashboard v2: wallet, contracts, transactions",Production-ready tests,Software,Transaction building checked against mainnet transactions and official test vectors
+2026-W40,2026-10,Iagon Dashboard,"Iagon Dashboard v2: wallet, contracts, transactions",Development,Software,"New Iagon Dashboard with wallet login, storage quotes, delegation and withdrawals"
+2026-W40,2026-10,Iagon Dashboard,"Iagon Dashboard v2: wallet, contracts, transactions",Development,Software,"Storage Node Operator pages with performance, tiers and rewards"
+2026-W40,2026-10,Iagon Dashboard,"Iagon Dashboard v2: wallet, contracts, transactions",Development,Software,Iagon rewards engine in shadow mode
+2026-W40,2026-10,Iagon Dashboard,"Iagon Dashboard v2: wallet, contracts, transactions",Production-ready tests,Software,Iagon rewards engine checked against past epochs
+2026-W40,2026-10,Iagon Dashboard,"Iagon Dashboard v2: wallet, contracts, transactions",Development,Software,Data import from the previous Iagon system
+2026-W40,2026-10,Iagon Dashboard,"Iagon Dashboard v2: wallet, contracts, transactions",New software and servers,DevOps,New Iagon Dashboard on staging
+2026-W40,2026-10,Iagon Dashboard,Preparing Iagon Dashboard v2,Development,Software,Technical audit of the previous Iagon system and its smart contracts
+2026-W40,2026-10,Iagon Dashboard,Preparing Iagon Dashboard v2,Development,Software,Design of the delegation and co-signature flow
+2026-W40,2026-10,Insight Dashboard,Security maintenance,Security,Software,Renewed logins and second factors for the Iagon admin team
+2026-W40,2026-10,Insight Dashboard,Security maintenance,Security,Software,Encryption key rotation for stored secrets
+2026-W40,2026-10,Insight Dashboard,Security maintenance,Server security,DevOps,Credential rotation for the database cluster
+2026-W40,2026-10,Insight Dashboard,Security maintenance,Updates,Software,Rows per page setting in the Insight Dashboard and its admin dashboard
+2026-W40,2026-10,Insight Dashboard,Security maintenance,Bug fixes,Software,Navigation improvements of the Insight Frontend
+2026-W40,2026-10,Insight Dashboard,Security maintenance,Production deployments,DevOps,Security maintenance on production
+2026-W40,2026-10,Mesh SDK,"Mesh SDK provider, transaction evaluation",Development,Software,"Mesh SDK provider for the Insight API: fetch, submit, evaluate and listen"
+2026-W40,2026-10,Mesh SDK,"Mesh SDK provider, transaction evaluation",Production deployments,DevOps,Mesh provider published on npm as @iagon/insight-mesh
+2026-W40,2026-10,Mesh SDK,"Mesh SDK provider, transaction evaluation",Updates,Software,Mesh provider contributed to the Mesh project
+2026-W40,2026-10,Mesh SDK,"Mesh SDK provider, transaction evaluation",Development,Software,Transaction evaluation and raw transaction submit in the Insight API
+2026-W40,2026-10,Mesh SDK,"Mesh SDK provider, transaction evaluation",Performance,DevOps,Persistent node connections for faster transaction evaluation
+2026-W40,2026-10,Mesh SDK,"Mesh SDK provider, transaction evaluation",Development,Software,Browser access per Insight API key for listed websites
+2026-W40,2026-10,Mesh SDK,"Mesh SDK provider, transaction evaluation",Production-ready tests,Software,Transaction evaluation checked against real Plutus transactions
+2026-W40,2026-10,Mesh SDK,"Mesh SDK provider, transaction evaluation",Production deployments,DevOps,Transaction evaluation and website access on production
+2026-W40,2026-10,Mesh SDK,Preparing Mesh SDK provider,Development,Software,Existing Mesh providers checked against the Insight API
