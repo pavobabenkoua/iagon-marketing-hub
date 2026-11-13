@@ -32,7 +32,7 @@ Show the community that work moves every week, in the open. The weekly run is th
 The community, node operators, IAG holders.
 
 ## Format
-- **Visual:** one cover, the same every week except the dates. [Format page](../../brand/visual/formats/weekly-cover.md), template in `layouts/weekly-cover/`.
+- **Visual:** one cover, the same every week except the week number. [Format page](../../brand/visual/formats/weekly-cover.md), template in `layouts/weekly-cover/`.
 - **Text:** an overview of the week, no blocks by area.
 - **Channels:** Discord and Telegram, the same text. Channel rules: [Discord](../../channels/discord.md), [Telegram](../../channels/telegram.md).
 
@@ -45,10 +45,10 @@ Every Monday, about the ISO week that ended the day before.
 - No inputs file: every statement goes in, in the dashboard's order.
 
 ## Issue structure
-The wording lives in [`issue/`](issue/README.md): [Telegram](issue/telegram.txt), [Discord](issue/discord.txt). Title with the week as dates, the number of changes, the statements, thanks to the community. No closing announcement, no question: it is a regular information post.
+The wording lives in [`issue/`](issue/README.md): [Telegram](issue/telegram.txt), [Discord](issue/discord.txt). Title with the week number, the number of changes, the statements, thanks to the community. No closing announcement, no question: it is a regular information post.
 
 ## Rules
-- **The week as dates, not as a number:** "26 October to 1 November 2026". Readers don't count ISO weeks; the dashboard's "Week 44" is internal.
+- **The week as a number, not dates:** "Week 44, 2026", on the cover and in the title. The point is what the team did; the period is secondary, and a date range pulls attention from it (director, 2026-11-13).
 - **Statements word for word.** They are already written for the outside by the team; rewriting them would make two versions of the same fact.
 - **"What we worked on", not "what shipped",** above the statements. Some statements describe ongoing work ("Ongoing development of…"); calling them shipped would be untrue.
 - **Only the number of changes,** not topics. "Topics" is how the dashboard groups work; a reader can't use it.

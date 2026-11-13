@@ -1,4 +1,4 @@
-**Development Update | [Dates]**
+**Development Update | [Week]**
 
 [Changes] changes shipped last week. What we worked on:
 

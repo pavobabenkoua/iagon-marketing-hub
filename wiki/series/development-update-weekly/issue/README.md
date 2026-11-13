@@ -6,6 +6,7 @@ A weekly issue has no repeated blocks, so each file is one part.
 
 | Placeholder | Becomes |
 |---|---|
-| `[Dates]` | the week as a date range: `26 October to 1 November 2026` |
+| `[Week]` | the week: `Week 44, 2026` |
+| `[Dates]` | the week as a date range: `26 October to 1 November 2026` (available, not used now) |
 | `[Changes]` | number of changes in the week, from the dashboard |
 | `[Lines]` | the week's marketing statements as `- ` bullets, word for word |

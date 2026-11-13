@@ -37,7 +37,7 @@ DISCORD_LIMIT = 2000
 
 WEEK = re.compile(r"Week\s+(\d{1,2}),\s*(\d{4})\s*\((\d{2})\.(\d{2})\.(\d{4})\s+to\s+(\d{2})\.(\d{2})\.(\d{4})\)")
 COUNTS = re.compile(r"(\d+)\s+topics?,\s*(\d+)\s+changes?")
-PLACEHOLDER = re.compile(r"\[(Dates|Changes)\]")
+PLACEHOLDER = re.compile(r"\[(Week|Dates|Changes)\]")
 LEFTOVER = re.compile(r"\[[A-Za-z][A-Za-z ]*\]")
 
 
@@ -90,12 +90,12 @@ def fill(template, values, lines, where):
     return out.replace("[Lines]", lines)
 
 
-def render_cover(out, dates):
+def render_cover(out, week):
     html = (LAYOUT / "cover.html").read_text(encoding="utf-8")
-    slot = re.compile(r"(<!-- slot:dates -->).*?(<!-- /slot:dates -->)", re.S)
+    slot = re.compile(r"(<!-- slot:week -->).*?(<!-- /slot:week -->)", re.S)
     if not slot.search(html):
-        fail("slot 'dates' not found in the cover template")
-    html = slot.sub(lambda m: m.group(1) + dates + m.group(2), html)
+        fail("slot 'week' not found in the cover template")
+    html = slot.sub(lambda m: m.group(1) + week + m.group(2), html)
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
@@ -126,14 +126,15 @@ def main():
     out = Path(args.out) if args.out else ROOT / "dist" / "development-update-weekly" / f"{year}-W{num:02d}"
     out.mkdir(parents=True, exist_ok=True)
 
-    values = {"Dates": dates, "Changes": changes}
+    week = f"Week {num}, {year}"
+    values = {"Week": week, "Dates": dates, "Changes": changes}
     lines = "\n".join(f"- {s}" for s in statements)
     for name in ("telegram.txt", "discord.txt"):
         text = fill((ISSUE / name).read_text(encoding="utf-8").strip("\n"), values, lines, name) + "\n"
         if name == "discord.txt" and len(text) > DISCORD_LIMIT:
             fail(f"discord.txt is {len(text)} characters, over the Discord limit of {DISCORD_LIMIT}")
         (out / name).write_text(text, encoding="utf-8")
-    render_cover(out, dates)
+    render_cover(out, week)
     print(f"Done: {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}")
     print(f"  {dates}: {changes} changes, {topics} topics, {len(statements)} statements")
 
