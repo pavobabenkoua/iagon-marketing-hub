@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: decision: series types
+- [0008](decisions/0008-series-types.md): three series types (`recurring`, `thematic`, `evergreen`), `arc` flag for thematic series, cadence required for all; articles are a format, not a type; posts outside series go to `wiki/posts/`.
+- `templates/series.md`: new fields `series_type`, `arc`, `cadence`; sections by type (narrative and boundary, cadence, data source and build, issue structure, lines already used, post set and rotation, commitments).
+- `wiki/series/README.md` lists the types. New `wiki/posts/README.md`.
+
 ## 2026-11-13: decision: approved layouts live in the repo as HTML
 - [0007](decisions/0007-approved-layouts-live-as-html.md): once approved, a layout moves from the design canvas to `layouts/<format>/` as self-contained HTML; data layouts get a render script.
 - First layout: `layouts/monthly-recap/` (cards, local Figtree, background shapes) and `scripts/monthly-recap.py` (numbers, checks, PNG at 2×, texts for X, Telegram, Discord).
