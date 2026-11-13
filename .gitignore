@@ -1,2 +1,2 @@
-dist/development-update/
+dist/*/
 __pycache__/

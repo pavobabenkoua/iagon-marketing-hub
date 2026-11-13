@@ -50,6 +50,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
     - [Industry Insights card](wiki/brand/visual/formats/industry-insights-card.md): 1200×700 card with one number, insight lines and grid
     - [Two-panel post](wiki/brand/visual/formats/two-panel-post.md): light / dark panels, used in the Würth series
     - [Total Earned By Nodes post](wiki/brand/visual/formats/stats-earned-post.md): monthly nodes stats post
+    - [Weekly cover](wiki/brand/visual/formats/weekly-cover.md) _(draft)_: 1200×675 cover for Development Update Weekly, template in `layouts/weekly-cover/`
     - [Monthly recap cards](wiki/brand/visual/formats/monthly-recap-cards.md): two 1080×1080 cards for the Development Update monthly recap, template in `layouts/monthly-recap/`
 - [Technology](wiki/technology/README.md): technical facts from docs.iagon.com, with status, snapshot 2026-05-26
   - [Overview](wiki/technology/overview.md): components, how they connect, what is live
@@ -69,6 +70,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 - [Layouts](layouts/README.md): approved graphic layouts as HTML, with render scripts
 - [Series](wiki/series/README.md): the series registry and every series; three types: recurring, thematic, evergreen
   - [Development Update | Monthly Recap](wiki/series/development-update/series.md) _(draft)_: monthly recap of shipped work
+  - [Development Update Weekly](wiki/series/development-update-weekly/series.md) _(draft)_: Monday overview of the week, Discord and Telegram
 - [Posts](wiki/posts/README.md): posts outside any series (releases, announcements)
 - [Campaigns](wiki/campaigns/README.md): campaign briefs, tests, results, learnings
 - [Partners](wiki/partners/README.md): Catalyst, grants, partnerships
@@ -97,5 +99,6 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [0010 Series rules](decisions/0010-series-rules.md)
   - [0011 Where series files live](decisions/0011-series-files.md)
   - [0012 Post history](decisions/0012-post-history.md)
+  - [0013 Cadence separates series](decisions/0013-series-cadence.md)
   - [0014 Design system rules come first](decisions/0014-design-system-first.md)
 - [Templates](templates/README.md): file templates

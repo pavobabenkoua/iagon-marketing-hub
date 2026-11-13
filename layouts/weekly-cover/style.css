@@ -1,0 +1,17 @@
+/* Development Update Weekly: cover.
+   Spec: wiki/brand/visual/formats/weekly-cover.md */
+
+@font-face { font-family: "Figtree"; font-weight: 400; src: url("assets/fonts/figtree-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Figtree"; font-weight: 600; src: url("assets/fonts/figtree-latin-600-normal.woff2") format("woff2"); }
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #f6f6fb; }
+p, h1 { margin: 0; }
+
+/* 1200×675 (16:9), margins 72 px (canvases.md). Two text roles: H1 and Small (the week chip). */
+.cover { position: relative; width: 1200px; height: 675px; background: #f6f6fb; font-family: "Figtree", system-ui, sans-serif; overflow: hidden; }
+.sphere { position: absolute; top: -170px; right: -150px; width: 600px; height: 600px; opacity: 0.25; }
+.text { position: absolute; left: 72px; bottom: 72px; }
+.logo { width: 200px; height: 45px; display: block; margin-bottom: 48px; }
+.week { display: inline-block; padding: 8px 24px; border: 1px solid rgba(98, 104, 126, 0.15); border-radius: 999px; background: #eaebf5; font-size: 28px; line-height: 40px; font-weight: 400; color: #141a21; }
+.title { margin-top: 24px; font-size: 92px; line-height: 100px; font-weight: 600; letter-spacing: -0.01em; color: #141a21; white-space: nowrap; }
