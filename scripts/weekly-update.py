@@ -115,6 +115,22 @@ def render_cover(out, week):
         tmp.unlink(missing_ok=True)
 
 
+
+def layout_check(folder, pngs):
+    """Report deviations from the attention rules (scripts/layout-check.py). Reports only."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("layout_check", Path(__file__).with_name("layout-check.py"))
+    lc = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(lc)
+    lines, bad = lc.check_source(folder)
+    for p in pngs:
+        more, n = lc.check(p)
+        lines += more
+        bad += n
+    print("Layout check:")
+    print("\n".join("  " + l for l in lines))
+    print(f"  {bad} deviation(s): show them to the director" if bad else "  No deviations.")
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--input", required=True, help="the week copied from the dashboard")
@@ -135,6 +151,7 @@ def main():
             fail(f"discord.txt is {len(text)} characters, over the Discord limit of {DISCORD_LIMIT}")
         (out / name).write_text(text, encoding="utf-8")
     render_cover(out, week)
+    layout_check(LAYOUT, [out / "cover.png"])
     print(f"Done: {out.relative_to(ROOT) if out.is_relative_to(ROOT) else out}")
     print(f"  {dates}: {changes} changes, {topics} topics, {len(statements)} statements")
 
