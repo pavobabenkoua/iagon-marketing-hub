@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: update: series lifecycle playbook
+- New `wiki/playbooks/series-lifecycle.md`: start a series, publish an issue by type, results after 7 days, quarterly review, pause or finish. Built from decisions 0007–0012.
+
 ## 2026-11-13: decision: post history
 - [0012](decisions/0012-post-history.md): file names by series type, evergreen posts as one file with many publications, texts kept as published per channel, no images in the repo (publication links are the record; recurring cards rebuild from git), sections by type, results after 7 days.
 - `templates/post.md` rewritten (new field `period`). October recap renamed `posts/2026-10-monthly-recap.md` (ID unchanged) and restructured with the Telegram and Discord texts as published; results due 2026-11-19.
