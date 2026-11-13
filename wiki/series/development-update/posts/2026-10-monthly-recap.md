@@ -180,10 +180,127 @@ What would you like to see in the next one?
 ```
 
 ### Telegram
-_To add: copy the text from the post._
+```
+**Development Update: October 2026**
+
+176 changes shipped across nine areas. What shipped in each one:
+
+**Iagon Storage Node**
+- Self-healing Iagon Storage Nodes
+- Higher fault tolerance, files readable with many Storage Nodes offline
+- Automatic repair well before stored data is at risk
+- Live node alerts in the Iagon Dashboard
+
+**Würth Partner platform**
+- Storage platform for Würth: Storage API compatible with the existing system, folders, zip downloads and share links
+- Würth Partner platform dashboard with file explorer, share links, API tokens, team and audit log
+- Portal of the Würth Royalty platform with catalog, orders, print queue and feedback
+- Royalty payouts as IOU tokens
+
+**Insight API**
+- More Blockfrost compatible endpoints for accounts, addresses, assets, scripts and governance
+- Mempool endpoints in the Insight API
+- Insight reseller accounts with their own customers, keys and usage
+
+**Iagon Infrastructure**
+- Insight API live on the Cardano preprod network
+- Security hardening of all production servers
+- Operating system and kernel updates on all production servers
+
+**Iagon Dashboard**
+- New Iagon Dashboard with wallet login, storage quotes, delegation and withdrawals
+- Storage Node Operator pages with performance, tiers and rewards
+- On-chain transaction tracking in the new Iagon Dashboard
+
+**Iagon Admin Dashboard**
+- Iagon Admin Dashboard for all Iagon Services
+- Access rights per service and team member in the Iagon Admin Dashboard
+- Faster page loads in the Iagon Admin Dashboard
+
+**Iagon Platform**
+- Security page in the Würth Partner platform with passkeys, authenticator app and sessions
+- Automatic blocking of scans and attacks for Insight and the Würth Partner platform
+- Attack protection for Insight on production
+
+**Mesh SDK**
+- Mesh SDK provider for the Insight API: fetch, submit, evaluate and listen
+- Mesh provider published on npm as @iagon/insight-mesh
+- Transaction evaluation and raw transaction submit in the Insight API
+
+**Insight Dashboard**
+- Encryption key rotation for stored secrets
+- Navigation improvements of the Insight Frontend
+- Rows per page setting in the Insight Dashboard and its admin dashboard
+
+From here, a recap like this goes out every month. Weekly updates, with every change as it lands, go out in our Discord:
+https://discord.gg/TCS23VWuWm
+
+Thank you to the community. You move this ecosystem forward.
+```
 
 ### Discord
-_To add: copy the text of both messages from the post._
+Message 1, with both cards:
+```
+## Development Update: October 2026
+
+176 changes shipped across nine areas. What shipped in each one:
+
+**Iagon Storage Node**
+- Self-healing Iagon Storage Nodes
+- Higher fault tolerance, files readable with many Storage Nodes offline
+- Automatic repair well before stored data is at risk
+- Live node alerts in the Iagon Dashboard
+
+**Würth Partner platform**
+- Storage platform for Würth: Storage API compatible with the existing system, folders, zip downloads and share links
+- Würth Partner platform dashboard with file explorer, share links, API tokens, team and audit log
+- Portal of the Würth Royalty platform with catalog, orders, print queue and feedback
+- Royalty payouts as IOU tokens
+
+**Insight API**
+- More Blockfrost compatible endpoints for accounts, addresses, assets, scripts and governance
+- Mempool endpoints in the Insight API
+- Insight reseller accounts with their own customers, keys and usage
+
+**Iagon Infrastructure**
+- Insight API live on the Cardano preprod network
+- Security hardening of all production servers
+- Operating system and kernel updates on all production servers
+
+**Iagon Dashboard**
+- New Iagon Dashboard with wallet login, storage quotes, delegation and withdrawals
+- Storage Node Operator pages with performance, tiers and rewards
+- On-chain transaction tracking in the new Iagon Dashboard
+```
+
+Message 2:
+```
+**Iagon Admin Dashboard**
+- Iagon Admin Dashboard for all Iagon Services
+- Access rights per service and team member in the Iagon Admin Dashboard
+- Faster page loads in the Iagon Admin Dashboard
+
+**Iagon Platform**
+- Security page in the Würth Partner platform with passkeys, authenticator app and sessions
+- Automatic blocking of scans and attacks for Insight and the Würth Partner platform
+- Attack protection for Insight on production
+
+**Mesh SDK**
+- Mesh SDK provider for the Insight API: fetch, submit, evaluate and listen
+- Mesh provider published on npm as @iagon/insight-mesh
+- Transaction evaluation and raw transaction submit in the Insight API
+
+**Insight Dashboard**
+- Encryption key rotation for stored secrets
+- Navigation improvements of the Insight Frontend
+- Rows per page setting in the Insight Dashboard and its admin dashboard
+
+From here, a recap like this goes out every month. Weekly updates, with every change as it lands, go out right here.
+
+Thank you to the community. You move this ecosystem forward.
+
+What would you like to see in the next one?
+```
 
 ## Results
 Due 2026-11-19, 7 days after publication.
