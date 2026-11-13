@@ -6,6 +6,9 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: update: Development Update series finalized
+- Monthly Recap and Development Update Weekly approved by the director: rules, formats, layouts, issue wording and build scripts. Monthly `series.md` set to `status: approved`.
+
 ## 2026-11-13: update: thanks line
 - Monthly and Weekly end with "Thank you to the community. You move this ecosystem forward." (director), the line of the published October recap.
 

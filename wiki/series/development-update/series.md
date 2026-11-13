@@ -2,7 +2,7 @@
 id: series-development-update
 title: Development Update | Monthly Recap
 type: series
-status: draft
+status: approved
 owner: Pavlo Babenko
 updated: 2026-11-13
 visibility: team
