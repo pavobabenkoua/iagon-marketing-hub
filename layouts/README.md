@@ -18,4 +18,12 @@ Approved graphic layouts as plain HTML and CSS ([decision 0007](../decisions/000
 
 Scripts render with Playwright and Chromium: `pip install playwright && playwright install chromium`. Cards are rendered at 2× (a 1080 px card becomes a 2160 px PNG).
 
+## Layout check before approval
+
+A new or changed layout is checked with `scripts/layout-check.py` before it goes to the director ([attention rules](../wiki/brand/visual/colors-typography.md#attention), [decision 0014](../decisions/0014-design-system-first.md)): colors outside the palette and grayscale filters in the layout source; purple share, separate purple spots and purple-tinted decoration in the PNG; and a `<name>.squint.png` at feed size, sharp and blurred. It only reports: deviations go to the director with the layout.
+
+`python3 scripts/layout-check.py --layout layouts/<format> <file>.png`
+
+Once a layout is approved, its regular renders are not checked again: only the data changes.
+
 To change a layout visually: open it in a design canvas, get the change approved, then update the HTML here.
