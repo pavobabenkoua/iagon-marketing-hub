@@ -19,7 +19,7 @@ tags: []
 
 <!--
 Keep the sections for your type and delete the rest (decision 0008):
-  all types:   Idea, Goal, Narrative and boundary, Audience, Format, Cadence, Rules, Posts, Commitments, Status
+  all types:   Idea, Goal, Narrative and boundary, Audience, Format, Cadence, Rules, Approval, Posts, Commitments, Status
   recurring:   + Data source and build, Issue structure
   thematic:    + Arc (only if arc: true), Lines already used
   evergreen:   + Post set and rotation
@@ -70,7 +70,20 @@ _Evergreen only._ The posts in rotation, the minimum gap before one repeats on t
 | [title](posts/slug.md) | | YYYY-MM-DD |
 
 ## Rules
-What every post in the series must and must not do. Only rules that follow from this series' subject, channel or audience. A rule that applies more widely goes to `wiki/brand/`.
+Only rules that follow from this series' subject. Each rule on one line, then why it exists.
+
+Link, don't copy (decision 0010):
+
+| Rules about | Live in |
+|---|---|
+| Voice, colours, type | `wiki/brand/` |
+| A visual | its page in `wiki/brand/visual/formats/` and `layouts/` |
+| A channel: limits, markup, communication approach, audience | `wiki/channels/` |
+| Numbers and claims | `wiki/data/`, `wiki/brand/messaging/proof-library.md` |
+| A partner or project | `wiki/partners/` |
+
+## Approval
+Who approves an issue and what is checked before it goes out. Keep it short: only what can stop a post.
 
 ## Posts
 | # | Post | Role | Published |

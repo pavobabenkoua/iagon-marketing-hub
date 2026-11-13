@@ -13,7 +13,7 @@ cadence: monthly
 state: active
 channels: [x, discord, telegram]
 sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv]
-related: [brand-format-monthly-recap-cards, decision-0007]
+related: [brand-format-monthly-recap-cards, decision-0007, decision-0010, channel-x, channel-discord, channel-telegram]
 tags: [development, proof, recurring]
 ---
 
@@ -42,7 +42,7 @@ The series has two formats with different jobs.
 | Text | to be defined | grouped by area, 3–4 lines per area |
 | Status | not finalised | approved 2026-11-13 |
 
-Discord and Telegram are public. The series gets no extra freedom there because the audience is "ours".
+Channel rules (limits, markup, audience, what is public) live on the channel pages: [X](../../channels/x.md), [Discord](../../channels/discord.md), [Telegram](../../channels/telegram.md).
 
 ### Monthly Recap
 
@@ -59,7 +59,7 @@ Discord and Telegram are public. The series gets no extra freedom there because 
 
 **Line selection.** 3–4 lines per area, copied from `Change` **character for character**. Never reword, merge, shorten or add punctuation. Prefer lines a reader can use or see (something live, a new feature) over internal ones. In security areas, take the lines that reveal least about how defence works. Picks go in `picks/YYYY-MM.txt`; the script refuses any line that is not in the export word for word.
 
-**X thread.** One numbered tweet per area, plus an opener and an unnumbered close. X Premium removes the 280-character limit, but the first ~280 characters of each tweet are what the feed shows.
+**X thread.** One numbered tweet per area, plus an opener and an unnumbered close.
 
 - Tweet 1, with both cards attached:
   ```
@@ -84,22 +84,27 @@ Discord and Telegram are public. The series gets no extra freedom there because 
   What would you like to see in the next one?
   ```
 
-**Telegram.** One message: title `**Development Update | [Month YYYY]**`, the intro line ending "What shipped in each one:", all areas with `**bold**` names, the close with the Discord link. No closing question unless comments are open in the channel.
+**Telegram.** One message: title `**Development Update | [Month YYYY]**`, the intro line ending "What shipped in each one:", all areas with bold names, the close with the Discord link.
 
-**Discord.** Same text with `##` title, split into two messages after the fifth area so each stays under 2,000 characters. Cards attach to the first message. The close says "go out right here" instead of the link, and keeps the question.
+**Discord.** Same text with `##` title, in two messages split after the fifth area. Cards attach to the first message. The close says "go out right here" instead of the link, and keeps the question.
 
 ## Narrative arc
 The series has no arc. Each issue stands alone and is dated. Its value is the run of issues: one month is a claim, twelve months in a row are proof.
 
 ## Rules
-- Shipped work only. Nothing planned, nothing promised with a date.
-- Copy, never rewrite, the engineers' wording. Brand voice applies only to the frame: opener, close, card leads.
-- No claim of completeness ("all changes", "every change"). The dashboard itself notes "Plus other development work" that is not logged.
-- No changelog link. The weekly updates in Discord are the full record.
-- Partners may be named: Würth is cleared (director, 2026-11-12).
-- No em dashes. Colons and pipes instead.
-- One 🧵 marker per numbered tweet. No other emoji, except the ⬇️ in the opener.
-- Live network figures (nodes, capacity, earnings) are not part of this series. If they ever are, they carry "figures as of [D Month YYYY]" and follow `wiki/data/`.
+- **Shipped work only.** The series proves movement; a plan in it would be a promise we can't show.
+- **Copy the engineers' wording, never rewrite it.** The engineer owns the fact; brand voice applies only to the frame (opener, close, card leads).
+- **No claim of completeness** ("all changes", "every change"). The dashboard itself notes "Plus other development work" that is not logged.
+- **No changelog link.** The weekly updates in Discord are the full record.
+- **One 🧵 marker per numbered tweet, no other emoji except the ⬇️ in the opener.** The marker tells readers it's a thread; more turns a record into decoration.
+- **No live network figures** (nodes, capacity, earnings). They belong to other series and follow `wiki/data/`.
+
+Brand mechanics (no long dash, punctuation) apply as in [mechanics](../../brand/voice/mechanics.md). Partner constraints live in [partners](../../partners/README.md).
+
+## Approval
+- The director approves each issue in the chat before it goes out.
+- The script checks the numbers and that every line is in the export word for word.
+- What stops a post: a picked line that shows how our defence works, or a number that doesn't match the dashboard.
 
 ## Posts
 | # | Post | Role | Published |

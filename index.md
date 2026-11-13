@@ -65,6 +65,7 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
 - [Audiences](wiki/audiences/README.md): segments and personas
 - [Data](wiki/data/README.md): approved facts and numbers, with sources
 - [Channels](wiki/channels/README.md): rules and formats for each channel
+  - [X](wiki/channels/x.md) _(draft)_, [Discord](wiki/channels/discord.md) _(draft)_, [Telegram](wiki/channels/telegram.md) _(draft)_
 - [Layouts](layouts/README.md): approved graphic layouts as HTML, with render scripts
 - [Series](wiki/series/README.md): the series registry and every series; three types: recurring, thematic, evergreen
   - [Development Update | Monthly Recap](wiki/series/development-update/series.md) _(draft)_: monthly recap of shipped work
@@ -92,4 +93,5 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [0007 Approved layouts live as HTML](decisions/0007-approved-layouts-live-as-html.md)
   - [0008 Series types](decisions/0008-series-types.md)
   - [0009 Series registry](decisions/0009-series-registry.md)
+  - [0010 Series rules](decisions/0010-series-rules.md)
 - [Templates](templates/README.md): file templates
