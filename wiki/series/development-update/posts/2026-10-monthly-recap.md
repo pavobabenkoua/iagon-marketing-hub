@@ -7,7 +7,7 @@ owner: Pavlo Babenko
 updated: 2026-11-13
 visibility: team
 series: series-development-update
-position: 1
+period: 2026-10
 publications:
   - channel: x
     date: 2026-11-12
@@ -18,16 +18,19 @@ publications:
   - channel: discord
     date: 2026-11-12
     url: https://discord.com/channels/837215135999197246/846654998096117791/1570552925099524226
-sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv]
-related: [series-development-update, brand-format-monthly-recap-cards]
+sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv, wiki/series/development-update/inputs/2026-10.txt]
+related: [series-development-update, brand-format-monthly-recap-cards, res-dev-update-canvas]
 tags: [development-update, monthly-recap]
 ---
 
 # Development Update | October 2026
 
-First issue of the Monthly Recap. Published 2026-11-12 as an X thread, one Telegram message and two Discord messages.
+## Summary
+First issue of the Monthly Recap: 176 changes shipped in October across nine areas, three or four lines per area. Published 2026-11-12 as an X thread, one Telegram message and two Discord messages.
 
-## Numbers
+## Inputs and numbers
+
+Raw data: [`raw/archive/2026-11-12-dev-changelog-2026-10.csv`](../../../../raw/archive/2026-11-12-dev-changelog-2026-10.csv). Picked lines: [`inputs/2026-10.txt`](../inputs/2026-10.txt).
 
 From the October export: 176 changes, 26 topics, 9 areas. Weeks W40–W44 (28 September to 1 November 2026).
 
@@ -57,11 +60,11 @@ From the October export: 176 changes, 26 topics, 9 areas. Weeks W40–W44 (28 Se
 | Server updates | 4 |
 | Debugging | 2 |
 
-## Visual
+Visual: two cards, 1200×700, made on the design canvas ([res-dev-update-canvas](../../../resources.md)) before the square format and the repo template existed. X cropped their left side in the feed. Not rebuildable from the repo; the images are in the publications.
 
-Two cards, 1200×700, posted before the square format was set. X cropped the left side in the feed (logo and series name lost). The format moved to 1080×1080 from November: see [the format page](../../../brand/visual/formats/monthly-recap-cards.md).
+## As published
 
-## X thread as published
+### X
 
 ```
 Development Update | October 2026
@@ -176,10 +179,25 @@ Thank you to the community. You move this ecosystem forward.
 What would you like to see in the next one?
 ```
 
+### Telegram
+_To add: copy the text from the post._
+
+### Discord
+_To add: copy the text of both messages from the post._
+
 ## Results
+Due 2026-11-19, 7 days after publication.
 
-First reading, 8 minutes after posting: 595 views, 18 likes, 2 reposts, 2 replies on tweet 1. Full results to add after 7 days.
+| Channel | Impressions | Engagements | Reposts | Replies | Clicks | Source |
+|---|---|---|---|---|---|---|
+| X | | | | | | X analytics |
+| Telegram | | | | | | channel stats |
+| Discord | | | | | | |
 
-## Commitment made
+First reading on X, 8 minutes after posting: 595 views, 18 likes, 2 reposts, 2 replies on tweet 1.
 
-"From here, a recap like this goes out every month." The November issue closes it.
+## Commitments
+Made: "From here, a recap like this goes out every month." The November issue closes it.
+
+## Learning
+Multi-image posts in X need square cards with a wide side safe zone: the 1200×700 cards lost the logo and the series name in the feed. Already a rule of the format.

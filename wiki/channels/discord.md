@@ -39,4 +39,4 @@ _To fill._
 | | |
 
 ## Examples of good posts
-- [Development Update | October 2026](../series/development-update/posts/01-october-2026-monthly-recap.md), two messages.
+- [Development Update | October 2026](../series/development-update/posts/2026-10-monthly-recap.md), two messages.

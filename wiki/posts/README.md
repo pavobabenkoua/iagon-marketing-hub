@@ -5,3 +5,4 @@ Posts that belong to no series: releases, announcements, one-off posts ([decisio
 - One file per post, named `YYYY-MM-DD-slug.md` with the publication date.
 - Start from `templates/post.md` and leave the `series` field empty.
 - One post can go out on several channels: list each in `publications`.
+- Text as published, results after 7 days, no images in the repo ([decision 0012](../../decisions/0012-post-history.md)).

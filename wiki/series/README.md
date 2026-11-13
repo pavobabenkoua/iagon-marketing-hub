@@ -27,7 +27,7 @@ Before starting a new series, check the table: if a series already covers the sa
 ## Folder
 
 - `series.md`: idea, goal, narrative, boundary, format, cadence, rules, and the sections required for its type. Start from `templates/series.md`.
-- `posts/`: one file per post, from `templates/post.md`. Texts as published, links, results.
+- `posts/`: one file per post, from `templates/post.md`. Texts as published, links, results. File names by series type and no images: [decision 0012](../../decisions/0012-post-history.md).
 - `learnings.md`: what worked, what didn't, what we change.
 - `issue/`: fixed wording of an issue, one file per channel (recurring series).
 - `inputs/`: the editorial input of each issue, one file per period.

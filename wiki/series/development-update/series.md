@@ -13,7 +13,7 @@ cadence: monthly
 state: active
 channels: [x, discord, telegram]
 sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv]
-related: [brand-format-monthly-recap-cards, decision-0007, decision-0010, decision-0011, channel-x, channel-discord, channel-telegram]
+related: [brand-format-monthly-recap-cards, decision-0007, decision-0010, decision-0011, decision-0012, channel-x, channel-discord, channel-telegram]
 tags: [development, proof, recurring]
 ---
 
@@ -86,7 +86,7 @@ Brand mechanics (no long dash, punctuation) apply as in [mechanics](../../brand/
 ## Posts
 | # | Post | Role | Published |
 |---|---|---|---|
-| 01 | [October 2026 Monthly Recap](posts/01-october-2026-monthly-recap.md) | First issue of the Monthly Recap | 2026-11-12 |
+| 2026-10 | [October 2026 Monthly Recap](posts/2026-10-monthly-recap.md) | First issue of the Monthly Recap | 2026-11-12 |
 
 The two bi-weekly updates of 1 and 14 September 2026 predate this format and are not part of the series record.
 
