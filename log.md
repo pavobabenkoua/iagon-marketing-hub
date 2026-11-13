@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: decision: post history
+- [0012](decisions/0012-post-history.md): file names by series type, evergreen posts as one file with many publications, texts kept as published per channel, no images in the repo (publication links are the record; recurring cards rebuild from git), sections by type, results after 7 days.
+- `templates/post.md` rewritten (new field `period`). October recap renamed `posts/2026-10-monthly-recap.md` (ID unchanged) and restructured with the Telegram and Discord texts as published; results due 2026-11-19.
+- Telegram and Discord end with the thanks, no closing question (director). Removed from the October record and from `issue/discord.txt`.
+
 ## 2026-11-13: decision: where series files live
 - [0011](decisions/0011-series-files.md): visual templates in `layouts/`, issue wording in `wiki/series/<series>/issue/`, raw data in `raw/archive/`, editorial input in `inputs/`, build output in `dist/` (not in git), drafts outside the hub.
 - Development Update: wording moved out of `scripts/monthly-recap.py` into `issue/x-thread.txt`, `telegram.txt`, `discord.txt`; `picks/` renamed `inputs/`; option `--inputs`. Output byte-identical to before.

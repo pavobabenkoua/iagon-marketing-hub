@@ -13,7 +13,7 @@ cadence: monthly
 state: active
 channels: [x, discord, telegram]
 sources: [raw/archive/2026-11-12-dev-changelog-2026-10.csv]
-related: [brand-format-monthly-recap-cards, decision-0007, decision-0010, decision-0011, channel-x, channel-discord, channel-telegram]
+related: [brand-format-monthly-recap-cards, decision-0007, decision-0010, decision-0011, decision-0012, channel-x, channel-discord, channel-telegram]
 tags: [development, proof, recurring]
 ---
 
@@ -64,6 +64,7 @@ Channel rules (limits, markup, audience, what is public) live on the channel pag
 - **X:** opener with both cards, one numbered tweet per area, an unnumbered close.
 - **Telegram:** one message.
 - **Discord:** two messages, split after the first half of the areas; cards on the first.
+- Telegram and Discord end with the thanks, no closing question. The question goes only in the X thread.
 
 ## Narrative arc
 The series has no arc. Each issue stands alone and is dated. Its value is the run of issues: one month is a claim, twelve months in a row are proof.
@@ -86,7 +87,7 @@ Brand mechanics (no long dash, punctuation) apply as in [mechanics](../../brand/
 ## Posts
 | # | Post | Role | Published |
 |---|---|---|---|
-| 01 | [October 2026 Monthly Recap](posts/01-october-2026-monthly-recap.md) | First issue of the Monthly Recap | 2026-11-12 |
+| 2026-10 | [October 2026 Monthly Recap](posts/2026-10-monthly-recap.md) | First issue of the Monthly Recap | 2026-11-12 |
 
 The two bi-weekly updates of 1 and 14 September 2026 predate this format and are not part of the series record.
 
