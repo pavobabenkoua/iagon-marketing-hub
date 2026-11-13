@@ -97,4 +97,5 @@ The map of the hub. Each page gets one line: link + what it is. AI agents read t
   - [0010 Series rules](decisions/0010-series-rules.md)
   - [0011 Where series files live](decisions/0011-series-files.md)
   - [0012 Post history](decisions/0012-post-history.md)
+  - [0014 Design system rules come first](decisions/0014-design-system-first.md)
 - [Templates](templates/README.md): file templates

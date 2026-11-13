@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD: type: short description`. Types: `ingest`, `update`, `st
 
 ---
 
+## 2026-11-13: decision: design system first
+- [0014](decisions/0014-design-system-first.md): every layout follows the design system, then the art direction, then the format page. References are input, not a spec; conflicts are named and built to the rule; exceptions only with chat approval, written on the format page.
+- `AGENTS.md` (Create and Never) and `wiki/brand/visual/formats/README.md` updated.
+
 ## 2026-11-13: update: layouts rule in AGENTS.md
 - `AGENTS.md` and `wiki/brand/visual/formats/README.md` now point to `layouts/`: build from the template when a format has one; move approved layouts there (decision 0007).
 

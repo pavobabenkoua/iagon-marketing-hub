@@ -69,6 +69,7 @@ When writing posts, threads, articles, deck copy, ads or any other content:
 - Follow the rules of the target channel in `wiki/channels/`.
 - For any visual: follow `wiki/brand/visual/` (colors, typography, logo) and the format page in `wiki/brand/visual/formats/` if one exists. Use logo files from `wiki/brand/visual/logos/`, never redraw them.
 - If the format has a template in `layouts/`, build from it (and its script, if there is one); never rebuild the layout by hand. Once a new layout is approved, move it to `layouts/<format>/` as HTML ([0007](decisions/0007-approved-layouts-live-as-html.md)).
+- **Design system first, no improvisation** ([0014](decisions/0014-design-system-first.md)). Every layout follows the design system in `wiki/brand/visual/` first, then the art direction, then the format page. An old layout, a supplied template or a visual trick is input about content, never a spec: anything in it that breaks a rule is rebuilt to the rule. Name every conflict to the director and build the version that follows the rules. Check the layout against the rules before showing it.
 - Content drafts are not hub pages. Save a post to the hub only when it is published or when the director asks.
 
 ## 4. Changes and approval
@@ -87,6 +88,7 @@ When writing posts, threads, articles, deck copy, ads or any other content:
 - Delete pages. Set `status: deprecated` and link to the replacement.
 - Store passwords, API keys, tokens or ad-account access anywhere in the repo.
 - Change `visibility: private` to `team` or `public` without the director's explicit approval.
+- Break a design system rule in a layout, or copy one from a reference, without an exception approved in chat and written on the format page.
 - Commit directly to `main`.
 
 ## 6. How to write hub pages
